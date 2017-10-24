@@ -37,4 +37,14 @@ Then you can use them
  </table>
 ```
 
+# The Colours
 
+There are 3 groups of colours
+
+- the W3C list of named colours
+- the bootstrap colours, e.g. `.text-gray-100`
+- a few brand colours, e.g. `.text-facebook-amazon`
+
+The complete list is in (colours.yaml)[colours.yaml]
+
+You can see the colours (and their class names) in action (here}[https://www.walkingclub.org.uk/test/colours.html]
