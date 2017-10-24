@@ -1,0 +1,27 @@
+.table-tomato, .table-tomato > th, .table-tomato > td {   background-color: #ffd3cb; }
+.table-hover .table-tomato:hover {   background-color: #ffbdb2; }
+.table-hover .table-tomato:hover > td, .table-hover .table-tomato:hover > th {   background-color: #ffbdb2; }
+.btn-tomato {   color: #fff;   background-color: #ff6347;   border-color: #ff6347; }
+.btn-tomato:hover {   color: #fff;   background-color: #ff4321;   border-color: #ff3814; }
+.btn-tomato:focus, .btn-tomato.focus {   box-shadow: 0 0 0 3px rgba(255, 99, 71, 0.5); }
+.btn-tomato.disabled, .btn-tomato:disabled {   background-color: #ff6347;   border-color: #ff6347; }
+.btn-tomato:active, .btn-tomato.active, .show > .btn-tomato.dropdown-toggle {   background-color: #ff4321;   background-image: none;   border-color: #ff3814; }
+.btn-outline-tomato {   color: #ff6347;   background-color: transparent;   background-image: none;   border-color: #ff6347; }
+.btn-outline-tomato:hover {   color: #fff;   background-color: #ff6347;   border-color: #ff6347; }
+.btn-outline-tomato:focus, .btn-outline-tomato.focus {   box-shadow: 0 0 0 3px rgba(255, 99, 71, 0.5); }
+.btn-outline-tomato.disabled, .btn-outline-tomato:disabled {   color: #ff6347;   background-color: transparent; }
+.btn-outline-tomato:active, .btn-outline-tomato.active, .show > .btn-outline-tomato.dropdown-toggle {   color: #fff;   background-color: #ff6347;   border-color: #ff6347; }
+.badge-tomato {   color: #fff;   background-color: #ff6347; }
+.badge-tomato[href]:focus, .badge-tomato[href]:hover {   color: #fff;   text-decoration: none;   background-color: #ff3814; }
+.alert-tomato {   color: #853325;   background-color: #ffe0da;   border-color: #ffd3cb; }
+.alert-tomato hr {   border-top-color: #ffbdb2; }
+.alert-tomato .alert-link {   color: #5d241a; }
+.list-group-item-tomato {   color: #853325;   background-color: #ffd3cb; }
+a.list-group-item-tomato, button.list-group-item-tomato {   color: #853325; }
+a.list-group-item-tomato:focus, a.list-group-item-tomato:hover, button.list-group-item-tomato:focus, button.list-group-item-tomato:hover {   color: #853325;   background-color: #ffbdb2; }
+a.list-group-item-tomato.active, button.list-group-item-tomato.active {   color: #fff;   background-color: #853325;   border-color: #853325; }
+.bg-tomato {   background-color: #ff6347 !important; }
+a.bg-tomato:focus, a.bg-tomato:hover {   background-color: #ff3814 !important; }
+.border-tomato {   border-color: #ff6347 !important; }
+.text-tomato {   color: #ff6347 !important; }
+a.text-tomato:focus, a.text-tomato:hover {   color: #ff3814 !important; }

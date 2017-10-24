@@ -1,0 +1,27 @@
+.table-thistle, .table-thistle > th, .table-thistle > td {   background-color: #f4edf4; }
+.table-hover .table-thistle:hover {   background-color: #eaddea; }
+.table-hover .table-thistle:hover > td, .table-hover .table-thistle:hover > th {   background-color: #eaddea; }
+.btn-thistle {   color: #111;   background-color: #d8bfd8;   border-color: #d8bfd8; }
+.btn-thistle:hover {   color: #111;   background-color: #caa7ca;   border-color: #c59fc5; }
+.btn-thistle:focus, .btn-thistle.focus {   box-shadow: 0 0 0 3px rgba(216, 191, 216, 0.5); }
+.btn-thistle.disabled, .btn-thistle:disabled {   background-color: #d8bfd8;   border-color: #d8bfd8; }
+.btn-thistle:active, .btn-thistle.active, .show > .btn-thistle.dropdown-toggle {   background-color: #caa7ca;   background-image: none;   border-color: #c59fc5; }
+.btn-outline-thistle {   color: #d8bfd8;   background-color: transparent;   background-image: none;   border-color: #d8bfd8; }
+.btn-outline-thistle:hover {   color: #fff;   background-color: #d8bfd8;   border-color: #d8bfd8; }
+.btn-outline-thistle:focus, .btn-outline-thistle.focus {   box-shadow: 0 0 0 3px rgba(216, 191, 216, 0.5); }
+.btn-outline-thistle.disabled, .btn-outline-thistle:disabled {   color: #d8bfd8;   background-color: transparent; }
+.btn-outline-thistle:active, .btn-outline-thistle.active, .show > .btn-outline-thistle.dropdown-toggle {   color: #fff;   background-color: #d8bfd8;   border-color: #d8bfd8; }
+.badge-thistle {   color: #111;   background-color: #d8bfd8; }
+.badge-thistle[href]:focus, .badge-thistle[href]:hover {   color: #111;   text-decoration: none;   background-color: #c59fc5; }
+.alert-thistle {   color: #706370;   background-color: #f7f2f7;   border-color: #f4edf4; }
+.alert-thistle hr {   border-top-color: #eaddea; }
+.alert-thistle .alert-link {   color: #554b55; }
+.list-group-item-thistle {   color: #706370;   background-color: #f4edf4; }
+a.list-group-item-thistle, button.list-group-item-thistle {   color: #706370; }
+a.list-group-item-thistle:focus, a.list-group-item-thistle:hover, button.list-group-item-thistle:focus, button.list-group-item-thistle:hover {   color: #706370;   background-color: #eaddea; }
+a.list-group-item-thistle.active, button.list-group-item-thistle.active {   color: #fff;   background-color: #706370;   border-color: #706370; }
+.bg-thistle {   background-color: #d8bfd8 !important; }
+a.bg-thistle:focus, a.bg-thistle:hover {   background-color: #c59fc5 !important; }
+.border-thistle {   border-color: #d8bfd8 !important; }
+.text-thistle {   color: #d8bfd8 !important; }
+a.text-thistle:focus, a.text-thistle:hover {   color: #c59fc5 !important; }

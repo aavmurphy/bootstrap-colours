@@ -1,0 +1,27 @@
+.table-bisque, .table-bisque > th, .table-bisque > td {   background-color: #fff7ee; }
+.table-hover .table-bisque:hover {   background-color: #ffebd5; }
+.table-hover .table-bisque:hover > td, .table-hover .table-bisque:hover > th {   background-color: #ffebd5; }
+.btn-bisque {   color: #111;   background-color: #ffe4c4;   border-color: #ffe4c4; }
+.btn-bisque:hover {   color: #111;   background-color: #ffd29e;   border-color: #ffcd91; }
+.btn-bisque:focus, .btn-bisque.focus {   box-shadow: 0 0 0 3px rgba(255, 228, 196, 0.5); }
+.btn-bisque.disabled, .btn-bisque:disabled {   background-color: #ffe4c4;   border-color: #ffe4c4; }
+.btn-bisque:active, .btn-bisque.active, .show > .btn-bisque.dropdown-toggle {   background-color: #ffd29e;   background-image: none;   border-color: #ffcd91; }
+.btn-outline-bisque {   color: #ffe4c4;   background-color: transparent;   background-image: none;   border-color: #ffe4c4; }
+.btn-outline-bisque:hover {   color: #fff;   background-color: #ffe4c4;   border-color: #ffe4c4; }
+.btn-outline-bisque:focus, .btn-outline-bisque.focus {   box-shadow: 0 0 0 3px rgba(255, 228, 196, 0.5); }
+.btn-outline-bisque.disabled, .btn-outline-bisque:disabled {   color: #ffe4c4;   background-color: transparent; }
+.btn-outline-bisque:active, .btn-outline-bisque.active, .show > .btn-outline-bisque.dropdown-toggle {   color: #fff;   background-color: #ffe4c4;   border-color: #ffe4c4; }
+.badge-bisque {   color: #111;   background-color: #ffe4c4; }
+.badge-bisque[href]:focus, .badge-bisque[href]:hover {   color: #111;   text-decoration: none;   background-color: #ffcd91; }
+.alert-bisque {   color: #857766;   background-color: #fffaf3;   border-color: #fff7ee; }
+.alert-bisque hr {   border-top-color: #ffebd5; }
+.alert-bisque .alert-link {   color: #685d50; }
+.list-group-item-bisque {   color: #857766;   background-color: #fff7ee; }
+a.list-group-item-bisque, button.list-group-item-bisque {   color: #857766; }
+a.list-group-item-bisque:focus, a.list-group-item-bisque:hover, button.list-group-item-bisque:focus, button.list-group-item-bisque:hover {   color: #857766;   background-color: #ffebd5; }
+a.list-group-item-bisque.active, button.list-group-item-bisque.active {   color: #fff;   background-color: #857766;   border-color: #857766; }
+.bg-bisque {   background-color: #ffe4c4 !important; }
+a.bg-bisque:focus, a.bg-bisque:hover {   background-color: #ffcd91 !important; }
+.border-bisque {   border-color: #ffe4c4 !important; }
+.text-bisque {   color: #ffe4c4 !important; }
+a.text-bisque:focus, a.text-bisque:hover {   color: #ffcd91 !important; }

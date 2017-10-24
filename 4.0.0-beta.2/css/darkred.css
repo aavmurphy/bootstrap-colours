@@ -1,0 +1,27 @@
+.table-darkred, .table-darkred > th, .table-darkred > td {   background-color: #dfb8b8; }
+.table-hover .table-darkred:hover {   background-color: #d7a6a6; }
+.table-hover .table-darkred:hover > td, .table-hover .table-darkred:hover > th {   background-color: #d7a6a6; }
+.btn-darkred {   color: #fff;   background-color: #8b0000;   border-color: #8b0000; }
+.btn-darkred:hover {   color: #fff;   background-color: #650000;   border-color: #580000; }
+.btn-darkred:focus, .btn-darkred.focus {   box-shadow: 0 0 0 3px rgba(139, 0, 0, 0.5); }
+.btn-darkred.disabled, .btn-darkred:disabled {   background-color: #8b0000;   border-color: #8b0000; }
+.btn-darkred:active, .btn-darkred.active, .show > .btn-darkred.dropdown-toggle {   background-color: #650000;   background-image: none;   border-color: #580000; }
+.btn-outline-darkred {   color: #8b0000;   background-color: transparent;   background-image: none;   border-color: #8b0000; }
+.btn-outline-darkred:hover {   color: #fff;   background-color: #8b0000;   border-color: #8b0000; }
+.btn-outline-darkred:focus, .btn-outline-darkred.focus {   box-shadow: 0 0 0 3px rgba(139, 0, 0, 0.5); }
+.btn-outline-darkred.disabled, .btn-outline-darkred:disabled {   color: #8b0000;   background-color: transparent; }
+.btn-outline-darkred:active, .btn-outline-darkred.active, .show > .btn-outline-darkred.dropdown-toggle {   color: #fff;   background-color: #8b0000;   border-color: #8b0000; }
+.badge-darkred {   color: #fff;   background-color: #8b0000; }
+.badge-darkred[href]:focus, .badge-darkred[href]:hover {   color: #fff;   text-decoration: none;   background-color: #580000; }
+.alert-darkred {   color: #480000;   background-color: #e8cccc;   border-color: #dfb8b8; }
+.alert-darkred hr {   border-top-color: #d7a6a6; }
+.alert-darkred .alert-link {   color: #150000; }
+.list-group-item-darkred {   color: #480000;   background-color: #dfb8b8; }
+a.list-group-item-darkred, button.list-group-item-darkred {   color: #480000; }
+a.list-group-item-darkred:focus, a.list-group-item-darkred:hover, button.list-group-item-darkred:focus, button.list-group-item-darkred:hover {   color: #480000;   background-color: #d7a6a6; }
+a.list-group-item-darkred.active, button.list-group-item-darkred.active {   color: #fff;   background-color: #480000;   border-color: #480000; }
+.bg-darkred {   background-color: #8b0000 !important; }
+a.bg-darkred:focus, a.bg-darkred:hover {   background-color: #580000 !important; }
+.border-darkred {   border-color: #8b0000 !important; }
+.text-darkred {   color: #8b0000 !important; }
+a.text-darkred:focus, a.text-darkred:hover {   color: #580000 !important; }

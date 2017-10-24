@@ -1,0 +1,27 @@
+.table-red, .table-red > th, .table-red > td {   background-color: #ffb8b8; }
+.table-hover .table-red:hover {   background-color: #ff9f9f; }
+.table-hover .table-red:hover > td, .table-hover .table-red:hover > th {   background-color: #ff9f9f; }
+.btn-red {   color: #fff;   background-color: #ff0000;   border-color: #ff0000; }
+.btn-red:hover {   color: #fff;   background-color: #d90000;   border-color: #cc0000; }
+.btn-red:focus, .btn-red.focus {   box-shadow: 0 0 0 3px rgba(255, 0, 0, 0.5); }
+.btn-red.disabled, .btn-red:disabled {   background-color: #ff0000;   border-color: #ff0000; }
+.btn-red:active, .btn-red.active, .show > .btn-red.dropdown-toggle {   background-color: #d90000;   background-image: none;   border-color: #cc0000; }
+.btn-outline-red {   color: #ff0000;   background-color: transparent;   background-image: none;   border-color: #ff0000; }
+.btn-outline-red:hover {   color: #fff;   background-color: #ff0000;   border-color: #ff0000; }
+.btn-outline-red:focus, .btn-outline-red.focus {   box-shadow: 0 0 0 3px rgba(255, 0, 0, 0.5); }
+.btn-outline-red.disabled, .btn-outline-red:disabled {   color: #ff0000;   background-color: transparent; }
+.btn-outline-red:active, .btn-outline-red.active, .show > .btn-outline-red.dropdown-toggle {   color: #fff;   background-color: #ff0000;   border-color: #ff0000; }
+.badge-red {   color: #fff;   background-color: #ff0000; }
+.badge-red[href]:focus, .badge-red[href]:hover {   color: #fff;   text-decoration: none;   background-color: #cc0000; }
+.alert-red {   color: #850000;   background-color: #ffcccc;   border-color: #ffb8b8; }
+.alert-red hr {   border-top-color: #ff9f9f; }
+.alert-red .alert-link {   color: #520000; }
+.list-group-item-red {   color: #850000;   background-color: #ffb8b8; }
+a.list-group-item-red, button.list-group-item-red {   color: #850000; }
+a.list-group-item-red:focus, a.list-group-item-red:hover, button.list-group-item-red:focus, button.list-group-item-red:hover {   color: #850000;   background-color: #ff9f9f; }
+a.list-group-item-red.active, button.list-group-item-red.active {   color: #fff;   background-color: #850000;   border-color: #850000; }
+.bg-red {   background-color: #ff0000 !important; }
+a.bg-red:focus, a.bg-red:hover {   background-color: #cc0000 !important; }
+.border-red {   border-color: #ff0000 !important; }
+.text-red {   color: #ff0000 !important; }
+a.text-red:focus, a.text-red:hover {   color: #cc0000 !important; }

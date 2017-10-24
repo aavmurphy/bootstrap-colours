@@ -1,0 +1,27 @@
+.table-aqua, .table-aqua > th, .table-aqua > td {   background-color: #b8ffff; }
+.table-hover .table-aqua:hover {   background-color: #9fffff; }
+.table-hover .table-aqua:hover > td, .table-hover .table-aqua:hover > th {   background-color: #9fffff; }
+.btn-aqua {   color: #111;   background-color: #00ffff;   border-color: #00ffff; }
+.btn-aqua:hover {   color: #111;   background-color: #00d9d9;   border-color: #00cccc; }
+.btn-aqua:focus, .btn-aqua.focus {   box-shadow: 0 0 0 3px rgba(0, 255, 255, 0.5); }
+.btn-aqua.disabled, .btn-aqua:disabled {   background-color: #00ffff;   border-color: #00ffff; }
+.btn-aqua:active, .btn-aqua.active, .show > .btn-aqua.dropdown-toggle {   background-color: #00d9d9;   background-image: none;   border-color: #00cccc; }
+.btn-outline-aqua {   color: #00ffff;   background-color: transparent;   background-image: none;   border-color: #00ffff; }
+.btn-outline-aqua:hover {   color: #fff;   background-color: #00ffff;   border-color: #00ffff; }
+.btn-outline-aqua:focus, .btn-outline-aqua.focus {   box-shadow: 0 0 0 3px rgba(0, 255, 255, 0.5); }
+.btn-outline-aqua.disabled, .btn-outline-aqua:disabled {   color: #00ffff;   background-color: transparent; }
+.btn-outline-aqua:active, .btn-outline-aqua.active, .show > .btn-outline-aqua.dropdown-toggle {   color: #fff;   background-color: #00ffff;   border-color: #00ffff; }
+.badge-aqua {   color: #111;   background-color: #00ffff; }
+.badge-aqua[href]:focus, .badge-aqua[href]:hover {   color: #111;   text-decoration: none;   background-color: #00cccc; }
+.alert-aqua {   color: #008585;   background-color: #ccffff;   border-color: #b8ffff; }
+.alert-aqua hr {   border-top-color: #9fffff; }
+.alert-aqua .alert-link {   color: #005252; }
+.list-group-item-aqua {   color: #008585;   background-color: #b8ffff; }
+a.list-group-item-aqua, button.list-group-item-aqua {   color: #008585; }
+a.list-group-item-aqua:focus, a.list-group-item-aqua:hover, button.list-group-item-aqua:focus, button.list-group-item-aqua:hover {   color: #008585;   background-color: #9fffff; }
+a.list-group-item-aqua.active, button.list-group-item-aqua.active {   color: #fff;   background-color: #008585;   border-color: #008585; }
+.bg-aqua {   background-color: #00ffff !important; }
+a.bg-aqua:focus, a.bg-aqua:hover {   background-color: #00cccc !important; }
+.border-aqua {   border-color: #00ffff !important; }
+.text-aqua {   color: #00ffff !important; }
+a.text-aqua:focus, a.text-aqua:hover {   color: #00cccc !important; }

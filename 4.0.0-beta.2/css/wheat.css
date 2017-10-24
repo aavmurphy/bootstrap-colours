@@ -1,0 +1,27 @@
+.table-wheat, .table-wheat > th, .table-wheat > td {   background-color: #fcf6ea; }
+.table-hover .table-wheat:hover {   background-color: #f9ecd4; }
+.table-hover .table-wheat:hover > td, .table-hover .table-wheat:hover > th {   background-color: #f9ecd4; }
+.btn-wheat {   color: #111;   background-color: #f5deb3;   border-color: #f5deb3; }
+.btn-wheat:hover {   color: #111;   background-color: #f1cf91;   border-color: #efca86; }
+.btn-wheat:focus, .btn-wheat.focus {   box-shadow: 0 0 0 3px rgba(245, 222, 179, 0.5); }
+.btn-wheat.disabled, .btn-wheat:disabled {   background-color: #f5deb3;   border-color: #f5deb3; }
+.btn-wheat:active, .btn-wheat.active, .show > .btn-wheat.dropdown-toggle {   background-color: #f1cf91;   background-image: none;   border-color: #efca86; }
+.btn-outline-wheat {   color: #f5deb3;   background-color: transparent;   background-image: none;   border-color: #f5deb3; }
+.btn-outline-wheat:hover {   color: #fff;   background-color: #f5deb3;   border-color: #f5deb3; }
+.btn-outline-wheat:focus, .btn-outline-wheat.focus {   box-shadow: 0 0 0 3px rgba(245, 222, 179, 0.5); }
+.btn-outline-wheat.disabled, .btn-outline-wheat:disabled {   color: #f5deb3;   background-color: transparent; }
+.btn-outline-wheat:active, .btn-outline-wheat.active, .show > .btn-outline-wheat.dropdown-toggle {   color: #fff;   background-color: #f5deb3;   border-color: #f5deb3; }
+.badge-wheat {   color: #111;   background-color: #f5deb3; }
+.badge-wheat[href]:focus, .badge-wheat[href]:hover {   color: #111;   text-decoration: none;   background-color: #efca86; }
+.alert-wheat {   color: #7f735d;   background-color: #fdf8f0;   border-color: #fcf6ea; }
+.alert-wheat hr {   border-top-color: #f9ecd4; }
+.alert-wheat .alert-link {   color: #625847; }
+.list-group-item-wheat {   color: #7f735d;   background-color: #fcf6ea; }
+a.list-group-item-wheat, button.list-group-item-wheat {   color: #7f735d; }
+a.list-group-item-wheat:focus, a.list-group-item-wheat:hover, button.list-group-item-wheat:focus, button.list-group-item-wheat:hover {   color: #7f735d;   background-color: #f9ecd4; }
+a.list-group-item-wheat.active, button.list-group-item-wheat.active {   color: #fff;   background-color: #7f735d;   border-color: #7f735d; }
+.bg-wheat {   background-color: #f5deb3 !important; }
+a.bg-wheat:focus, a.bg-wheat:hover {   background-color: #efca86 !important; }
+.border-wheat {   border-color: #f5deb3 !important; }
+.text-wheat {   color: #f5deb3 !important; }
+a.text-wheat:focus, a.text-wheat:hover {   color: #efca86 !important; }

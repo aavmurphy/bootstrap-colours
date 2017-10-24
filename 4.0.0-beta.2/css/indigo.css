@@ -1,0 +1,27 @@
+.table-indigo, .table-indigo > th, .table-indigo > td {   background-color: #cdb8dc; }
+.table-hover .table-indigo:hover {   background-color: #c1a7d4; }
+.table-hover .table-indigo:hover > td, .table-hover .table-indigo:hover > th {   background-color: #c1a7d4; }
+.btn-indigo {   color: #fff;   background-color: #4b0082;   border-color: #4b0082; }
+.btn-indigo:hover {   color: #fff;   background-color: #35005c;   border-color: #2e004f; }
+.btn-indigo:focus, .btn-indigo.focus {   box-shadow: 0 0 0 3px rgba(75, 0, 130, 0.5); }
+.btn-indigo.disabled, .btn-indigo:disabled {   background-color: #4b0082;   border-color: #4b0082; }
+.btn-indigo:active, .btn-indigo.active, .show > .btn-indigo.dropdown-toggle {   background-color: #35005c;   background-image: none;   border-color: #2e004f; }
+.btn-outline-indigo {   color: #4b0082;   background-color: transparent;   background-image: none;   border-color: #4b0082; }
+.btn-outline-indigo:hover {   color: #fff;   background-color: #4b0082;   border-color: #4b0082; }
+.btn-outline-indigo:focus, .btn-outline-indigo.focus {   box-shadow: 0 0 0 3px rgba(75, 0, 130, 0.5); }
+.btn-outline-indigo.disabled, .btn-outline-indigo:disabled {   color: #4b0082;   background-color: transparent; }
+.btn-outline-indigo:active, .btn-outline-indigo.active, .show > .btn-outline-indigo.dropdown-toggle {   color: #fff;   background-color: #4b0082;   border-color: #4b0082; }
+.badge-indigo {   color: #fff;   background-color: #4b0082; }
+.badge-indigo[href]:focus, .badge-indigo[href]:hover {   color: #fff;   text-decoration: none;   background-color: #2e004f; }
+.alert-indigo {   color: #270044;   background-color: #dbcce6;   border-color: #cdb8dc; }
+.alert-indigo hr {   border-top-color: #c1a7d4; }
+.alert-indigo .alert-link {   color: #0a0011; }
+.list-group-item-indigo {   color: #270044;   background-color: #cdb8dc; }
+a.list-group-item-indigo, button.list-group-item-indigo {   color: #270044; }
+a.list-group-item-indigo:focus, a.list-group-item-indigo:hover, button.list-group-item-indigo:focus, button.list-group-item-indigo:hover {   color: #270044;   background-color: #c1a7d4; }
+a.list-group-item-indigo.active, button.list-group-item-indigo.active {   color: #fff;   background-color: #270044;   border-color: #270044; }
+.bg-indigo {   background-color: #4b0082 !important; }
+a.bg-indigo:focus, a.bg-indigo:hover {   background-color: #2e004f !important; }
+.border-indigo {   border-color: #4b0082 !important; }
+.text-indigo {   color: #4b0082 !important; }
+a.text-indigo:focus, a.text-indigo:hover {   color: #2e004f !important; }

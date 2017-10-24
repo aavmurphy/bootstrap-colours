@@ -1,0 +1,27 @@
+.table-facebook, .table-facebook > th, .table-facebook > td {   background-color: #c8d1e2; }
+.table-hover .table-facebook:hover {   background-color: #b7c3d9; }
+.table-hover .table-facebook:hover > td, .table-hover .table-facebook:hover > th {   background-color: #b7c3d9; }
+.btn-facebook {   color: #fff;   background-color: #3b5998;   border-color: #3b5998; }
+.btn-facebook:hover {   color: #fff;   background-color: #30497c;   border-color: #2d4373; }
+.btn-facebook:focus, .btn-facebook.focus {   box-shadow: 0 0 0 3px rgba(59, 89, 152, 0.5); }
+.btn-facebook.disabled, .btn-facebook:disabled {   background-color: #3b5998;   border-color: #3b5998; }
+.btn-facebook:active, .btn-facebook.active, .show > .btn-facebook.dropdown-toggle {   background-color: #30497c;   background-image: none;   border-color: #2d4373; }
+.btn-outline-facebook {   color: #3b5998;   background-color: transparent;   background-image: none;   border-color: #3b5998; }
+.btn-outline-facebook:hover {   color: #fff;   background-color: #3b5998;   border-color: #3b5998; }
+.btn-outline-facebook:focus, .btn-outline-facebook.focus {   box-shadow: 0 0 0 3px rgba(59, 89, 152, 0.5); }
+.btn-outline-facebook.disabled, .btn-outline-facebook:disabled {   color: #3b5998;   background-color: transparent; }
+.btn-outline-facebook:active, .btn-outline-facebook.active, .show > .btn-outline-facebook.dropdown-toggle {   color: #fff;   background-color: #3b5998;   border-color: #3b5998; }
+.badge-facebook {   color: #fff;   background-color: #3b5998; }
+.badge-facebook[href]:focus, .badge-facebook[href]:hover {   color: #fff;   text-decoration: none;   background-color: #2d4373; }
+.alert-facebook {   color: #1f2e4f;   background-color: #d8deea;   border-color: #c8d1e2; }
+.alert-facebook hr {   border-top-color: #b7c3d9; }
+.alert-facebook .alert-link {   color: #11192a; }
+.list-group-item-facebook {   color: #1f2e4f;   background-color: #c8d1e2; }
+a.list-group-item-facebook, button.list-group-item-facebook {   color: #1f2e4f; }
+a.list-group-item-facebook:focus, a.list-group-item-facebook:hover, button.list-group-item-facebook:focus, button.list-group-item-facebook:hover {   color: #1f2e4f;   background-color: #b7c3d9; }
+a.list-group-item-facebook.active, button.list-group-item-facebook.active {   color: #fff;   background-color: #1f2e4f;   border-color: #1f2e4f; }
+.bg-facebook {   background-color: #3b5998 !important; }
+a.bg-facebook:focus, a.bg-facebook:hover {   background-color: #2d4373 !important; }
+.border-facebook {   border-color: #3b5998 !important; }
+.text-facebook {   color: #3b5998 !important; }
+a.text-facebook:focus, a.text-facebook:hover {   color: #2d4373 !important; }

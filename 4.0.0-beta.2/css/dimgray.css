@@ -1,0 +1,27 @@
+.table-dimgray, .table-dimgray > th, .table-dimgray > td {   background-color: #d5d5d5; }
+.table-hover .table-dimgray:hover {   background-color: #c8c8c8; }
+.table-hover .table-dimgray:hover > td, .table-hover .table-dimgray:hover > th {   background-color: #c8c8c8; }
+.btn-dimgray {   color: #fff;   background-color: #696969;   border-color: #696969; }
+.btn-dimgray:hover {   color: #fff;   background-color: #565656;   border-color: #505050; }
+.btn-dimgray:focus, .btn-dimgray.focus {   box-shadow: 0 0 0 3px rgba(105, 105, 105, 0.5); }
+.btn-dimgray.disabled, .btn-dimgray:disabled {   background-color: #696969;   border-color: #696969; }
+.btn-dimgray:active, .btn-dimgray.active, .show > .btn-dimgray.dropdown-toggle {   background-color: #565656;   background-image: none;   border-color: #505050; }
+.btn-outline-dimgray {   color: #696969;   background-color: transparent;   background-image: none;   border-color: #696969; }
+.btn-outline-dimgray:hover {   color: #fff;   background-color: #696969;   border-color: #696969; }
+.btn-outline-dimgray:focus, .btn-outline-dimgray.focus {   box-shadow: 0 0 0 3px rgba(105, 105, 105, 0.5); }
+.btn-outline-dimgray.disabled, .btn-outline-dimgray:disabled {   color: #696969;   background-color: transparent; }
+.btn-outline-dimgray:active, .btn-outline-dimgray.active, .show > .btn-outline-dimgray.dropdown-toggle {   color: #fff;   background-color: #696969;   border-color: #696969; }
+.badge-dimgray {   color: #fff;   background-color: #696969; }
+.badge-dimgray[href]:focus, .badge-dimgray[href]:hover {   color: #fff;   text-decoration: none;   background-color: #505050; }
+.alert-dimgray {   color: #373737;   background-color: #e1e1e1;   border-color: #d5d5d5; }
+.alert-dimgray hr {   border-top-color: #c8c8c8; }
+.alert-dimgray .alert-link {   color: #1e1e1e; }
+.list-group-item-dimgray {   color: #373737;   background-color: #d5d5d5; }
+a.list-group-item-dimgray, button.list-group-item-dimgray {   color: #373737; }
+a.list-group-item-dimgray:focus, a.list-group-item-dimgray:hover, button.list-group-item-dimgray:focus, button.list-group-item-dimgray:hover {   color: #373737;   background-color: #c8c8c8; }
+a.list-group-item-dimgray.active, button.list-group-item-dimgray.active {   color: #fff;   background-color: #373737;   border-color: #373737; }
+.bg-dimgray {   background-color: #696969 !important; }
+a.bg-dimgray:focus, a.bg-dimgray:hover {   background-color: #505050 !important; }
+.border-dimgray {   border-color: #696969 !important; }
+.text-dimgray {   color: #696969 !important; }
+a.text-dimgray:focus, a.text-dimgray:hover {   color: #505050 !important; }

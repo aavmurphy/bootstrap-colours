@@ -1,0 +1,27 @@
+.table-gold, .table-gold > th, .table-gold > td {   background-color: #fff4b8; }
+.table-hover .table-gold:hover {   background-color: #fff09f; }
+.table-hover .table-gold:hover > td, .table-hover .table-gold:hover > th {   background-color: #fff09f; }
+.btn-gold {   color: #111;   background-color: #ffd700;   border-color: #ffd700; }
+.btn-gold:hover {   color: #111;   background-color: #d9b700;   border-color: #ccac00; }
+.btn-gold:focus, .btn-gold.focus {   box-shadow: 0 0 0 3px rgba(255, 215, 0, 0.5); }
+.btn-gold.disabled, .btn-gold:disabled {   background-color: #ffd700;   border-color: #ffd700; }
+.btn-gold:active, .btn-gold.active, .show > .btn-gold.dropdown-toggle {   background-color: #d9b700;   background-image: none;   border-color: #ccac00; }
+.btn-outline-gold {   color: #ffd700;   background-color: transparent;   background-image: none;   border-color: #ffd700; }
+.btn-outline-gold:hover {   color: #fff;   background-color: #ffd700;   border-color: #ffd700; }
+.btn-outline-gold:focus, .btn-outline-gold.focus {   box-shadow: 0 0 0 3px rgba(255, 215, 0, 0.5); }
+.btn-outline-gold.disabled, .btn-outline-gold:disabled {   color: #ffd700;   background-color: transparent; }
+.btn-outline-gold:active, .btn-outline-gold.active, .show > .btn-outline-gold.dropdown-toggle {   color: #fff;   background-color: #ffd700;   border-color: #ffd700; }
+.badge-gold {   color: #111;   background-color: #ffd700; }
+.badge-gold[href]:focus, .badge-gold[href]:hover {   color: #111;   text-decoration: none;   background-color: #ccac00; }
+.alert-gold {   color: #857000;   background-color: #fff7cc;   border-color: #fff4b8; }
+.alert-gold hr {   border-top-color: #fff09f; }
+.alert-gold .alert-link {   color: #524500; }
+.list-group-item-gold {   color: #857000;   background-color: #fff4b8; }
+a.list-group-item-gold, button.list-group-item-gold {   color: #857000; }
+a.list-group-item-gold:focus, a.list-group-item-gold:hover, button.list-group-item-gold:focus, button.list-group-item-gold:hover {   color: #857000;   background-color: #fff09f; }
+a.list-group-item-gold.active, button.list-group-item-gold.active {   color: #fff;   background-color: #857000;   border-color: #857000; }
+.bg-gold {   background-color: #ffd700 !important; }
+a.bg-gold:focus, a.bg-gold:hover {   background-color: #ccac00 !important; }
+.border-gold {   border-color: #ffd700 !important; }
+.text-gold {   color: #ffd700 !important; }
+a.text-gold:focus, a.text-gold:hover {   color: #ccac00 !important; }

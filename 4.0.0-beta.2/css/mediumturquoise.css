@@ -1,0 +1,27 @@
+.table-mediumturquoise, .table-mediumturquoise > th, .table-mediumturquoise > td {   background-color: #ccf2f1; }
+.table-hover .table-mediumturquoise:hover {   background-color: #b8edeb; }
+.table-hover .table-mediumturquoise:hover > td, .table-hover .table-mediumturquoise:hover > th {   background-color: #b8edeb; }
+.btn-mediumturquoise {   color: #111;   background-color: #48d1cc;   border-color: #48d1cc; }
+.btn-mediumturquoise:hover {   color: #111;   background-color: #31c2bd;   border-color: #2eb8b3; }
+.btn-mediumturquoise:focus, .btn-mediumturquoise.focus {   box-shadow: 0 0 0 3px rgba(72, 209, 204, 0.5); }
+.btn-mediumturquoise.disabled, .btn-mediumturquoise:disabled {   background-color: #48d1cc;   border-color: #48d1cc; }
+.btn-mediumturquoise:active, .btn-mediumturquoise.active, .show > .btn-mediumturquoise.dropdown-toggle {   background-color: #31c2bd;   background-image: none;   border-color: #2eb8b3; }
+.btn-outline-mediumturquoise {   color: #48d1cc;   background-color: transparent;   background-image: none;   border-color: #48d1cc; }
+.btn-outline-mediumturquoise:hover {   color: #fff;   background-color: #48d1cc;   border-color: #48d1cc; }
+.btn-outline-mediumturquoise:focus, .btn-outline-mediumturquoise.focus {   box-shadow: 0 0 0 3px rgba(72, 209, 204, 0.5); }
+.btn-outline-mediumturquoise.disabled, .btn-outline-mediumturquoise:disabled {   color: #48d1cc;   background-color: transparent; }
+.btn-outline-mediumturquoise:active, .btn-outline-mediumturquoise.active, .show > .btn-outline-mediumturquoise.dropdown-toggle {   color: #fff;   background-color: #48d1cc;   border-color: #48d1cc; }
+.badge-mediumturquoise {   color: #111;   background-color: #48d1cc; }
+.badge-mediumturquoise[href]:focus, .badge-mediumturquoise[href]:hover {   color: #111;   text-decoration: none;   background-color: #2eb8b3; }
+.alert-mediumturquoise {   color: #256d6a;   background-color: #daf6f5;   border-color: #ccf2f1; }
+.alert-mediumturquoise hr {   border-top-color: #b8edeb; }
+.alert-mediumturquoise .alert-link {   color: #184745; }
+.list-group-item-mediumturquoise {   color: #256d6a;   background-color: #ccf2f1; }
+a.list-group-item-mediumturquoise, button.list-group-item-mediumturquoise {   color: #256d6a; }
+a.list-group-item-mediumturquoise:focus, a.list-group-item-mediumturquoise:hover, button.list-group-item-mediumturquoise:focus, button.list-group-item-mediumturquoise:hover {   color: #256d6a;   background-color: #b8edeb; }
+a.list-group-item-mediumturquoise.active, button.list-group-item-mediumturquoise.active {   color: #fff;   background-color: #256d6a;   border-color: #256d6a; }
+.bg-mediumturquoise {   background-color: #48d1cc !important; }
+a.bg-mediumturquoise:focus, a.bg-mediumturquoise:hover {   background-color: #2eb8b3 !important; }
+.border-mediumturquoise {   border-color: #48d1cc !important; }
+.text-mediumturquoise {   color: #48d1cc !important; }
+a.text-mediumturquoise:focus, a.text-mediumturquoise:hover {   color: #2eb8b3 !important; }

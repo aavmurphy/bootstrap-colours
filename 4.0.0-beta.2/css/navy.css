@@ -1,0 +1,27 @@
+.table-navy, .table-navy > th, .table-navy > td {   background-color: #b8b8db; }
+.table-hover .table-navy:hover {   background-color: #a7a7d2; }
+.table-hover .table-navy:hover > td, .table-hover .table-navy:hover > th {   background-color: #a7a7d2; }
+.btn-navy {   color: #fff;   background-color: #000080;   border-color: #000080; }
+.btn-navy:hover {   color: #fff;   background-color: #00005a;   border-color: #00004d; }
+.btn-navy:focus, .btn-navy.focus {   box-shadow: 0 0 0 3px rgba(0, 0, 128, 0.5); }
+.btn-navy.disabled, .btn-navy:disabled {   background-color: #000080;   border-color: #000080; }
+.btn-navy:active, .btn-navy.active, .show > .btn-navy.dropdown-toggle {   background-color: #00005a;   background-image: none;   border-color: #00004d; }
+.btn-outline-navy {   color: #000080;   background-color: transparent;   background-image: none;   border-color: #000080; }
+.btn-outline-navy:hover {   color: #fff;   background-color: #000080;   border-color: #000080; }
+.btn-outline-navy:focus, .btn-outline-navy.focus {   box-shadow: 0 0 0 3px rgba(0, 0, 128, 0.5); }
+.btn-outline-navy.disabled, .btn-outline-navy:disabled {   color: #000080;   background-color: transparent; }
+.btn-outline-navy:active, .btn-outline-navy.active, .show > .btn-outline-navy.dropdown-toggle {   color: #fff;   background-color: #000080;   border-color: #000080; }
+.badge-navy {   color: #fff;   background-color: #000080; }
+.badge-navy[href]:focus, .badge-navy[href]:hover {   color: #fff;   text-decoration: none;   background-color: #00004d; }
+.alert-navy {   color: #000043;   background-color: #cccce6;   border-color: #b8b8db; }
+.alert-navy hr {   border-top-color: #a7a7d2; }
+.alert-navy .alert-link {   color: #000010; }
+.list-group-item-navy {   color: #000043;   background-color: #b8b8db; }
+a.list-group-item-navy, button.list-group-item-navy {   color: #000043; }
+a.list-group-item-navy:focus, a.list-group-item-navy:hover, button.list-group-item-navy:focus, button.list-group-item-navy:hover {   color: #000043;   background-color: #a7a7d2; }
+a.list-group-item-navy.active, button.list-group-item-navy.active {   color: #fff;   background-color: #000043;   border-color: #000043; }
+.bg-navy {   background-color: #000080 !important; }
+a.bg-navy:focus, a.bg-navy:hover {   background-color: #00004d !important; }
+.border-navy {   border-color: #000080 !important; }
+.text-navy {   color: #000080 !important; }
+a.text-navy:focus, a.text-navy:hover {   color: #00004d !important; }

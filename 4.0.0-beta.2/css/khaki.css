@@ -1,0 +1,27 @@
+.table-khaki, .table-khaki > th, .table-khaki > td {   background-color: #fbf8df; }
+.table-hover .table-khaki:hover {   background-color: #f8f3c8; }
+.table-hover .table-khaki:hover > td, .table-hover .table-khaki:hover > th {   background-color: #f8f3c8; }
+.btn-khaki {   color: #111;   background-color: #f0e68c;   border-color: #f0e68c; }
+.btn-khaki:hover {   color: #111;   background-color: #ecdf6a;   border-color: #eadc5f; }
+.btn-khaki:focus, .btn-khaki.focus {   box-shadow: 0 0 0 3px rgba(240, 230, 140, 0.5); }
+.btn-khaki.disabled, .btn-khaki:disabled {   background-color: #f0e68c;   border-color: #f0e68c; }
+.btn-khaki:active, .btn-khaki.active, .show > .btn-khaki.dropdown-toggle {   background-color: #ecdf6a;   background-image: none;   border-color: #eadc5f; }
+.btn-outline-khaki {   color: #f0e68c;   background-color: transparent;   background-image: none;   border-color: #f0e68c; }
+.btn-outline-khaki:hover {   color: #fff;   background-color: #f0e68c;   border-color: #f0e68c; }
+.btn-outline-khaki:focus, .btn-outline-khaki.focus {   box-shadow: 0 0 0 3px rgba(240, 230, 140, 0.5); }
+.btn-outline-khaki.disabled, .btn-outline-khaki:disabled {   color: #f0e68c;   background-color: transparent; }
+.btn-outline-khaki:active, .btn-outline-khaki.active, .show > .btn-outline-khaki.dropdown-toggle {   color: #fff;   background-color: #f0e68c;   border-color: #f0e68c; }
+.badge-khaki {   color: #111;   background-color: #f0e68c; }
+.badge-khaki[href]:focus, .badge-khaki[href]:hover {   color: #111;   text-decoration: none;   background-color: #eadc5f; }
+.alert-khaki {   color: #7d7849;   background-color: #fcfae8;   border-color: #fbf8df; }
+.alert-khaki hr {   border-top-color: #f8f3c8; }
+.alert-khaki .alert-link {   color: #5d5936; }
+.list-group-item-khaki {   color: #7d7849;   background-color: #fbf8df; }
+a.list-group-item-khaki, button.list-group-item-khaki {   color: #7d7849; }
+a.list-group-item-khaki:focus, a.list-group-item-khaki:hover, button.list-group-item-khaki:focus, button.list-group-item-khaki:hover {   color: #7d7849;   background-color: #f8f3c8; }
+a.list-group-item-khaki.active, button.list-group-item-khaki.active {   color: #fff;   background-color: #7d7849;   border-color: #7d7849; }
+.bg-khaki {   background-color: #f0e68c !important; }
+a.bg-khaki:focus, a.bg-khaki:hover {   background-color: #eadc5f !important; }
+.border-khaki {   border-color: #f0e68c !important; }
+.text-khaki {   color: #f0e68c !important; }
+a.text-khaki:focus, a.text-khaki:hover {   color: #eadc5f !important; }

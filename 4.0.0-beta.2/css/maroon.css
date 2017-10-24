@@ -1,0 +1,27 @@
+.table-maroon, .table-maroon > th, .table-maroon > td {   background-color: #dbb8b8; }
+.table-hover .table-maroon:hover {   background-color: #d2a7a7; }
+.table-hover .table-maroon:hover > td, .table-hover .table-maroon:hover > th {   background-color: #d2a7a7; }
+.btn-maroon {   color: #fff;   background-color: #800000;   border-color: #800000; }
+.btn-maroon:hover {   color: #fff;   background-color: #5a0000;   border-color: #4d0000; }
+.btn-maroon:focus, .btn-maroon.focus {   box-shadow: 0 0 0 3px rgba(128, 0, 0, 0.5); }
+.btn-maroon.disabled, .btn-maroon:disabled {   background-color: #800000;   border-color: #800000; }
+.btn-maroon:active, .btn-maroon.active, .show > .btn-maroon.dropdown-toggle {   background-color: #5a0000;   background-image: none;   border-color: #4d0000; }
+.btn-outline-maroon {   color: #800000;   background-color: transparent;   background-image: none;   border-color: #800000; }
+.btn-outline-maroon:hover {   color: #fff;   background-color: #800000;   border-color: #800000; }
+.btn-outline-maroon:focus, .btn-outline-maroon.focus {   box-shadow: 0 0 0 3px rgba(128, 0, 0, 0.5); }
+.btn-outline-maroon.disabled, .btn-outline-maroon:disabled {   color: #800000;   background-color: transparent; }
+.btn-outline-maroon:active, .btn-outline-maroon.active, .show > .btn-outline-maroon.dropdown-toggle {   color: #fff;   background-color: #800000;   border-color: #800000; }
+.badge-maroon {   color: #fff;   background-color: #800000; }
+.badge-maroon[href]:focus, .badge-maroon[href]:hover {   color: #fff;   text-decoration: none;   background-color: #4d0000; }
+.alert-maroon {   color: #430000;   background-color: #e6cccc;   border-color: #dbb8b8; }
+.alert-maroon hr {   border-top-color: #d2a7a7; }
+.alert-maroon .alert-link {   color: #100000; }
+.list-group-item-maroon {   color: #430000;   background-color: #dbb8b8; }
+a.list-group-item-maroon, button.list-group-item-maroon {   color: #430000; }
+a.list-group-item-maroon:focus, a.list-group-item-maroon:hover, button.list-group-item-maroon:focus, button.list-group-item-maroon:hover {   color: #430000;   background-color: #d2a7a7; }
+a.list-group-item-maroon.active, button.list-group-item-maroon.active {   color: #fff;   background-color: #430000;   border-color: #430000; }
+.bg-maroon {   background-color: #800000 !important; }
+a.bg-maroon:focus, a.bg-maroon:hover {   background-color: #4d0000 !important; }
+.border-maroon {   border-color: #800000 !important; }
+.text-maroon {   color: #800000 !important; }
+a.text-maroon:focus, a.text-maroon:hover {   color: #4d0000 !important; }

@@ -1,0 +1,27 @@
+.table-darkgoldenrod, .table-darkgoldenrod > th, .table-darkgoldenrod > td {   background-color: #ebddbb; }
+.table-hover .table-darkgoldenrod:hover {   background-color: #e5d3a7; }
+.table-hover .table-darkgoldenrod:hover > td, .table-hover .table-darkgoldenrod:hover > th {   background-color: #e5d3a7; }
+.btn-darkgoldenrod {   color: #fff;   background-color: #b8860b;   border-color: #b8860b; }
+.btn-darkgoldenrod:hover {   color: #fff;   background-color: #946c09;   border-color: #886308; }
+.btn-darkgoldenrod:focus, .btn-darkgoldenrod.focus {   box-shadow: 0 0 0 3px rgba(184, 134, 11, 0.5); }
+.btn-darkgoldenrod.disabled, .btn-darkgoldenrod:disabled {   background-color: #b8860b;   border-color: #b8860b; }
+.btn-darkgoldenrod:active, .btn-darkgoldenrod.active, .show > .btn-darkgoldenrod.dropdown-toggle {   background-color: #946c09;   background-image: none;   border-color: #886308; }
+.btn-outline-darkgoldenrod {   color: #b8860b;   background-color: transparent;   background-image: none;   border-color: #b8860b; }
+.btn-outline-darkgoldenrod:hover {   color: #fff;   background-color: #b8860b;   border-color: #b8860b; }
+.btn-outline-darkgoldenrod:focus, .btn-outline-darkgoldenrod.focus {   box-shadow: 0 0 0 3px rgba(184, 134, 11, 0.5); }
+.btn-outline-darkgoldenrod.disabled, .btn-outline-darkgoldenrod:disabled {   color: #b8860b;   background-color: transparent; }
+.btn-outline-darkgoldenrod:active, .btn-outline-darkgoldenrod.active, .show > .btn-outline-darkgoldenrod.dropdown-toggle {   color: #fff;   background-color: #b8860b;   border-color: #b8860b; }
+.badge-darkgoldenrod {   color: #fff;   background-color: #b8860b; }
+.badge-darkgoldenrod[href]:focus, .badge-darkgoldenrod[href]:hover {   color: #fff;   text-decoration: none;   background-color: #886308; }
+.alert-darkgoldenrod {   color: #604606;   background-color: #f1e7ce;   border-color: #ebddbb; }
+.alert-darkgoldenrod hr {   border-top-color: #e5d3a7; }
+.alert-darkgoldenrod .alert-link {   color: #302303; }
+.list-group-item-darkgoldenrod {   color: #604606;   background-color: #ebddbb; }
+a.list-group-item-darkgoldenrod, button.list-group-item-darkgoldenrod {   color: #604606; }
+a.list-group-item-darkgoldenrod:focus, a.list-group-item-darkgoldenrod:hover, button.list-group-item-darkgoldenrod:focus, button.list-group-item-darkgoldenrod:hover {   color: #604606;   background-color: #e5d3a7; }
+a.list-group-item-darkgoldenrod.active, button.list-group-item-darkgoldenrod.active {   color: #fff;   background-color: #604606;   border-color: #604606; }
+.bg-darkgoldenrod {   background-color: #b8860b !important; }
+a.bg-darkgoldenrod:focus, a.bg-darkgoldenrod:hover {   background-color: #886308 !important; }
+.border-darkgoldenrod {   border-color: #b8860b !important; }
+.text-darkgoldenrod {   color: #b8860b !important; }
+a.text-darkgoldenrod:focus, a.text-darkgoldenrod:hover {   color: #886308 !important; }

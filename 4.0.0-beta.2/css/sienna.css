@@ -1,0 +1,27 @@
+.table-sienna, .table-sienna > th, .table-sienna > td {   background-color: #e4cfc4; }
+.table-hover .table-sienna:hover {   background-color: #dcc1b3; }
+.table-hover .table-sienna:hover > td, .table-hover .table-sienna:hover > th {   background-color: #dcc1b3; }
+.btn-sienna {   color: #fff;   background-color: #a0522d;   border-color: #a0522d; }
+.btn-sienna:hover {   color: #fff;   background-color: #824325;   border-color: #783e22; }
+.btn-sienna:focus, .btn-sienna.focus {   box-shadow: 0 0 0 3px rgba(160, 82, 45, 0.5); }
+.btn-sienna.disabled, .btn-sienna:disabled {   background-color: #a0522d;   border-color: #a0522d; }
+.btn-sienna:active, .btn-sienna.active, .show > .btn-sienna.dropdown-toggle {   background-color: #824325;   background-image: none;   border-color: #783e22; }
+.btn-outline-sienna {   color: #a0522d;   background-color: transparent;   background-image: none;   border-color: #a0522d; }
+.btn-outline-sienna:hover {   color: #fff;   background-color: #a0522d;   border-color: #a0522d; }
+.btn-outline-sienna:focus, .btn-outline-sienna.focus {   box-shadow: 0 0 0 3px rgba(160, 82, 45, 0.5); }
+.btn-outline-sienna.disabled, .btn-outline-sienna:disabled {   color: #a0522d;   background-color: transparent; }
+.btn-outline-sienna:active, .btn-outline-sienna.active, .show > .btn-outline-sienna.dropdown-toggle {   color: #fff;   background-color: #a0522d;   border-color: #a0522d; }
+.badge-sienna {   color: #fff;   background-color: #a0522d; }
+.badge-sienna[href]:focus, .badge-sienna[href]:hover {   color: #fff;   text-decoration: none;   background-color: #783e22; }
+.alert-sienna {   color: #532b17;   background-color: #ecdcd5;   border-color: #e4cfc4; }
+.alert-sienna hr {   border-top-color: #dcc1b3; }
+.alert-sienna .alert-link {   color: #2b160c; }
+.list-group-item-sienna {   color: #532b17;   background-color: #e4cfc4; }
+a.list-group-item-sienna, button.list-group-item-sienna {   color: #532b17; }
+a.list-group-item-sienna:focus, a.list-group-item-sienna:hover, button.list-group-item-sienna:focus, button.list-group-item-sienna:hover {   color: #532b17;   background-color: #dcc1b3; }
+a.list-group-item-sienna.active, button.list-group-item-sienna.active {   color: #fff;   background-color: #532b17;   border-color: #532b17; }
+.bg-sienna {   background-color: #a0522d !important; }
+a.bg-sienna:focus, a.bg-sienna:hover {   background-color: #783e22 !important; }
+.border-sienna {   border-color: #a0522d !important; }
+.text-sienna {   color: #a0522d !important; }
+a.text-sienna:focus, a.text-sienna:hover {   color: #783e22 !important; }

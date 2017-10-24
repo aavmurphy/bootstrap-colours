@@ -1,0 +1,27 @@
+.table-plum, .table-plum > th, .table-plum > td {   background-color: #f5e4f5; }
+.table-hover .table-plum:hover {   background-color: #eed1ee; }
+.table-hover .table-plum:hover > td, .table-hover .table-plum:hover > th {   background-color: #eed1ee; }
+.btn-plum {   color: #111;   background-color: #dda0dd;   border-color: #dda0dd; }
+.btn-plum:hover {   color: #111;   background-color: #d384d3;   border-color: #d07ad0; }
+.btn-plum:focus, .btn-plum.focus {   box-shadow: 0 0 0 3px rgba(221, 160, 221, 0.5); }
+.btn-plum.disabled, .btn-plum:disabled {   background-color: #dda0dd;   border-color: #dda0dd; }
+.btn-plum:active, .btn-plum.active, .show > .btn-plum.dropdown-toggle {   background-color: #d384d3;   background-image: none;   border-color: #d07ad0; }
+.btn-outline-plum {   color: #dda0dd;   background-color: transparent;   background-image: none;   border-color: #dda0dd; }
+.btn-outline-plum:hover {   color: #fff;   background-color: #dda0dd;   border-color: #dda0dd; }
+.btn-outline-plum:focus, .btn-outline-plum.focus {   box-shadow: 0 0 0 3px rgba(221, 160, 221, 0.5); }
+.btn-outline-plum.disabled, .btn-outline-plum:disabled {   color: #dda0dd;   background-color: transparent; }
+.btn-outline-plum:active, .btn-outline-plum.active, .show > .btn-outline-plum.dropdown-toggle {   color: #fff;   background-color: #dda0dd;   border-color: #dda0dd; }
+.badge-plum {   color: #111;   background-color: #dda0dd; }
+.badge-plum[href]:focus, .badge-plum[href]:hover {   color: #111;   text-decoration: none;   background-color: #d07ad0; }
+.alert-plum {   color: #735373;   background-color: #f8ecf8;   border-color: #f5e4f5; }
+.alert-plum hr {   border-top-color: #eed1ee; }
+.alert-plum .alert-link {   color: #553e55; }
+.list-group-item-plum {   color: #735373;   background-color: #f5e4f5; }
+a.list-group-item-plum, button.list-group-item-plum {   color: #735373; }
+a.list-group-item-plum:focus, a.list-group-item-plum:hover, button.list-group-item-plum:focus, button.list-group-item-plum:hover {   color: #735373;   background-color: #eed1ee; }
+a.list-group-item-plum.active, button.list-group-item-plum.active {   color: #fff;   background-color: #735373;   border-color: #735373; }
+.bg-plum {   background-color: #dda0dd !important; }
+a.bg-plum:focus, a.bg-plum:hover {   background-color: #d07ad0 !important; }
+.border-plum {   border-color: #dda0dd !important; }
+.text-plum {   color: #dda0dd !important; }
+a.text-plum:focus, a.text-plum:hover {   color: #d07ad0 !important; }

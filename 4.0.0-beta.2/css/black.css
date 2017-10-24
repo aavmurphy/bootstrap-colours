@@ -1,0 +1,27 @@
+.table-black, .table-black > th, .table-black > td {   background-color: #b8b8b8; }
+.table-hover .table-black:hover {   background-color: #ababab; }
+.table-hover .table-black:hover > td, .table-hover .table-black:hover > th {   background-color: #ababab; }
+.btn-black {   color: #fff;   background-color: #000000;   border-color: #000000; }
+.btn-black:hover {   color: #fff;   background-color: black;   border-color: black; }
+.btn-black:focus, .btn-black.focus {   box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.5); }
+.btn-black.disabled, .btn-black:disabled {   background-color: #000000;   border-color: #000000; }
+.btn-black:active, .btn-black.active, .show > .btn-black.dropdown-toggle {   background-color: black;   background-image: none;   border-color: black; }
+.btn-outline-black {   color: #000000;   background-color: transparent;   background-image: none;   border-color: #000000; }
+.btn-outline-black:hover {   color: #fff;   background-color: #000000;   border-color: #000000; }
+.btn-outline-black:focus, .btn-outline-black.focus {   box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.5); }
+.btn-outline-black.disabled, .btn-outline-black:disabled {   color: #000000;   background-color: transparent; }
+.btn-outline-black:active, .btn-outline-black.active, .show > .btn-outline-black.dropdown-toggle {   color: #fff;   background-color: #000000;   border-color: #000000; }
+.badge-black {   color: #fff;   background-color: #000000; }
+.badge-black[href]:focus, .badge-black[href]:hover {   color: #fff;   text-decoration: none;   background-color: black; }
+.alert-black {   color: black;   background-color: #cccccc;   border-color: #b8b8b8; }
+.alert-black hr {   border-top-color: #ababab; }
+.alert-black .alert-link {   color: black; }
+.list-group-item-black {   color: black;   background-color: #b8b8b8; }
+a.list-group-item-black, button.list-group-item-black {   color: black; }
+a.list-group-item-black:focus, a.list-group-item-black:hover, button.list-group-item-black:focus, button.list-group-item-black:hover {   color: black;   background-color: #ababab; }
+a.list-group-item-black.active, button.list-group-item-black.active {   color: #fff;   background-color: black;   border-color: black; }
+.bg-black {   background-color: #000000 !important; }
+a.bg-black:focus, a.bg-black:hover {   background-color: black !important; }
+.border-black {   border-color: #000000 !important; }
+.text-black {   color: #000000 !important; }
+a.text-black:focus, a.text-black:hover {   color: black !important; }

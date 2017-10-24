@@ -1,0 +1,27 @@
+.table-tan, .table-tan > th, .table-tan > td {   background-color: #f2eadf; }
+.table-hover .table-tan:hover {   background-color: #ebdecd; }
+.table-hover .table-tan:hover > td, .table-hover .table-tan:hover > th {   background-color: #ebdecd; }
+.btn-tan {   color: #111;   background-color: #d2b48c;   border-color: #d2b48c; }
+.btn-tan:hover {   color: #111;   background-color: #c7a271;   border-color: #c49c67; }
+.btn-tan:focus, .btn-tan.focus {   box-shadow: 0 0 0 3px rgba(210, 180, 140, 0.5); }
+.btn-tan.disabled, .btn-tan:disabled {   background-color: #d2b48c;   border-color: #d2b48c; }
+.btn-tan:active, .btn-tan.active, .show > .btn-tan.dropdown-toggle {   background-color: #c7a271;   background-image: none;   border-color: #c49c67; }
+.btn-outline-tan {   color: #d2b48c;   background-color: transparent;   background-image: none;   border-color: #d2b48c; }
+.btn-outline-tan:hover {   color: #fff;   background-color: #d2b48c;   border-color: #d2b48c; }
+.btn-outline-tan:focus, .btn-outline-tan.focus {   box-shadow: 0 0 0 3px rgba(210, 180, 140, 0.5); }
+.btn-outline-tan.disabled, .btn-outline-tan:disabled {   color: #d2b48c;   background-color: transparent; }
+.btn-outline-tan:active, .btn-outline-tan.active, .show > .btn-outline-tan.dropdown-toggle {   color: #fff;   background-color: #d2b48c;   border-color: #d2b48c; }
+.badge-tan {   color: #111;   background-color: #d2b48c; }
+.badge-tan[href]:focus, .badge-tan[href]:hover {   color: #111;   text-decoration: none;   background-color: #c49c67; }
+.alert-tan {   color: #6d5e49;   background-color: #f6f0e8;   border-color: #f2eadf; }
+.alert-tan hr {   border-top-color: #ebdecd; }
+.alert-tan .alert-link {   color: #4e4435; }
+.list-group-item-tan {   color: #6d5e49;   background-color: #f2eadf; }
+a.list-group-item-tan, button.list-group-item-tan {   color: #6d5e49; }
+a.list-group-item-tan:focus, a.list-group-item-tan:hover, button.list-group-item-tan:focus, button.list-group-item-tan:hover {   color: #6d5e49;   background-color: #ebdecd; }
+a.list-group-item-tan.active, button.list-group-item-tan.active {   color: #fff;   background-color: #6d5e49;   border-color: #6d5e49; }
+.bg-tan {   background-color: #d2b48c !important; }
+a.bg-tan:focus, a.bg-tan:hover {   background-color: #c49c67 !important; }
+.border-tan {   border-color: #d2b48c !important; }
+.text-tan {   color: #d2b48c !important; }
+a.text-tan:focus, a.text-tan:hover {   color: #c49c67 !important; }

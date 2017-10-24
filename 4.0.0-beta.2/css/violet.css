@@ -1,0 +1,27 @@
+.table-violet, .table-violet > th, .table-violet > td {   background-color: #fadcfa; }
+.table-hover .table-violet:hover {   background-color: #f7c6f7; }
+.table-hover .table-violet:hover > td, .table-hover .table-violet:hover > th {   background-color: #f7c6f7; }
+.btn-violet {   color: #111;   background-color: #ee82ee;   border-color: #ee82ee; }
+.btn-violet:hover {   color: #111;   background-color: #e960e9;   border-color: #e855e8; }
+.btn-violet:focus, .btn-violet.focus {   box-shadow: 0 0 0 3px rgba(238, 130, 238, 0.5); }
+.btn-violet.disabled, .btn-violet:disabled {   background-color: #ee82ee;   border-color: #ee82ee; }
+.btn-violet:active, .btn-violet.active, .show > .btn-violet.dropdown-toggle {   background-color: #e960e9;   background-image: none;   border-color: #e855e8; }
+.btn-outline-violet {   color: #ee82ee;   background-color: transparent;   background-image: none;   border-color: #ee82ee; }
+.btn-outline-violet:hover {   color: #fff;   background-color: #ee82ee;   border-color: #ee82ee; }
+.btn-outline-violet:focus, .btn-outline-violet.focus {   box-shadow: 0 0 0 3px rgba(238, 130, 238, 0.5); }
+.btn-outline-violet.disabled, .btn-outline-violet:disabled {   color: #ee82ee;   background-color: transparent; }
+.btn-outline-violet:active, .btn-outline-violet.active, .show > .btn-outline-violet.dropdown-toggle {   color: #fff;   background-color: #ee82ee;   border-color: #ee82ee; }
+.badge-violet {   color: #111;   background-color: #ee82ee; }
+.badge-violet[href]:focus, .badge-violet[href]:hover {   color: #111;   text-decoration: none;   background-color: #e855e8; }
+.alert-violet {   color: #7c447c;   background-color: #fce6fc;   border-color: #fadcfa; }
+.alert-violet hr {   border-top-color: #f7c6f7; }
+.alert-violet .alert-link {   color: #5b325b; }
+.list-group-item-violet {   color: #7c447c;   background-color: #fadcfa; }
+a.list-group-item-violet, button.list-group-item-violet {   color: #7c447c; }
+a.list-group-item-violet:focus, a.list-group-item-violet:hover, button.list-group-item-violet:focus, button.list-group-item-violet:hover {   color: #7c447c;   background-color: #f7c6f7; }
+a.list-group-item-violet.active, button.list-group-item-violet.active {   color: #fff;   background-color: #7c447c;   border-color: #7c447c; }
+.bg-violet {   background-color: #ee82ee !important; }
+a.bg-violet:focus, a.bg-violet:hover {   background-color: #e855e8 !important; }
+.border-violet {   border-color: #ee82ee !important; }
+.text-violet {   color: #ee82ee !important; }
+a.text-violet:focus, a.text-violet:hover {   color: #e855e8 !important; }

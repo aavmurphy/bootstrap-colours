@@ -1,0 +1,27 @@
+.table-crimson, .table-crimson > th, .table-crimson > td {   background-color: #f5bdc8; }
+.table-hover .table-crimson:hover {   background-color: #f2a7b6; }
+.table-hover .table-crimson:hover > td, .table-hover .table-crimson:hover > th {   background-color: #f2a7b6; }
+.btn-crimson {   color: #fff;   background-color: #dc143c;   border-color: #dc143c; }
+.btn-crimson:hover {   color: #fff;   background-color: #b91132;   border-color: #ad102f; }
+.btn-crimson:focus, .btn-crimson.focus {   box-shadow: 0 0 0 3px rgba(220, 20, 60, 0.5); }
+.btn-crimson.disabled, .btn-crimson:disabled {   background-color: #dc143c;   border-color: #dc143c; }
+.btn-crimson:active, .btn-crimson.active, .show > .btn-crimson.dropdown-toggle {   background-color: #b91132;   background-image: none;   border-color: #ad102f; }
+.btn-outline-crimson {   color: #dc143c;   background-color: transparent;   background-image: none;   border-color: #dc143c; }
+.btn-outline-crimson:hover {   color: #fff;   background-color: #dc143c;   border-color: #dc143c; }
+.btn-outline-crimson:focus, .btn-outline-crimson.focus {   box-shadow: 0 0 0 3px rgba(220, 20, 60, 0.5); }
+.btn-outline-crimson.disabled, .btn-outline-crimson:disabled {   color: #dc143c;   background-color: transparent; }
+.btn-outline-crimson:active, .btn-outline-crimson.active, .show > .btn-outline-crimson.dropdown-toggle {   color: #fff;   background-color: #dc143c;   border-color: #dc143c; }
+.badge-crimson {   color: #fff;   background-color: #dc143c; }
+.badge-crimson[href]:focus, .badge-crimson[href]:hover {   color: #fff;   text-decoration: none;   background-color: #ad102f; }
+.alert-crimson {   color: #720a1f;   background-color: #f8d0d8;   border-color: #f5bdc8; }
+.alert-crimson hr {   border-top-color: #f2a7b6; }
+.alert-crimson .alert-link {   color: #430612; }
+.list-group-item-crimson {   color: #720a1f;   background-color: #f5bdc8; }
+a.list-group-item-crimson, button.list-group-item-crimson {   color: #720a1f; }
+a.list-group-item-crimson:focus, a.list-group-item-crimson:hover, button.list-group-item-crimson:focus, button.list-group-item-crimson:hover {   color: #720a1f;   background-color: #f2a7b6; }
+a.list-group-item-crimson.active, button.list-group-item-crimson.active {   color: #fff;   background-color: #720a1f;   border-color: #720a1f; }
+.bg-crimson {   background-color: #dc143c !important; }
+a.bg-crimson:focus, a.bg-crimson:hover {   background-color: #ad102f !important; }
+.border-crimson {   border-color: #dc143c !important; }
+.text-crimson {   color: #dc143c !important; }
+a.text-crimson:focus, a.text-crimson:hover {   color: #ad102f !important; }

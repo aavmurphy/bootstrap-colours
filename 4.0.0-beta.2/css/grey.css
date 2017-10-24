@@ -1,0 +1,27 @@
+.table-grey, .table-grey > th, .table-grey > td {   background-color: #dbdbdb; }
+.table-hover .table-grey:hover {   background-color: #cecece; }
+.table-hover .table-grey:hover > td, .table-hover .table-grey:hover > th {   background-color: #cecece; }
+.btn-grey {   color: #fff;   background-color: #808080;   border-color: #808080; }
+.btn-grey:hover {   color: #fff;   background-color: #6d6d6d;   border-color: #676767; }
+.btn-grey:focus, .btn-grey.focus {   box-shadow: 0 0 0 3px rgba(128, 128, 128, 0.5); }
+.btn-grey.disabled, .btn-grey:disabled {   background-color: #808080;   border-color: #808080; }
+.btn-grey:active, .btn-grey.active, .show > .btn-grey.dropdown-toggle {   background-color: #6d6d6d;   background-image: none;   border-color: #676767; }
+.btn-outline-grey {   color: #808080;   background-color: transparent;   background-image: none;   border-color: #808080; }
+.btn-outline-grey:hover {   color: #fff;   background-color: #808080;   border-color: #808080; }
+.btn-outline-grey:focus, .btn-outline-grey.focus {   box-shadow: 0 0 0 3px rgba(128, 128, 128, 0.5); }
+.btn-outline-grey.disabled, .btn-outline-grey:disabled {   color: #808080;   background-color: transparent; }
+.btn-outline-grey:active, .btn-outline-grey.active, .show > .btn-outline-grey.dropdown-toggle {   color: #fff;   background-color: #808080;   border-color: #808080; }
+.badge-grey {   color: #fff;   background-color: #808080; }
+.badge-grey[href]:focus, .badge-grey[href]:hover {   color: #fff;   text-decoration: none;   background-color: #676767; }
+.alert-grey {   color: #434343;   background-color: #e6e6e6;   border-color: #dbdbdb; }
+.alert-grey hr {   border-top-color: #cecece; }
+.alert-grey .alert-link {   color: #2a2a2a; }
+.list-group-item-grey {   color: #434343;   background-color: #dbdbdb; }
+a.list-group-item-grey, button.list-group-item-grey {   color: #434343; }
+a.list-group-item-grey:focus, a.list-group-item-grey:hover, button.list-group-item-grey:focus, button.list-group-item-grey:hover {   color: #434343;   background-color: #cecece; }
+a.list-group-item-grey.active, button.list-group-item-grey.active {   color: #fff;   background-color: #434343;   border-color: #434343; }
+.bg-grey {   background-color: #808080 !important; }
+a.bg-grey:focus, a.bg-grey:hover {   background-color: #676767 !important; }
+.border-grey {   border-color: #808080 !important; }
+.text-grey {   color: #808080 !important; }
+a.text-grey:focus, a.text-grey:hover {   color: #676767 !important; }

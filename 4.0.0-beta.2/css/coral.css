@@ -1,0 +1,27 @@
+.table-coral, .table-coral > th, .table-coral > td {   background-color: #ffdbce; }
+.table-hover .table-coral:hover {   background-color: #ffc8b5; }
+.table-hover .table-coral:hover > td, .table-hover .table-coral:hover > th {   background-color: #ffc8b5; }
+.btn-coral {   color: #111;   background-color: #ff7f50;   border-color: #ff7f50; }
+.btn-coral:hover {   color: #111;   background-color: #ff632a;   border-color: #ff5a1d; }
+.btn-coral:focus, .btn-coral.focus {   box-shadow: 0 0 0 3px rgba(255, 127, 80, 0.5); }
+.btn-coral.disabled, .btn-coral:disabled {   background-color: #ff7f50;   border-color: #ff7f50; }
+.btn-coral:active, .btn-coral.active, .show > .btn-coral.dropdown-toggle {   background-color: #ff632a;   background-image: none;   border-color: #ff5a1d; }
+.btn-outline-coral {   color: #ff7f50;   background-color: transparent;   background-image: none;   border-color: #ff7f50; }
+.btn-outline-coral:hover {   color: #fff;   background-color: #ff7f50;   border-color: #ff7f50; }
+.btn-outline-coral:focus, .btn-outline-coral.focus {   box-shadow: 0 0 0 3px rgba(255, 127, 80, 0.5); }
+.btn-outline-coral.disabled, .btn-outline-coral:disabled {   color: #ff7f50;   background-color: transparent; }
+.btn-outline-coral:active, .btn-outline-coral.active, .show > .btn-outline-coral.dropdown-toggle {   color: #fff;   background-color: #ff7f50;   border-color: #ff7f50; }
+.badge-coral {   color: #111;   background-color: #ff7f50; }
+.badge-coral[href]:focus, .badge-coral[href]:hover {   color: #111;   text-decoration: none;   background-color: #ff5a1d; }
+.alert-coral {   color: #85422a;   background-color: #ffe5dc;   border-color: #ffdbce; }
+.alert-coral hr {   border-top-color: #ffc8b5; }
+.alert-coral .alert-link {   color: #5e2f1e; }
+.list-group-item-coral {   color: #85422a;   background-color: #ffdbce; }
+a.list-group-item-coral, button.list-group-item-coral {   color: #85422a; }
+a.list-group-item-coral:focus, a.list-group-item-coral:hover, button.list-group-item-coral:focus, button.list-group-item-coral:hover {   color: #85422a;   background-color: #ffc8b5; }
+a.list-group-item-coral.active, button.list-group-item-coral.active {   color: #fff;   background-color: #85422a;   border-color: #85422a; }
+.bg-coral {   background-color: #ff7f50 !important; }
+a.bg-coral:focus, a.bg-coral:hover {   background-color: #ff5a1d !important; }
+.border-coral {   border-color: #ff7f50 !important; }
+.text-coral {   color: #ff7f50 !important; }
+a.text-coral:focus, a.text-coral:hover {   color: #ff5a1d !important; }

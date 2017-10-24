@@ -1,0 +1,27 @@
+.table-amazon, .table-amazon > th, .table-amazon > td {   background-color: #ffe2b8; }
+.table-hover .table-amazon:hover {   background-color: #ffd89f; }
+.table-hover .table-amazon:hover > td, .table-hover .table-amazon:hover > th {   background-color: #ffd89f; }
+.btn-amazon {   color: #111;   background-color: #ff9900;   border-color: #ff9900; }
+.btn-amazon:hover {   color: #111;   background-color: #d98200;   border-color: #cc7a00; }
+.btn-amazon:focus, .btn-amazon.focus {   box-shadow: 0 0 0 3px rgba(255, 153, 0, 0.5); }
+.btn-amazon.disabled, .btn-amazon:disabled {   background-color: #ff9900;   border-color: #ff9900; }
+.btn-amazon:active, .btn-amazon.active, .show > .btn-amazon.dropdown-toggle {   background-color: #d98200;   background-image: none;   border-color: #cc7a00; }
+.btn-outline-amazon {   color: #ff9900;   background-color: transparent;   background-image: none;   border-color: #ff9900; }
+.btn-outline-amazon:hover {   color: #fff;   background-color: #ff9900;   border-color: #ff9900; }
+.btn-outline-amazon:focus, .btn-outline-amazon.focus {   box-shadow: 0 0 0 3px rgba(255, 153, 0, 0.5); }
+.btn-outline-amazon.disabled, .btn-outline-amazon:disabled {   color: #ff9900;   background-color: transparent; }
+.btn-outline-amazon:active, .btn-outline-amazon.active, .show > .btn-outline-amazon.dropdown-toggle {   color: #fff;   background-color: #ff9900;   border-color: #ff9900; }
+.badge-amazon {   color: #111;   background-color: #ff9900; }
+.badge-amazon[href]:focus, .badge-amazon[href]:hover {   color: #111;   text-decoration: none;   background-color: #cc7a00; }
+.alert-amazon {   color: #855000;   background-color: #ffebcc;   border-color: #ffe2b8; }
+.alert-amazon hr {   border-top-color: #ffd89f; }
+.alert-amazon .alert-link {   color: #523100; }
+.list-group-item-amazon {   color: #855000;   background-color: #ffe2b8; }
+a.list-group-item-amazon, button.list-group-item-amazon {   color: #855000; }
+a.list-group-item-amazon:focus, a.list-group-item-amazon:hover, button.list-group-item-amazon:focus, button.list-group-item-amazon:hover {   color: #855000;   background-color: #ffd89f; }
+a.list-group-item-amazon.active, button.list-group-item-amazon.active {   color: #fff;   background-color: #855000;   border-color: #855000; }
+.bg-amazon {   background-color: #ff9900 !important; }
+a.bg-amazon:focus, a.bg-amazon:hover {   background-color: #cc7a00 !important; }
+.border-amazon {   border-color: #ff9900 !important; }
+.text-amazon {   color: #ff9900 !important; }
+a.text-amazon:focus, a.text-amazon:hover {   color: #cc7a00 !important; }

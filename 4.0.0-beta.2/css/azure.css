@@ -1,0 +1,27 @@
+.table-azure, .table-azure > th, .table-azure > td {   background-color: #fbffff; }
+.table-hover .table-azure:hover {   background-color: #e2ffff; }
+.table-hover .table-azure:hover > td, .table-hover .table-azure:hover > th {   background-color: #e2ffff; }
+.btn-azure {   color: #111;   background-color: #f0ffff;   border-color: #f0ffff; }
+.btn-azure:hover {   color: #111;   background-color: #caffff;   border-color: #bdffff; }
+.btn-azure:focus, .btn-azure.focus {   box-shadow: 0 0 0 3px rgba(240, 255, 255, 0.5); }
+.btn-azure.disabled, .btn-azure:disabled {   background-color: #f0ffff;   border-color: #f0ffff; }
+.btn-azure:active, .btn-azure.active, .show > .btn-azure.dropdown-toggle {   background-color: #caffff;   background-image: none;   border-color: #bdffff; }
+.btn-outline-azure {   color: #f0ffff;   background-color: transparent;   background-image: none;   border-color: #f0ffff; }
+.btn-outline-azure:hover {   color: #fff;   background-color: #f0ffff;   border-color: #f0ffff; }
+.btn-outline-azure:focus, .btn-outline-azure.focus {   box-shadow: 0 0 0 3px rgba(240, 255, 255, 0.5); }
+.btn-outline-azure.disabled, .btn-outline-azure:disabled {   color: #f0ffff;   background-color: transparent; }
+.btn-outline-azure:active, .btn-outline-azure.active, .show > .btn-outline-azure.dropdown-toggle {   color: #fff;   background-color: #f0ffff;   border-color: #f0ffff; }
+.badge-azure {   color: #111;   background-color: #f0ffff; }
+.badge-azure[href]:focus, .badge-azure[href]:hover {   color: #111;   text-decoration: none;   background-color: #bdffff; }
+.alert-azure {   color: #7d8585;   background-color: #fcffff;   border-color: #fbffff; }
+.alert-azure hr {   border-top-color: #e2ffff; }
+.alert-azure .alert-link {   color: #646b6b; }
+.list-group-item-azure {   color: #7d8585;   background-color: #fbffff; }
+a.list-group-item-azure, button.list-group-item-azure {   color: #7d8585; }
+a.list-group-item-azure:focus, a.list-group-item-azure:hover, button.list-group-item-azure:focus, button.list-group-item-azure:hover {   color: #7d8585;   background-color: #e2ffff; }
+a.list-group-item-azure.active, button.list-group-item-azure.active {   color: #fff;   background-color: #7d8585;   border-color: #7d8585; }
+.bg-azure {   background-color: #f0ffff !important; }
+a.bg-azure:focus, a.bg-azure:hover {   background-color: #bdffff !important; }
+.border-azure {   border-color: #f0ffff !important; }
+.text-azure {   color: #f0ffff !important; }
+a.text-azure:focus, a.text-azure:hover {   color: #bdffff !important; }

@@ -1,0 +1,27 @@
+.table-seashell, .table-seashell > th, .table-seashell > td {   background-color: #fffcfa; }
+.table-hover .table-seashell:hover {   background-color: #ffede1; }
+.table-hover .table-seashell:hover > td, .table-hover .table-seashell:hover > th {   background-color: #ffede1; }
+.btn-seashell {   color: #111;   background-color: #fff5ee;   border-color: #fff5ee; }
+.btn-seashell:hover {   color: #111;   background-color: #ffdfc8;   border-color: #ffd7bb; }
+.btn-seashell:focus, .btn-seashell.focus {   box-shadow: 0 0 0 3px rgba(255, 245, 238, 0.5); }
+.btn-seashell.disabled, .btn-seashell:disabled {   background-color: #fff5ee;   border-color: #fff5ee; }
+.btn-seashell:active, .btn-seashell.active, .show > .btn-seashell.dropdown-toggle {   background-color: #ffdfc8;   background-image: none;   border-color: #ffd7bb; }
+.btn-outline-seashell {   color: #fff5ee;   background-color: transparent;   background-image: none;   border-color: #fff5ee; }
+.btn-outline-seashell:hover {   color: #fff;   background-color: #fff5ee;   border-color: #fff5ee; }
+.btn-outline-seashell:focus, .btn-outline-seashell.focus {   box-shadow: 0 0 0 3px rgba(255, 245, 238, 0.5); }
+.btn-outline-seashell.disabled, .btn-outline-seashell:disabled {   color: #fff5ee;   background-color: transparent; }
+.btn-outline-seashell:active, .btn-outline-seashell.active, .show > .btn-outline-seashell.dropdown-toggle {   color: #fff;   background-color: #fff5ee;   border-color: #fff5ee; }
+.badge-seashell {   color: #111;   background-color: #fff5ee; }
+.badge-seashell[href]:focus, .badge-seashell[href]:hover {   color: #111;   text-decoration: none;   background-color: #ffd7bb; }
+.alert-seashell {   color: #857f7c;   background-color: #fffdfc;   border-color: #fffcfa; }
+.alert-seashell hr {   border-top-color: #ffede1; }
+.alert-seashell .alert-link {   color: #6b6663; }
+.list-group-item-seashell {   color: #857f7c;   background-color: #fffcfa; }
+a.list-group-item-seashell, button.list-group-item-seashell {   color: #857f7c; }
+a.list-group-item-seashell:focus, a.list-group-item-seashell:hover, button.list-group-item-seashell:focus, button.list-group-item-seashell:hover {   color: #857f7c;   background-color: #ffede1; }
+a.list-group-item-seashell.active, button.list-group-item-seashell.active {   color: #fff;   background-color: #857f7c;   border-color: #857f7c; }
+.bg-seashell {   background-color: #fff5ee !important; }
+a.bg-seashell:focus, a.bg-seashell:hover {   background-color: #ffd7bb !important; }
+.border-seashell {   border-color: #fff5ee !important; }
+.text-seashell {   color: #fff5ee !important; }
+a.text-seashell:focus, a.text-seashell:hover {   color: #ffd7bb !important; }

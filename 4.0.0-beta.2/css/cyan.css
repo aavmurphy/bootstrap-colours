@@ -1,0 +1,27 @@
+.table-cyan, .table-cyan > th, .table-cyan > td {   background-color: #b8ffff; }
+.table-hover .table-cyan:hover {   background-color: #9fffff; }
+.table-hover .table-cyan:hover > td, .table-hover .table-cyan:hover > th {   background-color: #9fffff; }
+.btn-cyan {   color: #111;   background-color: #00ffff;   border-color: #00ffff; }
+.btn-cyan:hover {   color: #111;   background-color: #00d9d9;   border-color: #00cccc; }
+.btn-cyan:focus, .btn-cyan.focus {   box-shadow: 0 0 0 3px rgba(0, 255, 255, 0.5); }
+.btn-cyan.disabled, .btn-cyan:disabled {   background-color: #00ffff;   border-color: #00ffff; }
+.btn-cyan:active, .btn-cyan.active, .show > .btn-cyan.dropdown-toggle {   background-color: #00d9d9;   background-image: none;   border-color: #00cccc; }
+.btn-outline-cyan {   color: #00ffff;   background-color: transparent;   background-image: none;   border-color: #00ffff; }
+.btn-outline-cyan:hover {   color: #fff;   background-color: #00ffff;   border-color: #00ffff; }
+.btn-outline-cyan:focus, .btn-outline-cyan.focus {   box-shadow: 0 0 0 3px rgba(0, 255, 255, 0.5); }
+.btn-outline-cyan.disabled, .btn-outline-cyan:disabled {   color: #00ffff;   background-color: transparent; }
+.btn-outline-cyan:active, .btn-outline-cyan.active, .show > .btn-outline-cyan.dropdown-toggle {   color: #fff;   background-color: #00ffff;   border-color: #00ffff; }
+.badge-cyan {   color: #111;   background-color: #00ffff; }
+.badge-cyan[href]:focus, .badge-cyan[href]:hover {   color: #111;   text-decoration: none;   background-color: #00cccc; }
+.alert-cyan {   color: #008585;   background-color: #ccffff;   border-color: #b8ffff; }
+.alert-cyan hr {   border-top-color: #9fffff; }
+.alert-cyan .alert-link {   color: #005252; }
+.list-group-item-cyan {   color: #008585;   background-color: #b8ffff; }
+a.list-group-item-cyan, button.list-group-item-cyan {   color: #008585; }
+a.list-group-item-cyan:focus, a.list-group-item-cyan:hover, button.list-group-item-cyan:focus, button.list-group-item-cyan:hover {   color: #008585;   background-color: #9fffff; }
+a.list-group-item-cyan.active, button.list-group-item-cyan.active {   color: #fff;   background-color: #008585;   border-color: #008585; }
+.bg-cyan {   background-color: #00ffff !important; }
+a.bg-cyan:focus, a.bg-cyan:hover {   background-color: #00cccc !important; }
+.border-cyan {   border-color: #00ffff !important; }
+.text-cyan {   color: #00ffff !important; }
+a.text-cyan:focus, a.text-cyan:hover {   color: #00cccc !important; }

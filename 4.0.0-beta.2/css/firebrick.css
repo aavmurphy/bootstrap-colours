@@ -1,0 +1,27 @@
+.table-firebrick, .table-firebrick > th, .table-firebrick > td {   background-color: #e9c1c1; }
+.table-hover .table-firebrick:hover {   background-color: #e2aeae; }
+.table-hover .table-firebrick:hover > td, .table-hover .table-firebrick:hover > th {   background-color: #e2aeae; }
+.btn-firebrick {   color: #fff;   background-color: #b22222;   border-color: #b22222; }
+.btn-firebrick:hover {   color: #fff;   background-color: #921c1c;   border-color: #871a1a; }
+.btn-firebrick:focus, .btn-firebrick.focus {   box-shadow: 0 0 0 3px rgba(178, 34, 34, 0.5); }
+.btn-firebrick.disabled, .btn-firebrick:disabled {   background-color: #b22222;   border-color: #b22222; }
+.btn-firebrick:active, .btn-firebrick.active, .show > .btn-firebrick.dropdown-toggle {   background-color: #921c1c;   background-image: none;   border-color: #871a1a; }
+.btn-outline-firebrick {   color: #b22222;   background-color: transparent;   background-image: none;   border-color: #b22222; }
+.btn-outline-firebrick:hover {   color: #fff;   background-color: #b22222;   border-color: #b22222; }
+.btn-outline-firebrick:focus, .btn-outline-firebrick.focus {   box-shadow: 0 0 0 3px rgba(178, 34, 34, 0.5); }
+.btn-outline-firebrick.disabled, .btn-outline-firebrick:disabled {   color: #b22222;   background-color: transparent; }
+.btn-outline-firebrick:active, .btn-outline-firebrick.active, .show > .btn-outline-firebrick.dropdown-toggle {   color: #fff;   background-color: #b22222;   border-color: #b22222; }
+.badge-firebrick {   color: #fff;   background-color: #b22222; }
+.badge-firebrick[href]:focus, .badge-firebrick[href]:hover {   color: #fff;   text-decoration: none;   background-color: #871a1a; }
+.alert-firebrick {   color: #5d1212;   background-color: #f0d3d3;   border-color: #e9c1c1; }
+.alert-firebrick hr {   border-top-color: #e2aeae; }
+.alert-firebrick .alert-link {   color: #320a0a; }
+.list-group-item-firebrick {   color: #5d1212;   background-color: #e9c1c1; }
+a.list-group-item-firebrick, button.list-group-item-firebrick {   color: #5d1212; }
+a.list-group-item-firebrick:focus, a.list-group-item-firebrick:hover, button.list-group-item-firebrick:focus, button.list-group-item-firebrick:hover {   color: #5d1212;   background-color: #e2aeae; }
+a.list-group-item-firebrick.active, button.list-group-item-firebrick.active {   color: #fff;   background-color: #5d1212;   border-color: #5d1212; }
+.bg-firebrick {   background-color: #b22222 !important; }
+a.bg-firebrick:focus, a.bg-firebrick:hover {   background-color: #871a1a !important; }
+.border-firebrick {   border-color: #b22222 !important; }
+.text-firebrick {   color: #b22222 !important; }
+a.text-firebrick:focus, a.text-firebrick:hover {   color: #871a1a !important; }

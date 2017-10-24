@@ -1,0 +1,54 @@
+.table-blue, .table-blue > th, .table-blue > td {   background-color: #b8b8ff; }
+.table-hover .table-blue:hover {   background-color: #9f9fff; }
+.table-hover .table-blue:hover > td, .table-hover .table-blue:hover > th {   background-color: #9f9fff; }
+.table-flickr-blue, .table-flickr-blue > th, .table-flickr-blue > td {   background-color: #b8d3f5; }
+.table-hover .table-flickr-blue:hover {   background-color: #a2c5f2; }
+.table-hover .table-flickr-blue:hover > td, .table-hover .table-flickr-blue:hover > th {   background-color: #a2c5f2; }
+.btn-blue {   color: #fff;   background-color: #0000ff;   border-color: #0000ff; }
+.btn-blue:hover {   color: #fff;   background-color: #0000d9;   border-color: #0000cc; }
+.btn-blue:focus, .btn-blue.focus {   box-shadow: 0 0 0 3px rgba(0, 0, 255, 0.5); }
+.btn-blue.disabled, .btn-blue:disabled {   background-color: #0000ff;   border-color: #0000ff; }
+.btn-blue:active, .btn-blue.active, .show > .btn-blue.dropdown-toggle {   background-color: #0000d9;   background-image: none;   border-color: #0000cc; }
+.btn-flickr-blue {   color: #fff;   background-color: #0063dc;   border-color: #0063dc; }
+.btn-flickr-blue:hover {   color: #fff;   background-color: #0052b6;   border-color: #004ca9; }
+.btn-flickr-blue:focus, .btn-flickr-blue.focus {   box-shadow: 0 0 0 3px rgba(0, 99, 220, 0.5); }
+.btn-flickr-blue.disabled, .btn-flickr-blue:disabled {   background-color: #0063dc;   border-color: #0063dc; }
+.btn-flickr-blue:active, .btn-flickr-blue.active, .show > .btn-flickr-blue.dropdown-toggle {   background-color: #0052b6;   background-image: none;   border-color: #004ca9; }
+.btn-outline-blue {   color: #0000ff;   background-color: transparent;   background-image: none;   border-color: #0000ff; }
+.btn-outline-blue:hover {   color: #fff;   background-color: #0000ff;   border-color: #0000ff; }
+.btn-outline-blue:focus, .btn-outline-blue.focus {   box-shadow: 0 0 0 3px rgba(0, 0, 255, 0.5); }
+.btn-outline-blue.disabled, .btn-outline-blue:disabled {   color: #0000ff;   background-color: transparent; }
+.btn-outline-blue:active, .btn-outline-blue.active, .show > .btn-outline-blue.dropdown-toggle {   color: #fff;   background-color: #0000ff;   border-color: #0000ff; }
+.btn-outline-flickr-blue {   color: #0063dc;   background-color: transparent;   background-image: none;   border-color: #0063dc; }
+.btn-outline-flickr-blue:hover {   color: #fff;   background-color: #0063dc;   border-color: #0063dc; }
+.btn-outline-flickr-blue:focus, .btn-outline-flickr-blue.focus {   box-shadow: 0 0 0 3px rgba(0, 99, 220, 0.5); }
+.btn-outline-flickr-blue.disabled, .btn-outline-flickr-blue:disabled {   color: #0063dc;   background-color: transparent; }
+.btn-outline-flickr-blue:active, .btn-outline-flickr-blue.active, .show > .btn-outline-flickr-blue.dropdown-toggle {   color: #fff;   background-color: #0063dc;   border-color: #0063dc; }
+.badge-blue {   color: #fff;   background-color: #0000ff; }
+.badge-blue[href]:focus, .badge-blue[href]:hover {   color: #fff;   text-decoration: none;   background-color: #0000cc; }
+.badge-flickr-blue {   color: #fff;   background-color: #0063dc; }
+.badge-flickr-blue[href]:focus, .badge-flickr-blue[href]:hover {   color: #fff;   text-decoration: none;   background-color: #004ca9; }
+.alert-blue {   color: #000085;   background-color: #ccccff;   border-color: #b8b8ff; }
+.alert-blue hr {   border-top-color: #9f9fff; }
+.alert-blue .alert-link {   color: #000052; }
+.alert-flickr-blue {   color: #003372;   background-color: #cce0f8;   border-color: #b8d3f5; }
+.alert-flickr-blue hr {   border-top-color: #a2c5f2; }
+.alert-flickr-blue .alert-link {   color: #001c3f; }
+.list-group-item-blue {   color: #000085;   background-color: #b8b8ff; }
+a.list-group-item-blue, button.list-group-item-blue {   color: #000085; }
+a.list-group-item-blue:focus, a.list-group-item-blue:hover, button.list-group-item-blue:focus, button.list-group-item-blue:hover {   color: #000085;   background-color: #9f9fff; }
+a.list-group-item-blue.active, button.list-group-item-blue.active {   color: #fff;   background-color: #000085;   border-color: #000085; }
+.list-group-item-flickr-blue {   color: #003372;   background-color: #b8d3f5; }
+a.list-group-item-flickr-blue, button.list-group-item-flickr-blue {   color: #003372; }
+a.list-group-item-flickr-blue:focus, a.list-group-item-flickr-blue:hover, button.list-group-item-flickr-blue:focus, button.list-group-item-flickr-blue:hover {   color: #003372;   background-color: #a2c5f2; }
+a.list-group-item-flickr-blue.active, button.list-group-item-flickr-blue.active {   color: #fff;   background-color: #003372;   border-color: #003372; }
+.bg-blue {   background-color: #0000ff !important; }
+a.bg-blue:focus, a.bg-blue:hover {   background-color: #0000cc !important; }
+.bg-flickr-blue {   background-color: #0063dc !important; }
+a.bg-flickr-blue:focus, a.bg-flickr-blue:hover {   background-color: #004ca9 !important; }
+.border-blue {   border-color: #0000ff !important; }
+.border-flickr-blue {   border-color: #0063dc !important; }
+.text-blue {   color: #0000ff !important; }
+a.text-blue:focus, a.text-blue:hover {   color: #0000cc !important; }
+.text-flickr-blue {   color: #0063dc !important; }
+a.text-flickr-blue:focus, a.text-flickr-blue:hover {   color: #004ca9 !important; }
