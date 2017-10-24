@@ -47,4 +47,4 @@ There are 3 groups of colours
 
 The complete list is in (colours.yaml)[colours.yaml]
 
-You can see the colours (and their class names) in action at https://www.walkingclub.org.uk/test/bootstrap_colours.html
+You can see the colours (and their class names) in action at https://www.walkingclub.org.uk/test/bootstrap.html
