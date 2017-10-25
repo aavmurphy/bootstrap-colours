@@ -3,14 +3,14 @@
 .table-hover .table-limegreen:hover > td, .table-hover .table-limegreen:hover > th {   background-color: #b2ecb2; }
 .btn-limegreen {   color: #fff;   background-color: #32cd32;   border-color: #32cd32; }
 .btn-limegreen:hover {   color: #fff;   background-color: #2bae2b;   border-color: #28a428; }
-.btn-limegreen:focus, .btn-limegreen.focus {   box-shadow: 0 0 0 3px rgba(50, 205, 50, 0.5); }
+.btn-limegreen:focus, .btn-limegreen.focus {   box-shadow: 0 0 0 0.2rem rgba(50, 205, 50, 0.5); }
 .btn-limegreen.disabled, .btn-limegreen:disabled {   background-color: #32cd32;   border-color: #32cd32; }
-.btn-limegreen:active, .btn-limegreen.active, .show > .btn-limegreen.dropdown-toggle {   background-color: #2bae2b;   background-image: none;   border-color: #28a428; }
+.btn-limegreen:not([disabled]):not(.disabled):active, .btn-limegreen:not([disabled]):not(.disabled).active, .show > .btn-limegreen.dropdown-toggle {   color: #fff;   background-color: #28a428;   border-color: #269a26;   box-shadow: 0 0 0 0.2rem rgba(50, 205, 50, 0.5); }
 .btn-outline-limegreen {   color: #32cd32;   background-color: transparent;   background-image: none;   border-color: #32cd32; }
 .btn-outline-limegreen:hover {   color: #fff;   background-color: #32cd32;   border-color: #32cd32; }
-.btn-outline-limegreen:focus, .btn-outline-limegreen.focus {   box-shadow: 0 0 0 3px rgba(50, 205, 50, 0.5); }
+.btn-outline-limegreen:focus, .btn-outline-limegreen.focus {   box-shadow: 0 0 0 0.2rem rgba(50, 205, 50, 0.5); }
 .btn-outline-limegreen.disabled, .btn-outline-limegreen:disabled {   color: #32cd32;   background-color: transparent; }
-.btn-outline-limegreen:active, .btn-outline-limegreen.active, .show > .btn-outline-limegreen.dropdown-toggle {   color: #fff;   background-color: #32cd32;   border-color: #32cd32; }
+.btn-outline-limegreen:not([disabled]):not(.disabled):active, .btn-outline-limegreen:not([disabled]):not(.disabled).active, .show > .btn-outline-limegreen.dropdown-toggle {   color: #fff;   background-color: #32cd32;   border-color: #32cd32;   box-shadow: 0 0 0 0.2rem rgba(50, 205, 50, 0.5); }
 .badge-limegreen {   color: #fff;   background-color: #32cd32; }
 .badge-limegreen[href]:focus, .badge-limegreen[href]:hover {   color: #fff;   text-decoration: none;   background-color: #28a428; }
 .alert-limegreen {   color: #1a6b1a;   background-color: #d6f5d6;   border-color: #c6f1c6; }

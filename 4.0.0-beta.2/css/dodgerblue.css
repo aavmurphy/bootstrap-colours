@@ -3,14 +3,14 @@
 .table-hover .table-dodgerblue:hover > td, .table-hover .table-dodgerblue:hover > th {   background-color: #a7d3ff; }
 .btn-dodgerblue {   color: #fff;   background-color: #1e90ff;   border-color: #1e90ff; }
 .btn-dodgerblue:hover {   color: #fff;   background-color: #007df7;   border-color: #0077ea; }
-.btn-dodgerblue:focus, .btn-dodgerblue.focus {   box-shadow: 0 0 0 3px rgba(30, 144, 255, 0.5); }
+.btn-dodgerblue:focus, .btn-dodgerblue.focus {   box-shadow: 0 0 0 0.2rem rgba(30, 144, 255, 0.5); }
 .btn-dodgerblue.disabled, .btn-dodgerblue:disabled {   background-color: #1e90ff;   border-color: #1e90ff; }
-.btn-dodgerblue:active, .btn-dodgerblue.active, .show > .btn-dodgerblue.dropdown-toggle {   background-color: #007df7;   background-image: none;   border-color: #0077ea; }
+.btn-dodgerblue:not([disabled]):not(.disabled):active, .btn-dodgerblue:not([disabled]):not(.disabled).active, .show > .btn-dodgerblue.dropdown-toggle {   color: #fff;   background-color: #0077ea;   border-color: #0070dd;   box-shadow: 0 0 0 0.2rem rgba(30, 144, 255, 0.5); }
 .btn-outline-dodgerblue {   color: #1e90ff;   background-color: transparent;   background-image: none;   border-color: #1e90ff; }
 .btn-outline-dodgerblue:hover {   color: #fff;   background-color: #1e90ff;   border-color: #1e90ff; }
-.btn-outline-dodgerblue:focus, .btn-outline-dodgerblue.focus {   box-shadow: 0 0 0 3px rgba(30, 144, 255, 0.5); }
+.btn-outline-dodgerblue:focus, .btn-outline-dodgerblue.focus {   box-shadow: 0 0 0 0.2rem rgba(30, 144, 255, 0.5); }
 .btn-outline-dodgerblue.disabled, .btn-outline-dodgerblue:disabled {   color: #1e90ff;   background-color: transparent; }
-.btn-outline-dodgerblue:active, .btn-outline-dodgerblue.active, .show > .btn-outline-dodgerblue.dropdown-toggle {   color: #fff;   background-color: #1e90ff;   border-color: #1e90ff; }
+.btn-outline-dodgerblue:not([disabled]):not(.disabled):active, .btn-outline-dodgerblue:not([disabled]):not(.disabled).active, .show > .btn-outline-dodgerblue.dropdown-toggle {   color: #fff;   background-color: #1e90ff;   border-color: #1e90ff;   box-shadow: 0 0 0 0.2rem rgba(30, 144, 255, 0.5); }
 .badge-dodgerblue {   color: #fff;   background-color: #1e90ff; }
 .badge-dodgerblue[href]:focus, .badge-dodgerblue[href]:hover {   color: #fff;   text-decoration: none;   background-color: #0077ea; }
 .alert-dodgerblue {   color: #104b85;   background-color: #d2e9ff;   border-color: #c0e0ff; }

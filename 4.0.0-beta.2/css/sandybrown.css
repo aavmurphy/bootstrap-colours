@@ -3,14 +3,14 @@
 .table-hover .table-sandybrown:hover > td, .table-hover .table-sandybrown:hover > th {   background-color: #fad9ba; }
 .btn-sandybrown {   color: #111;   background-color: #f4a460;   border-color: #f4a460; }
 .btn-sandybrown:hover {   color: #111;   background-color: #f2903c;   border-color: #f18930; }
-.btn-sandybrown:focus, .btn-sandybrown.focus {   box-shadow: 0 0 0 3px rgba(244, 164, 96, 0.5); }
+.btn-sandybrown:focus, .btn-sandybrown.focus {   box-shadow: 0 0 0 0.2rem rgba(244, 164, 96, 0.5); }
 .btn-sandybrown.disabled, .btn-sandybrown:disabled {   background-color: #f4a460;   border-color: #f4a460; }
-.btn-sandybrown:active, .btn-sandybrown.active, .show > .btn-sandybrown.dropdown-toggle {   background-color: #f2903c;   background-image: none;   border-color: #f18930; }
+.btn-sandybrown:not([disabled]):not(.disabled):active, .btn-sandybrown:not([disabled]):not(.disabled).active, .show > .btn-sandybrown.dropdown-toggle {   color: #111;   background-color: #f18930;   border-color: #f08224;   box-shadow: 0 0 0 0.2rem rgba(244, 164, 96, 0.5); }
 .btn-outline-sandybrown {   color: #f4a460;   background-color: transparent;   background-image: none;   border-color: #f4a460; }
 .btn-outline-sandybrown:hover {   color: #fff;   background-color: #f4a460;   border-color: #f4a460; }
-.btn-outline-sandybrown:focus, .btn-outline-sandybrown.focus {   box-shadow: 0 0 0 3px rgba(244, 164, 96, 0.5); }
+.btn-outline-sandybrown:focus, .btn-outline-sandybrown.focus {   box-shadow: 0 0 0 0.2rem rgba(244, 164, 96, 0.5); }
 .btn-outline-sandybrown.disabled, .btn-outline-sandybrown:disabled {   color: #f4a460;   background-color: transparent; }
-.btn-outline-sandybrown:active, .btn-outline-sandybrown.active, .show > .btn-outline-sandybrown.dropdown-toggle {   color: #fff;   background-color: #f4a460;   border-color: #f4a460; }
+.btn-outline-sandybrown:not([disabled]):not(.disabled):active, .btn-outline-sandybrown:not([disabled]):not(.disabled).active, .show > .btn-outline-sandybrown.dropdown-toggle {   color: #fff;   background-color: #f4a460;   border-color: #f4a460;   box-shadow: 0 0 0 0.2rem rgba(244, 164, 96, 0.5); }
 .badge-sandybrown {   color: #111;   background-color: #f4a460; }
 .badge-sandybrown[href]:focus, .badge-sandybrown[href]:hover {   color: #111;   text-decoration: none;   background-color: #f18930; }
 .alert-sandybrown {   color: #7f5532;   background-color: #fdeddf;   border-color: #fce6d2; }

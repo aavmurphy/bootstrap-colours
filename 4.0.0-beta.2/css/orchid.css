@@ -2,15 +2,15 @@
 .table-hover .table-orchid:hover {   background-color: #f0c3ee; }
 .table-hover .table-orchid:hover > td, .table-hover .table-orchid:hover > th {   background-color: #f0c3ee; }
 .btn-orchid {   color: #111;   background-color: #da70d6;   border-color: #da70d6; }
-.btn-orchid:hover {   color: #111;   background-color: #d252cd;   border-color: #d047ca; }
-.btn-orchid:focus, .btn-orchid.focus {   box-shadow: 0 0 0 3px rgba(218, 112, 214, 0.5); }
+.btn-orchid:hover {   color: #fff;   background-color: #d252cd;   border-color: #d047ca; }
+.btn-orchid:focus, .btn-orchid.focus {   box-shadow: 0 0 0 0.2rem rgba(218, 112, 214, 0.5); }
 .btn-orchid.disabled, .btn-orchid:disabled {   background-color: #da70d6;   border-color: #da70d6; }
-.btn-orchid:active, .btn-orchid.active, .show > .btn-orchid.dropdown-toggle {   background-color: #d252cd;   background-image: none;   border-color: #d047ca; }
+.btn-orchid:not([disabled]):not(.disabled):active, .btn-orchid:not([disabled]):not(.disabled).active, .show > .btn-orchid.dropdown-toggle {   color: #fff;   background-color: #d047ca;   border-color: #cd3dc7;   box-shadow: 0 0 0 0.2rem rgba(218, 112, 214, 0.5); }
 .btn-outline-orchid {   color: #da70d6;   background-color: transparent;   background-image: none;   border-color: #da70d6; }
 .btn-outline-orchid:hover {   color: #fff;   background-color: #da70d6;   border-color: #da70d6; }
-.btn-outline-orchid:focus, .btn-outline-orchid.focus {   box-shadow: 0 0 0 3px rgba(218, 112, 214, 0.5); }
+.btn-outline-orchid:focus, .btn-outline-orchid.focus {   box-shadow: 0 0 0 0.2rem rgba(218, 112, 214, 0.5); }
 .btn-outline-orchid.disabled, .btn-outline-orchid:disabled {   color: #da70d6;   background-color: transparent; }
-.btn-outline-orchid:active, .btn-outline-orchid.active, .show > .btn-outline-orchid.dropdown-toggle {   color: #fff;   background-color: #da70d6;   border-color: #da70d6; }
+.btn-outline-orchid:not([disabled]):not(.disabled):active, .btn-outline-orchid:not([disabled]):not(.disabled).active, .show > .btn-outline-orchid.dropdown-toggle {   color: #fff;   background-color: #da70d6;   border-color: #da70d6;   box-shadow: 0 0 0 0.2rem rgba(218, 112, 214, 0.5); }
 .badge-orchid {   color: #111;   background-color: #da70d6; }
 .badge-orchid[href]:focus, .badge-orchid[href]:hover {   color: #111;   text-decoration: none;   background-color: #d047ca; }
 .alert-orchid {   color: #713a6f;   background-color: #f8e2f7;   border-color: #f5d7f4; }

@@ -3,14 +3,14 @@
 .table-hover .table-fuchsia:hover > td, .table-hover .table-fuchsia:hover > th {   background-color: #ff9fff; }
 .btn-fuchsia {   color: #fff;   background-color: #ff00ff;   border-color: #ff00ff; }
 .btn-fuchsia:hover {   color: #fff;   background-color: #d900d9;   border-color: #cc00cc; }
-.btn-fuchsia:focus, .btn-fuchsia.focus {   box-shadow: 0 0 0 3px rgba(255, 0, 255, 0.5); }
+.btn-fuchsia:focus, .btn-fuchsia.focus {   box-shadow: 0 0 0 0.2rem rgba(255, 0, 255, 0.5); }
 .btn-fuchsia.disabled, .btn-fuchsia:disabled {   background-color: #ff00ff;   border-color: #ff00ff; }
-.btn-fuchsia:active, .btn-fuchsia.active, .show > .btn-fuchsia.dropdown-toggle {   background-color: #d900d9;   background-image: none;   border-color: #cc00cc; }
+.btn-fuchsia:not([disabled]):not(.disabled):active, .btn-fuchsia:not([disabled]):not(.disabled).active, .show > .btn-fuchsia.dropdown-toggle {   color: #fff;   background-color: #cc00cc;   border-color: #bf00bf;   box-shadow: 0 0 0 0.2rem rgba(255, 0, 255, 0.5); }
 .btn-outline-fuchsia {   color: #ff00ff;   background-color: transparent;   background-image: none;   border-color: #ff00ff; }
 .btn-outline-fuchsia:hover {   color: #fff;   background-color: #ff00ff;   border-color: #ff00ff; }
-.btn-outline-fuchsia:focus, .btn-outline-fuchsia.focus {   box-shadow: 0 0 0 3px rgba(255, 0, 255, 0.5); }
+.btn-outline-fuchsia:focus, .btn-outline-fuchsia.focus {   box-shadow: 0 0 0 0.2rem rgba(255, 0, 255, 0.5); }
 .btn-outline-fuchsia.disabled, .btn-outline-fuchsia:disabled {   color: #ff00ff;   background-color: transparent; }
-.btn-outline-fuchsia:active, .btn-outline-fuchsia.active, .show > .btn-outline-fuchsia.dropdown-toggle {   color: #fff;   background-color: #ff00ff;   border-color: #ff00ff; }
+.btn-outline-fuchsia:not([disabled]):not(.disabled):active, .btn-outline-fuchsia:not([disabled]):not(.disabled).active, .show > .btn-outline-fuchsia.dropdown-toggle {   color: #fff;   background-color: #ff00ff;   border-color: #ff00ff;   box-shadow: 0 0 0 0.2rem rgba(255, 0, 255, 0.5); }
 .badge-fuchsia {   color: #fff;   background-color: #ff00ff; }
 .badge-fuchsia[href]:focus, .badge-fuchsia[href]:hover {   color: #fff;   text-decoration: none;   background-color: #cc00cc; }
 .alert-fuchsia {   color: #850085;   background-color: #ffccff;   border-color: #ffb8ff; }

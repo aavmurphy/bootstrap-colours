@@ -3,14 +3,14 @@
 .table-hover .table-honeydew:hover > td, .table-hover .table-honeydew:hover > th {   background-color: #e2ffe2; }
 .btn-honeydew {   color: #111;   background-color: #f0fff0;   border-color: #f0fff0; }
 .btn-honeydew:hover {   color: #111;   background-color: #caffca;   border-color: #bdffbd; }
-.btn-honeydew:focus, .btn-honeydew.focus {   box-shadow: 0 0 0 3px rgba(240, 255, 240, 0.5); }
+.btn-honeydew:focus, .btn-honeydew.focus {   box-shadow: 0 0 0 0.2rem rgba(240, 255, 240, 0.5); }
 .btn-honeydew.disabled, .btn-honeydew:disabled {   background-color: #f0fff0;   border-color: #f0fff0; }
-.btn-honeydew:active, .btn-honeydew.active, .show > .btn-honeydew.dropdown-toggle {   background-color: #caffca;   background-image: none;   border-color: #bdffbd; }
+.btn-honeydew:not([disabled]):not(.disabled):active, .btn-honeydew:not([disabled]):not(.disabled).active, .show > .btn-honeydew.dropdown-toggle {   color: #111;   background-color: #bdffbd;   border-color: #b0ffb0;   box-shadow: 0 0 0 0.2rem rgba(240, 255, 240, 0.5); }
 .btn-outline-honeydew {   color: #f0fff0;   background-color: transparent;   background-image: none;   border-color: #f0fff0; }
 .btn-outline-honeydew:hover {   color: #fff;   background-color: #f0fff0;   border-color: #f0fff0; }
-.btn-outline-honeydew:focus, .btn-outline-honeydew.focus {   box-shadow: 0 0 0 3px rgba(240, 255, 240, 0.5); }
+.btn-outline-honeydew:focus, .btn-outline-honeydew.focus {   box-shadow: 0 0 0 0.2rem rgba(240, 255, 240, 0.5); }
 .btn-outline-honeydew.disabled, .btn-outline-honeydew:disabled {   color: #f0fff0;   background-color: transparent; }
-.btn-outline-honeydew:active, .btn-outline-honeydew.active, .show > .btn-outline-honeydew.dropdown-toggle {   color: #fff;   background-color: #f0fff0;   border-color: #f0fff0; }
+.btn-outline-honeydew:not([disabled]):not(.disabled):active, .btn-outline-honeydew:not([disabled]):not(.disabled).active, .show > .btn-outline-honeydew.dropdown-toggle {   color: #fff;   background-color: #f0fff0;   border-color: #f0fff0;   box-shadow: 0 0 0 0.2rem rgba(240, 255, 240, 0.5); }
 .badge-honeydew {   color: #111;   background-color: #f0fff0; }
 .badge-honeydew[href]:focus, .badge-honeydew[href]:hover {   color: #111;   text-decoration: none;   background-color: #bdffbd; }
 .alert-honeydew {   color: #7d857d;   background-color: #fcfffc;   border-color: #fbfffb; }

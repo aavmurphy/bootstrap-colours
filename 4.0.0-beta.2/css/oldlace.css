@@ -3,14 +3,14 @@
 .table-hover .table-oldlace:hover > td, .table-hover .table-oldlace:hover > th {   background-color: #fbf2e2; }
 .btn-oldlace {   color: #111;   background-color: #fdf5e6;   border-color: #fdf5e6; }
 .btn-oldlace:hover {   color: #111;   background-color: #fae7c3;   border-color: #f9e2b7; }
-.btn-oldlace:focus, .btn-oldlace.focus {   box-shadow: 0 0 0 3px rgba(253, 245, 230, 0.5); }
+.btn-oldlace:focus, .btn-oldlace.focus {   box-shadow: 0 0 0 0.2rem rgba(253, 245, 230, 0.5); }
 .btn-oldlace.disabled, .btn-oldlace:disabled {   background-color: #fdf5e6;   border-color: #fdf5e6; }
-.btn-oldlace:active, .btn-oldlace.active, .show > .btn-oldlace.dropdown-toggle {   background-color: #fae7c3;   background-image: none;   border-color: #f9e2b7; }
+.btn-oldlace:not([disabled]):not(.disabled):active, .btn-oldlace:not([disabled]):not(.disabled).active, .show > .btn-oldlace.dropdown-toggle {   color: #111;   background-color: #f9e2b7;   border-color: #f8ddab;   box-shadow: 0 0 0 0.2rem rgba(253, 245, 230, 0.5); }
 .btn-outline-oldlace {   color: #fdf5e6;   background-color: transparent;   background-image: none;   border-color: #fdf5e6; }
 .btn-outline-oldlace:hover {   color: #fff;   background-color: #fdf5e6;   border-color: #fdf5e6; }
-.btn-outline-oldlace:focus, .btn-outline-oldlace.focus {   box-shadow: 0 0 0 3px rgba(253, 245, 230, 0.5); }
+.btn-outline-oldlace:focus, .btn-outline-oldlace.focus {   box-shadow: 0 0 0 0.2rem rgba(253, 245, 230, 0.5); }
 .btn-outline-oldlace.disabled, .btn-outline-oldlace:disabled {   color: #fdf5e6;   background-color: transparent; }
-.btn-outline-oldlace:active, .btn-outline-oldlace.active, .show > .btn-outline-oldlace.dropdown-toggle {   color: #fff;   background-color: #fdf5e6;   border-color: #fdf5e6; }
+.btn-outline-oldlace:not([disabled]):not(.disabled):active, .btn-outline-oldlace:not([disabled]):not(.disabled).active, .show > .btn-outline-oldlace.dropdown-toggle {   color: #fff;   background-color: #fdf5e6;   border-color: #fdf5e6;   box-shadow: 0 0 0 0.2rem rgba(253, 245, 230, 0.5); }
 .badge-oldlace {   color: #111;   background-color: #fdf5e6; }
 .badge-oldlace[href]:focus, .badge-oldlace[href]:hover {   color: #111;   text-decoration: none;   background-color: #f9e2b7; }
 .alert-oldlace {   color: #847f78;   background-color: #fffdfa;   border-color: #fefcf8; }

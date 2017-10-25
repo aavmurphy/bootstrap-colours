@@ -3,14 +3,14 @@
 .table-hover .table-mediumseagreen:hover > td, .table-hover .table-mediumseagreen:hover > th {   background-color: #b6e3ca; }
 .btn-mediumseagreen {   color: #fff;   background-color: #3cb371;   border-color: #3cb371; }
 .btn-mediumseagreen:hover {   color: #fff;   background-color: #32965f;   border-color: #2f8d59; }
-.btn-mediumseagreen:focus, .btn-mediumseagreen.focus {   box-shadow: 0 0 0 3px rgba(60, 179, 113, 0.5); }
+.btn-mediumseagreen:focus, .btn-mediumseagreen.focus {   box-shadow: 0 0 0 0.2rem rgba(60, 179, 113, 0.5); }
 .btn-mediumseagreen.disabled, .btn-mediumseagreen:disabled {   background-color: #3cb371;   border-color: #3cb371; }
-.btn-mediumseagreen:active, .btn-mediumseagreen.active, .show > .btn-mediumseagreen.dropdown-toggle {   background-color: #32965f;   background-image: none;   border-color: #2f8d59; }
+.btn-mediumseagreen:not([disabled]):not(.disabled):active, .btn-mediumseagreen:not([disabled]):not(.disabled).active, .show > .btn-mediumseagreen.dropdown-toggle {   color: #fff;   background-color: #2f8d59;   border-color: #2c8353;   box-shadow: 0 0 0 0.2rem rgba(60, 179, 113, 0.5); }
 .btn-outline-mediumseagreen {   color: #3cb371;   background-color: transparent;   background-image: none;   border-color: #3cb371; }
 .btn-outline-mediumseagreen:hover {   color: #fff;   background-color: #3cb371;   border-color: #3cb371; }
-.btn-outline-mediumseagreen:focus, .btn-outline-mediumseagreen.focus {   box-shadow: 0 0 0 3px rgba(60, 179, 113, 0.5); }
+.btn-outline-mediumseagreen:focus, .btn-outline-mediumseagreen.focus {   box-shadow: 0 0 0 0.2rem rgba(60, 179, 113, 0.5); }
 .btn-outline-mediumseagreen.disabled, .btn-outline-mediumseagreen:disabled {   color: #3cb371;   background-color: transparent; }
-.btn-outline-mediumseagreen:active, .btn-outline-mediumseagreen.active, .show > .btn-outline-mediumseagreen.dropdown-toggle {   color: #fff;   background-color: #3cb371;   border-color: #3cb371; }
+.btn-outline-mediumseagreen:not([disabled]):not(.disabled):active, .btn-outline-mediumseagreen:not([disabled]):not(.disabled).active, .show > .btn-outline-mediumseagreen.dropdown-toggle {   color: #fff;   background-color: #3cb371;   border-color: #3cb371;   box-shadow: 0 0 0 0.2rem rgba(60, 179, 113, 0.5); }
 .badge-mediumseagreen {   color: #fff;   background-color: #3cb371; }
 .badge-mediumseagreen[href]:focus, .badge-mediumseagreen[href]:hover {   color: #fff;   text-decoration: none;   background-color: #2f8d59; }
 .alert-mediumseagreen {   color: #1f5d3b;   background-color: #d8f0e3;   border-color: #c8ead7; }

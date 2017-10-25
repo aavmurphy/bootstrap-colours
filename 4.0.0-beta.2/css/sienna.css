@@ -3,14 +3,14 @@
 .table-hover .table-sienna:hover > td, .table-hover .table-sienna:hover > th {   background-color: #dcc1b3; }
 .btn-sienna {   color: #fff;   background-color: #a0522d;   border-color: #a0522d; }
 .btn-sienna:hover {   color: #fff;   background-color: #824325;   border-color: #783e22; }
-.btn-sienna:focus, .btn-sienna.focus {   box-shadow: 0 0 0 3px rgba(160, 82, 45, 0.5); }
+.btn-sienna:focus, .btn-sienna.focus {   box-shadow: 0 0 0 0.2rem rgba(160, 82, 45, 0.5); }
 .btn-sienna.disabled, .btn-sienna:disabled {   background-color: #a0522d;   border-color: #a0522d; }
-.btn-sienna:active, .btn-sienna.active, .show > .btn-sienna.dropdown-toggle {   background-color: #824325;   background-image: none;   border-color: #783e22; }
+.btn-sienna:not([disabled]):not(.disabled):active, .btn-sienna:not([disabled]):not(.disabled).active, .show > .btn-sienna.dropdown-toggle {   color: #fff;   background-color: #783e22;   border-color: #6e391f;   box-shadow: 0 0 0 0.2rem rgba(160, 82, 45, 0.5); }
 .btn-outline-sienna {   color: #a0522d;   background-color: transparent;   background-image: none;   border-color: #a0522d; }
 .btn-outline-sienna:hover {   color: #fff;   background-color: #a0522d;   border-color: #a0522d; }
-.btn-outline-sienna:focus, .btn-outline-sienna.focus {   box-shadow: 0 0 0 3px rgba(160, 82, 45, 0.5); }
+.btn-outline-sienna:focus, .btn-outline-sienna.focus {   box-shadow: 0 0 0 0.2rem rgba(160, 82, 45, 0.5); }
 .btn-outline-sienna.disabled, .btn-outline-sienna:disabled {   color: #a0522d;   background-color: transparent; }
-.btn-outline-sienna:active, .btn-outline-sienna.active, .show > .btn-outline-sienna.dropdown-toggle {   color: #fff;   background-color: #a0522d;   border-color: #a0522d; }
+.btn-outline-sienna:not([disabled]):not(.disabled):active, .btn-outline-sienna:not([disabled]):not(.disabled).active, .show > .btn-outline-sienna.dropdown-toggle {   color: #fff;   background-color: #a0522d;   border-color: #a0522d;   box-shadow: 0 0 0 0.2rem rgba(160, 82, 45, 0.5); }
 .badge-sienna {   color: #fff;   background-color: #a0522d; }
 .badge-sienna[href]:focus, .badge-sienna[href]:hover {   color: #fff;   text-decoration: none;   background-color: #783e22; }
 .alert-sienna {   color: #532b17;   background-color: #ecdcd5;   border-color: #e4cfc4; }

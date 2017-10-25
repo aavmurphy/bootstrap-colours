@@ -3,14 +3,14 @@
 .table-hover .table-chartreuse:hover > td, .table-hover .table-chartreuse:hover > th {   background-color: #ceff9f; }
 .btn-chartreuse {   color: #111;   background-color: #7fff00;   border-color: #7fff00; }
 .btn-chartreuse:hover {   color: #111;   background-color: #6cd900;   border-color: #66cc00; }
-.btn-chartreuse:focus, .btn-chartreuse.focus {   box-shadow: 0 0 0 3px rgba(127, 255, 0, 0.5); }
+.btn-chartreuse:focus, .btn-chartreuse.focus {   box-shadow: 0 0 0 0.2rem rgba(127, 255, 0, 0.5); }
 .btn-chartreuse.disabled, .btn-chartreuse:disabled {   background-color: #7fff00;   border-color: #7fff00; }
-.btn-chartreuse:active, .btn-chartreuse.active, .show > .btn-chartreuse.dropdown-toggle {   background-color: #6cd900;   background-image: none;   border-color: #66cc00; }
+.btn-chartreuse:not([disabled]):not(.disabled):active, .btn-chartreuse:not([disabled]):not(.disabled).active, .show > .btn-chartreuse.dropdown-toggle {   color: #111;   background-color: #66cc00;   border-color: #5fbf00;   box-shadow: 0 0 0 0.2rem rgba(127, 255, 0, 0.5); }
 .btn-outline-chartreuse {   color: #7fff00;   background-color: transparent;   background-image: none;   border-color: #7fff00; }
 .btn-outline-chartreuse:hover {   color: #fff;   background-color: #7fff00;   border-color: #7fff00; }
-.btn-outline-chartreuse:focus, .btn-outline-chartreuse.focus {   box-shadow: 0 0 0 3px rgba(127, 255, 0, 0.5); }
+.btn-outline-chartreuse:focus, .btn-outline-chartreuse.focus {   box-shadow: 0 0 0 0.2rem rgba(127, 255, 0, 0.5); }
 .btn-outline-chartreuse.disabled, .btn-outline-chartreuse:disabled {   color: #7fff00;   background-color: transparent; }
-.btn-outline-chartreuse:active, .btn-outline-chartreuse.active, .show > .btn-outline-chartreuse.dropdown-toggle {   color: #fff;   background-color: #7fff00;   border-color: #7fff00; }
+.btn-outline-chartreuse:not([disabled]):not(.disabled):active, .btn-outline-chartreuse:not([disabled]):not(.disabled).active, .show > .btn-outline-chartreuse.dropdown-toggle {   color: #fff;   background-color: #7fff00;   border-color: #7fff00;   box-shadow: 0 0 0 0.2rem rgba(127, 255, 0, 0.5); }
 .badge-chartreuse {   color: #111;   background-color: #7fff00; }
 .badge-chartreuse[href]:focus, .badge-chartreuse[href]:hover {   color: #111;   text-decoration: none;   background-color: #66cc00; }
 .alert-chartreuse {   color: #428500;   background-color: #e5ffcc;   border-color: #dbffb8; }

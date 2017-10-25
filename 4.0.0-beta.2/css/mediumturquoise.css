@@ -3,14 +3,14 @@
 .table-hover .table-mediumturquoise:hover > td, .table-hover .table-mediumturquoise:hover > th {   background-color: #b8edeb; }
 .btn-mediumturquoise {   color: #111;   background-color: #48d1cc;   border-color: #48d1cc; }
 .btn-mediumturquoise:hover {   color: #111;   background-color: #31c2bd;   border-color: #2eb8b3; }
-.btn-mediumturquoise:focus, .btn-mediumturquoise.focus {   box-shadow: 0 0 0 3px rgba(72, 209, 204, 0.5); }
+.btn-mediumturquoise:focus, .btn-mediumturquoise.focus {   box-shadow: 0 0 0 0.2rem rgba(72, 209, 204, 0.5); }
 .btn-mediumturquoise.disabled, .btn-mediumturquoise:disabled {   background-color: #48d1cc;   border-color: #48d1cc; }
-.btn-mediumturquoise:active, .btn-mediumturquoise.active, .show > .btn-mediumturquoise.dropdown-toggle {   background-color: #31c2bd;   background-image: none;   border-color: #2eb8b3; }
+.btn-mediumturquoise:not([disabled]):not(.disabled):active, .btn-mediumturquoise:not([disabled]):not(.disabled).active, .show > .btn-mediumturquoise.dropdown-toggle {   color: #fff;   background-color: #2eb8b3;   border-color: #2caea9;   box-shadow: 0 0 0 0.2rem rgba(72, 209, 204, 0.5); }
 .btn-outline-mediumturquoise {   color: #48d1cc;   background-color: transparent;   background-image: none;   border-color: #48d1cc; }
 .btn-outline-mediumturquoise:hover {   color: #fff;   background-color: #48d1cc;   border-color: #48d1cc; }
-.btn-outline-mediumturquoise:focus, .btn-outline-mediumturquoise.focus {   box-shadow: 0 0 0 3px rgba(72, 209, 204, 0.5); }
+.btn-outline-mediumturquoise:focus, .btn-outline-mediumturquoise.focus {   box-shadow: 0 0 0 0.2rem rgba(72, 209, 204, 0.5); }
 .btn-outline-mediumturquoise.disabled, .btn-outline-mediumturquoise:disabled {   color: #48d1cc;   background-color: transparent; }
-.btn-outline-mediumturquoise:active, .btn-outline-mediumturquoise.active, .show > .btn-outline-mediumturquoise.dropdown-toggle {   color: #fff;   background-color: #48d1cc;   border-color: #48d1cc; }
+.btn-outline-mediumturquoise:not([disabled]):not(.disabled):active, .btn-outline-mediumturquoise:not([disabled]):not(.disabled).active, .show > .btn-outline-mediumturquoise.dropdown-toggle {   color: #fff;   background-color: #48d1cc;   border-color: #48d1cc;   box-shadow: 0 0 0 0.2rem rgba(72, 209, 204, 0.5); }
 .badge-mediumturquoise {   color: #111;   background-color: #48d1cc; }
 .badge-mediumturquoise[href]:focus, .badge-mediumturquoise[href]:hover {   color: #111;   text-decoration: none;   background-color: #2eb8b3; }
 .alert-mediumturquoise {   color: #256d6a;   background-color: #daf6f5;   border-color: #ccf2f1; }

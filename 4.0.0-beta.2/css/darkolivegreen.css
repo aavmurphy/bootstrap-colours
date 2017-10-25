@@ -3,14 +3,14 @@
 .table-hover .table-darkolivegreen:hover > td, .table-hover .table-darkolivegreen:hover > th {   background-color: #c3cbb6; }
 .btn-darkolivegreen {   color: #fff;   background-color: #556b2f;   border-color: #556b2f; }
 .btn-darkolivegreen:hover {   color: #fff;   background-color: #405023;   border-color: #39481f; }
-.btn-darkolivegreen:focus, .btn-darkolivegreen.focus {   box-shadow: 0 0 0 3px rgba(85, 107, 47, 0.5); }
+.btn-darkolivegreen:focus, .btn-darkolivegreen.focus {   box-shadow: 0 0 0 0.2rem rgba(85, 107, 47, 0.5); }
 .btn-darkolivegreen.disabled, .btn-darkolivegreen:disabled {   background-color: #556b2f;   border-color: #556b2f; }
-.btn-darkolivegreen:active, .btn-darkolivegreen.active, .show > .btn-darkolivegreen.dropdown-toggle {   background-color: #405023;   background-image: none;   border-color: #39481f; }
+.btn-darkolivegreen:not([disabled]):not(.disabled):active, .btn-darkolivegreen:not([disabled]):not(.disabled).active, .show > .btn-darkolivegreen.dropdown-toggle {   color: #fff;   background-color: #39481f;   border-color: #323f1c;   box-shadow: 0 0 0 0.2rem rgba(85, 107, 47, 0.5); }
 .btn-outline-darkolivegreen {   color: #556b2f;   background-color: transparent;   background-image: none;   border-color: #556b2f; }
 .btn-outline-darkolivegreen:hover {   color: #fff;   background-color: #556b2f;   border-color: #556b2f; }
-.btn-outline-darkolivegreen:focus, .btn-outline-darkolivegreen.focus {   box-shadow: 0 0 0 3px rgba(85, 107, 47, 0.5); }
+.btn-outline-darkolivegreen:focus, .btn-outline-darkolivegreen.focus {   box-shadow: 0 0 0 0.2rem rgba(85, 107, 47, 0.5); }
 .btn-outline-darkolivegreen.disabled, .btn-outline-darkolivegreen:disabled {   color: #556b2f;   background-color: transparent; }
-.btn-outline-darkolivegreen:active, .btn-outline-darkolivegreen.active, .show > .btn-outline-darkolivegreen.dropdown-toggle {   color: #fff;   background-color: #556b2f;   border-color: #556b2f; }
+.btn-outline-darkolivegreen:not([disabled]):not(.disabled):active, .btn-outline-darkolivegreen:not([disabled]):not(.disabled).active, .show > .btn-outline-darkolivegreen.dropdown-toggle {   color: #fff;   background-color: #556b2f;   border-color: #556b2f;   box-shadow: 0 0 0 0.2rem rgba(85, 107, 47, 0.5); }
 .badge-darkolivegreen {   color: #fff;   background-color: #556b2f; }
 .badge-darkolivegreen[href]:focus, .badge-darkolivegreen[href]:hover {   color: #fff;   text-decoration: none;   background-color: #39481f; }
 .alert-darkolivegreen {   color: #2c3818;   background-color: #dde1d5;   border-color: #cfd6c5; }

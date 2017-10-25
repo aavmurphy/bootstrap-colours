@@ -3,14 +3,14 @@
 .table-hover .table-khaki:hover > td, .table-hover .table-khaki:hover > th {   background-color: #f8f3c8; }
 .btn-khaki {   color: #111;   background-color: #f0e68c;   border-color: #f0e68c; }
 .btn-khaki:hover {   color: #111;   background-color: #ecdf6a;   border-color: #eadc5f; }
-.btn-khaki:focus, .btn-khaki.focus {   box-shadow: 0 0 0 3px rgba(240, 230, 140, 0.5); }
+.btn-khaki:focus, .btn-khaki.focus {   box-shadow: 0 0 0 0.2rem rgba(240, 230, 140, 0.5); }
 .btn-khaki.disabled, .btn-khaki:disabled {   background-color: #f0e68c;   border-color: #f0e68c; }
-.btn-khaki:active, .btn-khaki.active, .show > .btn-khaki.dropdown-toggle {   background-color: #ecdf6a;   background-image: none;   border-color: #eadc5f; }
+.btn-khaki:not([disabled]):not(.disabled):active, .btn-khaki:not([disabled]):not(.disabled).active, .show > .btn-khaki.dropdown-toggle {   color: #111;   background-color: #eadc5f;   border-color: #e9da54;   box-shadow: 0 0 0 0.2rem rgba(240, 230, 140, 0.5); }
 .btn-outline-khaki {   color: #f0e68c;   background-color: transparent;   background-image: none;   border-color: #f0e68c; }
 .btn-outline-khaki:hover {   color: #fff;   background-color: #f0e68c;   border-color: #f0e68c; }
-.btn-outline-khaki:focus, .btn-outline-khaki.focus {   box-shadow: 0 0 0 3px rgba(240, 230, 140, 0.5); }
+.btn-outline-khaki:focus, .btn-outline-khaki.focus {   box-shadow: 0 0 0 0.2rem rgba(240, 230, 140, 0.5); }
 .btn-outline-khaki.disabled, .btn-outline-khaki:disabled {   color: #f0e68c;   background-color: transparent; }
-.btn-outline-khaki:active, .btn-outline-khaki.active, .show > .btn-outline-khaki.dropdown-toggle {   color: #fff;   background-color: #f0e68c;   border-color: #f0e68c; }
+.btn-outline-khaki:not([disabled]):not(.disabled):active, .btn-outline-khaki:not([disabled]):not(.disabled).active, .show > .btn-outline-khaki.dropdown-toggle {   color: #fff;   background-color: #f0e68c;   border-color: #f0e68c;   box-shadow: 0 0 0 0.2rem rgba(240, 230, 140, 0.5); }
 .badge-khaki {   color: #111;   background-color: #f0e68c; }
 .badge-khaki[href]:focus, .badge-khaki[href]:hover {   color: #111;   text-decoration: none;   background-color: #eadc5f; }
 .alert-khaki {   color: #7d7849;   background-color: #fcfae8;   border-color: #fbf8df; }

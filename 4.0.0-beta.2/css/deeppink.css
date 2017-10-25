@@ -3,14 +3,14 @@
 .table-hover .table-deeppink:hover > td, .table-hover .table-deeppink:hover > th {   background-color: #ffa4d5; }
 .btn-deeppink {   color: #fff;   background-color: #ff1493;   border-color: #ff1493; }
 .btn-deeppink:hover {   color: #fff;   background-color: #ed0080;   border-color: #e00079; }
-.btn-deeppink:focus, .btn-deeppink.focus {   box-shadow: 0 0 0 3px rgba(255, 20, 147, 0.5); }
+.btn-deeppink:focus, .btn-deeppink.focus {   box-shadow: 0 0 0 0.2rem rgba(255, 20, 147, 0.5); }
 .btn-deeppink.disabled, .btn-deeppink:disabled {   background-color: #ff1493;   border-color: #ff1493; }
-.btn-deeppink:active, .btn-deeppink.active, .show > .btn-deeppink.dropdown-toggle {   background-color: #ed0080;   background-image: none;   border-color: #e00079; }
+.btn-deeppink:not([disabled]):not(.disabled):active, .btn-deeppink:not([disabled]):not(.disabled).active, .show > .btn-deeppink.dropdown-toggle {   color: #fff;   background-color: #e00079;   border-color: #d30072;   box-shadow: 0 0 0 0.2rem rgba(255, 20, 147, 0.5); }
 .btn-outline-deeppink {   color: #ff1493;   background-color: transparent;   background-image: none;   border-color: #ff1493; }
 .btn-outline-deeppink:hover {   color: #fff;   background-color: #ff1493;   border-color: #ff1493; }
-.btn-outline-deeppink:focus, .btn-outline-deeppink.focus {   box-shadow: 0 0 0 3px rgba(255, 20, 147, 0.5); }
+.btn-outline-deeppink:focus, .btn-outline-deeppink.focus {   box-shadow: 0 0 0 0.2rem rgba(255, 20, 147, 0.5); }
 .btn-outline-deeppink.disabled, .btn-outline-deeppink:disabled {   color: #ff1493;   background-color: transparent; }
-.btn-outline-deeppink:active, .btn-outline-deeppink.active, .show > .btn-outline-deeppink.dropdown-toggle {   color: #fff;   background-color: #ff1493;   border-color: #ff1493; }
+.btn-outline-deeppink:not([disabled]):not(.disabled):active, .btn-outline-deeppink:not([disabled]):not(.disabled).active, .show > .btn-outline-deeppink.dropdown-toggle {   color: #fff;   background-color: #ff1493;   border-color: #ff1493;   box-shadow: 0 0 0 0.2rem rgba(255, 20, 147, 0.5); }
 .badge-deeppink {   color: #fff;   background-color: #ff1493; }
 .badge-deeppink[href]:focus, .badge-deeppink[href]:hover {   color: #fff;   text-decoration: none;   background-color: #e00079; }
 .alert-deeppink {   color: #850a4c;   background-color: #ffd0e9;   border-color: #ffbde1; }

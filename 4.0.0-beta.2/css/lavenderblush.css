@@ -3,14 +3,14 @@
 .table-hover .table-lavenderblush:hover > td, .table-hover .table-lavenderblush:hover > th {   background-color: #ffe2e9; }
 .btn-lavenderblush {   color: #111;   background-color: #fff0f5;   border-color: #fff0f5; }
 .btn-lavenderblush:hover {   color: #111;   background-color: #ffcadc;   border-color: #ffbdd3; }
-.btn-lavenderblush:focus, .btn-lavenderblush.focus {   box-shadow: 0 0 0 3px rgba(255, 240, 245, 0.5); }
+.btn-lavenderblush:focus, .btn-lavenderblush.focus {   box-shadow: 0 0 0 0.2rem rgba(255, 240, 245, 0.5); }
 .btn-lavenderblush.disabled, .btn-lavenderblush:disabled {   background-color: #fff0f5;   border-color: #fff0f5; }
-.btn-lavenderblush:active, .btn-lavenderblush.active, .show > .btn-lavenderblush.dropdown-toggle {   background-color: #ffcadc;   background-image: none;   border-color: #ffbdd3; }
+.btn-lavenderblush:not([disabled]):not(.disabled):active, .btn-lavenderblush:not([disabled]):not(.disabled).active, .show > .btn-lavenderblush.dropdown-toggle {   color: #111;   background-color: #ffbdd3;   border-color: #ffb0cb;   box-shadow: 0 0 0 0.2rem rgba(255, 240, 245, 0.5); }
 .btn-outline-lavenderblush {   color: #fff0f5;   background-color: transparent;   background-image: none;   border-color: #fff0f5; }
 .btn-outline-lavenderblush:hover {   color: #fff;   background-color: #fff0f5;   border-color: #fff0f5; }
-.btn-outline-lavenderblush:focus, .btn-outline-lavenderblush.focus {   box-shadow: 0 0 0 3px rgba(255, 240, 245, 0.5); }
+.btn-outline-lavenderblush:focus, .btn-outline-lavenderblush.focus {   box-shadow: 0 0 0 0.2rem rgba(255, 240, 245, 0.5); }
 .btn-outline-lavenderblush.disabled, .btn-outline-lavenderblush:disabled {   color: #fff0f5;   background-color: transparent; }
-.btn-outline-lavenderblush:active, .btn-outline-lavenderblush.active, .show > .btn-outline-lavenderblush.dropdown-toggle {   color: #fff;   background-color: #fff0f5;   border-color: #fff0f5; }
+.btn-outline-lavenderblush:not([disabled]):not(.disabled):active, .btn-outline-lavenderblush:not([disabled]):not(.disabled).active, .show > .btn-outline-lavenderblush.dropdown-toggle {   color: #fff;   background-color: #fff0f5;   border-color: #fff0f5;   box-shadow: 0 0 0 0.2rem rgba(255, 240, 245, 0.5); }
 .badge-lavenderblush {   color: #111;   background-color: #fff0f5; }
 .badge-lavenderblush[href]:focus, .badge-lavenderblush[href]:hover {   color: #111;   text-decoration: none;   background-color: #ffbdd3; }
 .alert-lavenderblush {   color: #857d7f;   background-color: #fffcfd;   border-color: #fffbfc; }

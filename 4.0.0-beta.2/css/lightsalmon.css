@@ -3,14 +3,14 @@
 .table-hover .table-lightsalmon:hover > td, .table-hover .table-lightsalmon:hover > th {   background-color: #ffd1c1; }
 .btn-lightsalmon {   color: #111;   background-color: #ffa07a;   border-color: #ffa07a; }
 .btn-lightsalmon:hover {   color: #111;   background-color: #ff8554;   border-color: #ff7c47; }
-.btn-lightsalmon:focus, .btn-lightsalmon.focus {   box-shadow: 0 0 0 3px rgba(255, 160, 122, 0.5); }
+.btn-lightsalmon:focus, .btn-lightsalmon.focus {   box-shadow: 0 0 0 0.2rem rgba(255, 160, 122, 0.5); }
 .btn-lightsalmon.disabled, .btn-lightsalmon:disabled {   background-color: #ffa07a;   border-color: #ffa07a; }
-.btn-lightsalmon:active, .btn-lightsalmon.active, .show > .btn-lightsalmon.dropdown-toggle {   background-color: #ff8554;   background-image: none;   border-color: #ff7c47; }
+.btn-lightsalmon:not([disabled]):not(.disabled):active, .btn-lightsalmon:not([disabled]):not(.disabled).active, .show > .btn-lightsalmon.dropdown-toggle {   color: #111;   background-color: #ff7c47;   border-color: #ff723a;   box-shadow: 0 0 0 0.2rem rgba(255, 160, 122, 0.5); }
 .btn-outline-lightsalmon {   color: #ffa07a;   background-color: transparent;   background-image: none;   border-color: #ffa07a; }
 .btn-outline-lightsalmon:hover {   color: #fff;   background-color: #ffa07a;   border-color: #ffa07a; }
-.btn-outline-lightsalmon:focus, .btn-outline-lightsalmon.focus {   box-shadow: 0 0 0 3px rgba(255, 160, 122, 0.5); }
+.btn-outline-lightsalmon:focus, .btn-outline-lightsalmon.focus {   box-shadow: 0 0 0 0.2rem rgba(255, 160, 122, 0.5); }
 .btn-outline-lightsalmon.disabled, .btn-outline-lightsalmon:disabled {   color: #ffa07a;   background-color: transparent; }
-.btn-outline-lightsalmon:active, .btn-outline-lightsalmon.active, .show > .btn-outline-lightsalmon.dropdown-toggle {   color: #fff;   background-color: #ffa07a;   border-color: #ffa07a; }
+.btn-outline-lightsalmon:not([disabled]):not(.disabled):active, .btn-outline-lightsalmon:not([disabled]):not(.disabled).active, .show > .btn-outline-lightsalmon.dropdown-toggle {   color: #fff;   background-color: #ffa07a;   border-color: #ffa07a;   box-shadow: 0 0 0 0.2rem rgba(255, 160, 122, 0.5); }
 .badge-lightsalmon {   color: #111;   background-color: #ffa07a; }
 .badge-lightsalmon[href]:focus, .badge-lightsalmon[href]:hover {   color: #111;   text-decoration: none;   background-color: #ff7c47; }
 .alert-lightsalmon {   color: #85533f;   background-color: #ffece4;   border-color: #ffe4da; }

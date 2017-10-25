@@ -3,14 +3,14 @@
 .table-hover .table-rebeccapurple:hover > td, .table-hover .table-rebeccapurple:hover > th {   background-color: #c7b5d9; }
 .btn-rebeccapurple {   color: #fff;   background-color: #663399;   border-color: #663399; }
 .btn-rebeccapurple:hover {   color: #fff;   background-color: #53297c;   border-color: #4d2673; }
-.btn-rebeccapurple:focus, .btn-rebeccapurple.focus {   box-shadow: 0 0 0 3px rgba(102, 51, 153, 0.5); }
+.btn-rebeccapurple:focus, .btn-rebeccapurple.focus {   box-shadow: 0 0 0 0.2rem rgba(102, 51, 153, 0.5); }
 .btn-rebeccapurple.disabled, .btn-rebeccapurple:disabled {   background-color: #663399;   border-color: #663399; }
-.btn-rebeccapurple:active, .btn-rebeccapurple.active, .show > .btn-rebeccapurple.dropdown-toggle {   background-color: #53297c;   background-image: none;   border-color: #4d2673; }
+.btn-rebeccapurple:not([disabled]):not(.disabled):active, .btn-rebeccapurple:not([disabled]):not(.disabled).active, .show > .btn-rebeccapurple.dropdown-toggle {   color: #fff;   background-color: #4d2673;   border-color: #462369;   box-shadow: 0 0 0 0.2rem rgba(102, 51, 153, 0.5); }
 .btn-outline-rebeccapurple {   color: #663399;   background-color: transparent;   background-image: none;   border-color: #663399; }
 .btn-outline-rebeccapurple:hover {   color: #fff;   background-color: #663399;   border-color: #663399; }
-.btn-outline-rebeccapurple:focus, .btn-outline-rebeccapurple.focus {   box-shadow: 0 0 0 3px rgba(102, 51, 153, 0.5); }
+.btn-outline-rebeccapurple:focus, .btn-outline-rebeccapurple.focus {   box-shadow: 0 0 0 0.2rem rgba(102, 51, 153, 0.5); }
 .btn-outline-rebeccapurple.disabled, .btn-outline-rebeccapurple:disabled {   color: #663399;   background-color: transparent; }
-.btn-outline-rebeccapurple:active, .btn-outline-rebeccapurple.active, .show > .btn-outline-rebeccapurple.dropdown-toggle {   color: #fff;   background-color: #663399;   border-color: #663399; }
+.btn-outline-rebeccapurple:not([disabled]):not(.disabled):active, .btn-outline-rebeccapurple:not([disabled]):not(.disabled).active, .show > .btn-outline-rebeccapurple.dropdown-toggle {   color: #fff;   background-color: #663399;   border-color: #663399;   box-shadow: 0 0 0 0.2rem rgba(102, 51, 153, 0.5); }
 .badge-rebeccapurple {   color: #fff;   background-color: #663399; }
 .badge-rebeccapurple[href]:focus, .badge-rebeccapurple[href]:hover {   color: #fff;   text-decoration: none;   background-color: #4d2673; }
 .alert-rebeccapurple {   color: #351b50;   background-color: #e0d6eb;   border-color: #d4c6e2; }

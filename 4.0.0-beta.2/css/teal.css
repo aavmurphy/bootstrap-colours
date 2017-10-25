@@ -3,14 +3,14 @@
 .table-hover .table-teal:hover > td, .table-hover .table-teal:hover > th {   background-color: #a7d2d2; }
 .btn-teal {   color: #fff;   background-color: #008080;   border-color: #008080; }
 .btn-teal:hover {   color: #fff;   background-color: #005a5a;   border-color: #004d4d; }
-.btn-teal:focus, .btn-teal.focus {   box-shadow: 0 0 0 3px rgba(0, 128, 128, 0.5); }
+.btn-teal:focus, .btn-teal.focus {   box-shadow: 0 0 0 0.2rem rgba(0, 128, 128, 0.5); }
 .btn-teal.disabled, .btn-teal:disabled {   background-color: #008080;   border-color: #008080; }
-.btn-teal:active, .btn-teal.active, .show > .btn-teal.dropdown-toggle {   background-color: #005a5a;   background-image: none;   border-color: #004d4d; }
+.btn-teal:not([disabled]):not(.disabled):active, .btn-teal:not([disabled]):not(.disabled).active, .show > .btn-teal.dropdown-toggle {   color: #fff;   background-color: #004d4d;   border-color: #004040;   box-shadow: 0 0 0 0.2rem rgba(0, 128, 128, 0.5); }
 .btn-outline-teal {   color: #008080;   background-color: transparent;   background-image: none;   border-color: #008080; }
 .btn-outline-teal:hover {   color: #fff;   background-color: #008080;   border-color: #008080; }
-.btn-outline-teal:focus, .btn-outline-teal.focus {   box-shadow: 0 0 0 3px rgba(0, 128, 128, 0.5); }
+.btn-outline-teal:focus, .btn-outline-teal.focus {   box-shadow: 0 0 0 0.2rem rgba(0, 128, 128, 0.5); }
 .btn-outline-teal.disabled, .btn-outline-teal:disabled {   color: #008080;   background-color: transparent; }
-.btn-outline-teal:active, .btn-outline-teal.active, .show > .btn-outline-teal.dropdown-toggle {   color: #fff;   background-color: #008080;   border-color: #008080; }
+.btn-outline-teal:not([disabled]):not(.disabled):active, .btn-outline-teal:not([disabled]):not(.disabled).active, .show > .btn-outline-teal.dropdown-toggle {   color: #fff;   background-color: #008080;   border-color: #008080;   box-shadow: 0 0 0 0.2rem rgba(0, 128, 128, 0.5); }
 .badge-teal {   color: #fff;   background-color: #008080; }
 .badge-teal[href]:focus, .badge-teal[href]:hover {   color: #fff;   text-decoration: none;   background-color: #004d4d; }
 .alert-teal {   color: #004343;   background-color: #cce6e6;   border-color: #b8dbdb; }

@@ -3,14 +3,14 @@
 .table-hover .table-blueviolet:hover > td, .table-hover .table-blueviolet:hover > th {   background-color: #d1aef4; }
 .btn-blueviolet {   color: #fff;   background-color: #8a2be2;   border-color: #8a2be2; }
 .btn-blueviolet:hover {   color: #fff;   background-color: #771ccb;   border-color: #701ac0; }
-.btn-blueviolet:focus, .btn-blueviolet.focus {   box-shadow: 0 0 0 3px rgba(138, 43, 226, 0.5); }
+.btn-blueviolet:focus, .btn-blueviolet.focus {   box-shadow: 0 0 0 0.2rem rgba(138, 43, 226, 0.5); }
 .btn-blueviolet.disabled, .btn-blueviolet:disabled {   background-color: #8a2be2;   border-color: #8a2be2; }
-.btn-blueviolet:active, .btn-blueviolet.active, .show > .btn-blueviolet.dropdown-toggle {   background-color: #771ccb;   background-image: none;   border-color: #701ac0; }
+.btn-blueviolet:not([disabled]):not(.disabled):active, .btn-blueviolet:not([disabled]):not(.disabled).active, .show > .btn-blueviolet.dropdown-toggle {   color: #fff;   background-color: #701ac0;   border-color: #6a19b5;   box-shadow: 0 0 0 0.2rem rgba(138, 43, 226, 0.5); }
 .btn-outline-blueviolet {   color: #8a2be2;   background-color: transparent;   background-image: none;   border-color: #8a2be2; }
 .btn-outline-blueviolet:hover {   color: #fff;   background-color: #8a2be2;   border-color: #8a2be2; }
-.btn-outline-blueviolet:focus, .btn-outline-blueviolet.focus {   box-shadow: 0 0 0 3px rgba(138, 43, 226, 0.5); }
+.btn-outline-blueviolet:focus, .btn-outline-blueviolet.focus {   box-shadow: 0 0 0 0.2rem rgba(138, 43, 226, 0.5); }
 .btn-outline-blueviolet.disabled, .btn-outline-blueviolet:disabled {   color: #8a2be2;   background-color: transparent; }
-.btn-outline-blueviolet:active, .btn-outline-blueviolet.active, .show > .btn-outline-blueviolet.dropdown-toggle {   color: #fff;   background-color: #8a2be2;   border-color: #8a2be2; }
+.btn-outline-blueviolet:not([disabled]):not(.disabled):active, .btn-outline-blueviolet:not([disabled]):not(.disabled).active, .show > .btn-outline-blueviolet.dropdown-toggle {   color: #fff;   background-color: #8a2be2;   border-color: #8a2be2;   box-shadow: 0 0 0 0.2rem rgba(138, 43, 226, 0.5); }
 .badge-blueviolet {   color: #fff;   background-color: #8a2be2; }
 .badge-blueviolet[href]:focus, .badge-blueviolet[href]:hover {   color: #fff;   text-decoration: none;   background-color: #701ac0; }
 .alert-blueviolet {   color: #481676;   background-color: #e8d5f9;   border-color: #dec4f7; }

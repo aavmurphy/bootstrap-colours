@@ -2,15 +2,15 @@
 .table-hover .table-rosybrown:hover {   background-color: #e2d0d0; }
 .table-hover .table-rosybrown:hover > td, .table-hover .table-rosybrown:hover > th {   background-color: #e2d0d0; }
 .btn-rosybrown {   color: #111;   background-color: #bc8f8f;   border-color: #bc8f8f; }
-.btn-rosybrown:hover {   color: #111;   background-color: #ae7777;   border-color: #a96f6f; }
-.btn-rosybrown:focus, .btn-rosybrown.focus {   box-shadow: 0 0 0 3px rgba(188, 143, 143, 0.5); }
+.btn-rosybrown:hover {   color: #fff;   background-color: #ae7777;   border-color: #a96f6f; }
+.btn-rosybrown:focus, .btn-rosybrown.focus {   box-shadow: 0 0 0 0.2rem rgba(188, 143, 143, 0.5); }
 .btn-rosybrown.disabled, .btn-rosybrown:disabled {   background-color: #bc8f8f;   border-color: #bc8f8f; }
-.btn-rosybrown:active, .btn-rosybrown.active, .show > .btn-rosybrown.dropdown-toggle {   background-color: #ae7777;   background-image: none;   border-color: #a96f6f; }
+.btn-rosybrown:not([disabled]):not(.disabled):active, .btn-rosybrown:not([disabled]):not(.disabled).active, .show > .btn-rosybrown.dropdown-toggle {   color: #fff;   background-color: #a96f6f;   border-color: #a46767;   box-shadow: 0 0 0 0.2rem rgba(188, 143, 143, 0.5); }
 .btn-outline-rosybrown {   color: #bc8f8f;   background-color: transparent;   background-image: none;   border-color: #bc8f8f; }
 .btn-outline-rosybrown:hover {   color: #fff;   background-color: #bc8f8f;   border-color: #bc8f8f; }
-.btn-outline-rosybrown:focus, .btn-outline-rosybrown.focus {   box-shadow: 0 0 0 3px rgba(188, 143, 143, 0.5); }
+.btn-outline-rosybrown:focus, .btn-outline-rosybrown.focus {   box-shadow: 0 0 0 0.2rem rgba(188, 143, 143, 0.5); }
 .btn-outline-rosybrown.disabled, .btn-outline-rosybrown:disabled {   color: #bc8f8f;   background-color: transparent; }
-.btn-outline-rosybrown:active, .btn-outline-rosybrown.active, .show > .btn-outline-rosybrown.dropdown-toggle {   color: #fff;   background-color: #bc8f8f;   border-color: #bc8f8f; }
+.btn-outline-rosybrown:not([disabled]):not(.disabled):active, .btn-outline-rosybrown:not([disabled]):not(.disabled).active, .show > .btn-outline-rosybrown.dropdown-toggle {   color: #fff;   background-color: #bc8f8f;   border-color: #bc8f8f;   box-shadow: 0 0 0 0.2rem rgba(188, 143, 143, 0.5); }
 .badge-rosybrown {   color: #111;   background-color: #bc8f8f; }
 .badge-rosybrown[href]:focus, .badge-rosybrown[href]:hover {   color: #111;   text-decoration: none;   background-color: #a96f6f; }
 .alert-rosybrown {   color: #624a4a;   background-color: #f2e9e9;   border-color: #ece0e0; }

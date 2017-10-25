@@ -3,14 +3,14 @@
 .table-hover .table-wheat:hover > td, .table-hover .table-wheat:hover > th {   background-color: #f9ecd4; }
 .btn-wheat {   color: #111;   background-color: #f5deb3;   border-color: #f5deb3; }
 .btn-wheat:hover {   color: #111;   background-color: #f1cf91;   border-color: #efca86; }
-.btn-wheat:focus, .btn-wheat.focus {   box-shadow: 0 0 0 3px rgba(245, 222, 179, 0.5); }
+.btn-wheat:focus, .btn-wheat.focus {   box-shadow: 0 0 0 0.2rem rgba(245, 222, 179, 0.5); }
 .btn-wheat.disabled, .btn-wheat:disabled {   background-color: #f5deb3;   border-color: #f5deb3; }
-.btn-wheat:active, .btn-wheat.active, .show > .btn-wheat.dropdown-toggle {   background-color: #f1cf91;   background-image: none;   border-color: #efca86; }
+.btn-wheat:not([disabled]):not(.disabled):active, .btn-wheat:not([disabled]):not(.disabled).active, .show > .btn-wheat.dropdown-toggle {   color: #111;   background-color: #efca86;   border-color: #eec67b;   box-shadow: 0 0 0 0.2rem rgba(245, 222, 179, 0.5); }
 .btn-outline-wheat {   color: #f5deb3;   background-color: transparent;   background-image: none;   border-color: #f5deb3; }
 .btn-outline-wheat:hover {   color: #fff;   background-color: #f5deb3;   border-color: #f5deb3; }
-.btn-outline-wheat:focus, .btn-outline-wheat.focus {   box-shadow: 0 0 0 3px rgba(245, 222, 179, 0.5); }
+.btn-outline-wheat:focus, .btn-outline-wheat.focus {   box-shadow: 0 0 0 0.2rem rgba(245, 222, 179, 0.5); }
 .btn-outline-wheat.disabled, .btn-outline-wheat:disabled {   color: #f5deb3;   background-color: transparent; }
-.btn-outline-wheat:active, .btn-outline-wheat.active, .show > .btn-outline-wheat.dropdown-toggle {   color: #fff;   background-color: #f5deb3;   border-color: #f5deb3; }
+.btn-outline-wheat:not([disabled]):not(.disabled):active, .btn-outline-wheat:not([disabled]):not(.disabled).active, .show > .btn-outline-wheat.dropdown-toggle {   color: #fff;   background-color: #f5deb3;   border-color: #f5deb3;   box-shadow: 0 0 0 0.2rem rgba(245, 222, 179, 0.5); }
 .badge-wheat {   color: #111;   background-color: #f5deb3; }
 .badge-wheat[href]:focus, .badge-wheat[href]:hover {   color: #111;   text-decoration: none;   background-color: #efca86; }
 .alert-wheat {   color: #7f735d;   background-color: #fdf8f0;   border-color: #fcf6ea; }

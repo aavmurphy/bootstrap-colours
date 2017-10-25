@@ -2,15 +2,15 @@
 .table-hover .table-twitter:hover {   background-color: #b8ddf8; }
 .table-hover .table-twitter:hover > td, .table-hover .table-twitter:hover > th {   background-color: #b8ddf8; }
 .btn-twitter {   color: #111;   background-color: #55acee;   border-color: #55acee; }
-.btn-twitter:hover {   color: #111;   background-color: #329beb;   border-color: #2795e9; }
-.btn-twitter:focus, .btn-twitter.focus {   box-shadow: 0 0 0 3px rgba(85, 172, 238, 0.5); }
+.btn-twitter:hover {   color: #fff;   background-color: #329beb;   border-color: #2795e9; }
+.btn-twitter:focus, .btn-twitter.focus {   box-shadow: 0 0 0 0.2rem rgba(85, 172, 238, 0.5); }
 .btn-twitter.disabled, .btn-twitter:disabled {   background-color: #55acee;   border-color: #55acee; }
-.btn-twitter:active, .btn-twitter.active, .show > .btn-twitter.dropdown-toggle {   background-color: #329beb;   background-image: none;   border-color: #2795e9; }
+.btn-twitter:not([disabled]):not(.disabled):active, .btn-twitter:not([disabled]):not(.disabled).active, .show > .btn-twitter.dropdown-toggle {   color: #fff;   background-color: #2795e9;   border-color: #1b90e8;   box-shadow: 0 0 0 0.2rem rgba(85, 172, 238, 0.5); }
 .btn-outline-twitter {   color: #55acee;   background-color: transparent;   background-image: none;   border-color: #55acee; }
 .btn-outline-twitter:hover {   color: #fff;   background-color: #55acee;   border-color: #55acee; }
-.btn-outline-twitter:focus, .btn-outline-twitter.focus {   box-shadow: 0 0 0 3px rgba(85, 172, 238, 0.5); }
+.btn-outline-twitter:focus, .btn-outline-twitter.focus {   box-shadow: 0 0 0 0.2rem rgba(85, 172, 238, 0.5); }
 .btn-outline-twitter.disabled, .btn-outline-twitter:disabled {   color: #55acee;   background-color: transparent; }
-.btn-outline-twitter:active, .btn-outline-twitter.active, .show > .btn-outline-twitter.dropdown-toggle {   color: #fff;   background-color: #55acee;   border-color: #55acee; }
+.btn-outline-twitter:not([disabled]):not(.disabled):active, .btn-outline-twitter:not([disabled]):not(.disabled).active, .show > .btn-outline-twitter.dropdown-toggle {   color: #fff;   background-color: #55acee;   border-color: #55acee;   box-shadow: 0 0 0 0.2rem rgba(85, 172, 238, 0.5); }
 .badge-twitter {   color: #111;   background-color: #55acee; }
 .badge-twitter[href]:focus, .badge-twitter[href]:hover {   color: #111;   text-decoration: none;   background-color: #2795e9; }
 .alert-twitter {   color: #2c597c;   background-color: #ddeefc;   border-color: #cfe8fa; }

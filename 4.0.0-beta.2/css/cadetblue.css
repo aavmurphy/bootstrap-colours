@@ -3,14 +3,14 @@
 .table-hover .table-cadetblue:hover > td, .table-hover .table-cadetblue:hover > th {   background-color: #c2dada; }
 .btn-cadetblue {   color: #fff;   background-color: #5f9ea0;   border-color: #5f9ea0; }
 .btn-cadetblue:hover {   color: #fff;   background-color: #518688;   border-color: #4c7e80; }
-.btn-cadetblue:focus, .btn-cadetblue.focus {   box-shadow: 0 0 0 3px rgba(95, 158, 160, 0.5); }
+.btn-cadetblue:focus, .btn-cadetblue.focus {   box-shadow: 0 0 0 0.2rem rgba(95, 158, 160, 0.5); }
 .btn-cadetblue.disabled, .btn-cadetblue:disabled {   background-color: #5f9ea0;   border-color: #5f9ea0; }
-.btn-cadetblue:active, .btn-cadetblue.active, .show > .btn-cadetblue.dropdown-toggle {   background-color: #518688;   background-image: none;   border-color: #4c7e80; }
+.btn-cadetblue:not([disabled]):not(.disabled):active, .btn-cadetblue:not([disabled]):not(.disabled).active, .show > .btn-cadetblue.dropdown-toggle {   color: #fff;   background-color: #4c7e80;   border-color: #477778;   box-shadow: 0 0 0 0.2rem rgba(95, 158, 160, 0.5); }
 .btn-outline-cadetblue {   color: #5f9ea0;   background-color: transparent;   background-image: none;   border-color: #5f9ea0; }
 .btn-outline-cadetblue:hover {   color: #fff;   background-color: #5f9ea0;   border-color: #5f9ea0; }
-.btn-outline-cadetblue:focus, .btn-outline-cadetblue.focus {   box-shadow: 0 0 0 3px rgba(95, 158, 160, 0.5); }
+.btn-outline-cadetblue:focus, .btn-outline-cadetblue.focus {   box-shadow: 0 0 0 0.2rem rgba(95, 158, 160, 0.5); }
 .btn-outline-cadetblue.disabled, .btn-outline-cadetblue:disabled {   color: #5f9ea0;   background-color: transparent; }
-.btn-outline-cadetblue:active, .btn-outline-cadetblue.active, .show > .btn-outline-cadetblue.dropdown-toggle {   color: #fff;   background-color: #5f9ea0;   border-color: #5f9ea0; }
+.btn-outline-cadetblue:not([disabled]):not(.disabled):active, .btn-outline-cadetblue:not([disabled]):not(.disabled).active, .show > .btn-outline-cadetblue.dropdown-toggle {   color: #fff;   background-color: #5f9ea0;   border-color: #5f9ea0;   box-shadow: 0 0 0 0.2rem rgba(95, 158, 160, 0.5); }
 .badge-cadetblue {   color: #fff;   background-color: #5f9ea0; }
 .badge-cadetblue[href]:focus, .badge-cadetblue[href]:hover {   color: #fff;   text-decoration: none;   background-color: #4c7e80; }
 .alert-cadetblue {   color: #315253;   background-color: #dfecec;   border-color: #d2e4e4; }

@@ -3,14 +3,14 @@
 .table-hover .table-yellow:hover > td, .table-hover .table-yellow:hover > th {   background-color: #ffff9f; }
 .btn-yellow {   color: #111;   background-color: #ffff00;   border-color: #ffff00; }
 .btn-yellow:hover {   color: #111;   background-color: #d9d900;   border-color: #cccc00; }
-.btn-yellow:focus, .btn-yellow.focus {   box-shadow: 0 0 0 3px rgba(255, 255, 0, 0.5); }
+.btn-yellow:focus, .btn-yellow.focus {   box-shadow: 0 0 0 0.2rem rgba(255, 255, 0, 0.5); }
 .btn-yellow.disabled, .btn-yellow:disabled {   background-color: #ffff00;   border-color: #ffff00; }
-.btn-yellow:active, .btn-yellow.active, .show > .btn-yellow.dropdown-toggle {   background-color: #d9d900;   background-image: none;   border-color: #cccc00; }
+.btn-yellow:not([disabled]):not(.disabled):active, .btn-yellow:not([disabled]):not(.disabled).active, .show > .btn-yellow.dropdown-toggle {   color: #111;   background-color: #cccc00;   border-color: #bfbf00;   box-shadow: 0 0 0 0.2rem rgba(255, 255, 0, 0.5); }
 .btn-outline-yellow {   color: #ffff00;   background-color: transparent;   background-image: none;   border-color: #ffff00; }
 .btn-outline-yellow:hover {   color: #fff;   background-color: #ffff00;   border-color: #ffff00; }
-.btn-outline-yellow:focus, .btn-outline-yellow.focus {   box-shadow: 0 0 0 3px rgba(255, 255, 0, 0.5); }
+.btn-outline-yellow:focus, .btn-outline-yellow.focus {   box-shadow: 0 0 0 0.2rem rgba(255, 255, 0, 0.5); }
 .btn-outline-yellow.disabled, .btn-outline-yellow:disabled {   color: #ffff00;   background-color: transparent; }
-.btn-outline-yellow:active, .btn-outline-yellow.active, .show > .btn-outline-yellow.dropdown-toggle {   color: #fff;   background-color: #ffff00;   border-color: #ffff00; }
+.btn-outline-yellow:not([disabled]):not(.disabled):active, .btn-outline-yellow:not([disabled]):not(.disabled).active, .show > .btn-outline-yellow.dropdown-toggle {   color: #fff;   background-color: #ffff00;   border-color: #ffff00;   box-shadow: 0 0 0 0.2rem rgba(255, 255, 0, 0.5); }
 .badge-yellow {   color: #111;   background-color: #ffff00; }
 .badge-yellow[href]:focus, .badge-yellow[href]:hover {   color: #111;   text-decoration: none;   background-color: #cccc00; }
 .alert-yellow {   color: #858500;   background-color: #ffffcc;   border-color: #ffffb8; }

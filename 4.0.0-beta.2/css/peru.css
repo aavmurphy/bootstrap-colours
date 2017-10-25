@@ -3,14 +3,14 @@
 .table-hover .table-peru:hover > td, .table-hover .table-peru:hover > th {   background-color: #ecd0b5; }
 .btn-peru {   color: #fff;   background-color: #cd853f;   border-color: #cd853f; }
 .btn-peru:hover {   color: #fff;   background-color: #b6722f;   border-color: #ac6c2d; }
-.btn-peru:focus, .btn-peru.focus {   box-shadow: 0 0 0 3px rgba(205, 133, 63, 0.5); }
+.btn-peru:focus, .btn-peru.focus {   box-shadow: 0 0 0 0.2rem rgba(205, 133, 63, 0.5); }
 .btn-peru.disabled, .btn-peru:disabled {   background-color: #cd853f;   border-color: #cd853f; }
-.btn-peru:active, .btn-peru.active, .show > .btn-peru.dropdown-toggle {   background-color: #b6722f;   background-image: none;   border-color: #ac6c2d; }
+.btn-peru:not([disabled]):not(.disabled):active, .btn-peru:not([disabled]):not(.disabled).active, .show > .btn-peru.dropdown-toggle {   color: #fff;   background-color: #ac6c2d;   border-color: #a2652a;   box-shadow: 0 0 0 0.2rem rgba(205, 133, 63, 0.5); }
 .btn-outline-peru {   color: #cd853f;   background-color: transparent;   background-image: none;   border-color: #cd853f; }
 .btn-outline-peru:hover {   color: #fff;   background-color: #cd853f;   border-color: #cd853f; }
-.btn-outline-peru:focus, .btn-outline-peru.focus {   box-shadow: 0 0 0 3px rgba(205, 133, 63, 0.5); }
+.btn-outline-peru:focus, .btn-outline-peru.focus {   box-shadow: 0 0 0 0.2rem rgba(205, 133, 63, 0.5); }
 .btn-outline-peru.disabled, .btn-outline-peru:disabled {   color: #cd853f;   background-color: transparent; }
-.btn-outline-peru:active, .btn-outline-peru.active, .show > .btn-outline-peru.dropdown-toggle {   color: #fff;   background-color: #cd853f;   border-color: #cd853f; }
+.btn-outline-peru:not([disabled]):not(.disabled):active, .btn-outline-peru:not([disabled]):not(.disabled).active, .show > .btn-outline-peru.dropdown-toggle {   color: #fff;   background-color: #cd853f;   border-color: #cd853f;   box-shadow: 0 0 0 0.2rem rgba(205, 133, 63, 0.5); }
 .badge-peru {   color: #fff;   background-color: #cd853f; }
 .badge-peru[href]:focus, .badge-peru[href]:hover {   color: #fff;   text-decoration: none;   background-color: #ac6c2d; }
 .alert-peru {   color: #6b4521;   background-color: #f5e7d9;   border-color: #f1ddc9; }

@@ -3,14 +3,14 @@
 .table-hover .table-aliceblue:hover > td, .table-hover .table-aliceblue:hover > th {   background-color: #e2f0ff; }
 .btn-aliceblue {   color: #111;   background-color: #f0f8ff;   border-color: #f0f8ff; }
 .btn-aliceblue:hover {   color: #111;   background-color: #cae6ff;   border-color: #bde0ff; }
-.btn-aliceblue:focus, .btn-aliceblue.focus {   box-shadow: 0 0 0 3px rgba(240, 248, 255, 0.5); }
+.btn-aliceblue:focus, .btn-aliceblue.focus {   box-shadow: 0 0 0 0.2rem rgba(240, 248, 255, 0.5); }
 .btn-aliceblue.disabled, .btn-aliceblue:disabled {   background-color: #f0f8ff;   border-color: #f0f8ff; }
-.btn-aliceblue:active, .btn-aliceblue.active, .show > .btn-aliceblue.dropdown-toggle {   background-color: #cae6ff;   background-image: none;   border-color: #bde0ff; }
+.btn-aliceblue:not([disabled]):not(.disabled):active, .btn-aliceblue:not([disabled]):not(.disabled).active, .show > .btn-aliceblue.dropdown-toggle {   color: #111;   background-color: #bde0ff;   border-color: #b0daff;   box-shadow: 0 0 0 0.2rem rgba(240, 248, 255, 0.5); }
 .btn-outline-aliceblue {   color: #f0f8ff;   background-color: transparent;   background-image: none;   border-color: #f0f8ff; }
 .btn-outline-aliceblue:hover {   color: #fff;   background-color: #f0f8ff;   border-color: #f0f8ff; }
-.btn-outline-aliceblue:focus, .btn-outline-aliceblue.focus {   box-shadow: 0 0 0 3px rgba(240, 248, 255, 0.5); }
+.btn-outline-aliceblue:focus, .btn-outline-aliceblue.focus {   box-shadow: 0 0 0 0.2rem rgba(240, 248, 255, 0.5); }
 .btn-outline-aliceblue.disabled, .btn-outline-aliceblue:disabled {   color: #f0f8ff;   background-color: transparent; }
-.btn-outline-aliceblue:active, .btn-outline-aliceblue.active, .show > .btn-outline-aliceblue.dropdown-toggle {   color: #fff;   background-color: #f0f8ff;   border-color: #f0f8ff; }
+.btn-outline-aliceblue:not([disabled]):not(.disabled):active, .btn-outline-aliceblue:not([disabled]):not(.disabled).active, .show > .btn-outline-aliceblue.dropdown-toggle {   color: #fff;   background-color: #f0f8ff;   border-color: #f0f8ff;   box-shadow: 0 0 0 0.2rem rgba(240, 248, 255, 0.5); }
 .badge-aliceblue {   color: #111;   background-color: #f0f8ff; }
 .badge-aliceblue[href]:focus, .badge-aliceblue[href]:hover {   color: #111;   text-decoration: none;   background-color: #bde0ff; }
 .alert-aliceblue {   color: #7d8185;   background-color: #fcfeff;   border-color: #fbfdff; }

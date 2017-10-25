@@ -2,15 +2,15 @@
 .table-hover .table-lightcoral:hover {   background-color: #f8c4c4; }
 .table-hover .table-lightcoral:hover > td, .table-hover .table-lightcoral:hover > th {   background-color: #f8c4c4; }
 .btn-lightcoral {   color: #111;   background-color: #f08080;   border-color: #f08080; }
-.btn-lightcoral:hover {   color: #111;   background-color: #ec5e5e;   border-color: #eb5252; }
-.btn-lightcoral:focus, .btn-lightcoral.focus {   box-shadow: 0 0 0 3px rgba(240, 128, 128, 0.5); }
+.btn-lightcoral:hover {   color: #fff;   background-color: #ec5e5e;   border-color: #eb5252; }
+.btn-lightcoral:focus, .btn-lightcoral.focus {   box-shadow: 0 0 0 0.2rem rgba(240, 128, 128, 0.5); }
 .btn-lightcoral.disabled, .btn-lightcoral:disabled {   background-color: #f08080;   border-color: #f08080; }
-.btn-lightcoral:active, .btn-lightcoral.active, .show > .btn-lightcoral.dropdown-toggle {   background-color: #ec5e5e;   background-image: none;   border-color: #eb5252; }
+.btn-lightcoral:not([disabled]):not(.disabled):active, .btn-lightcoral:not([disabled]):not(.disabled).active, .show > .btn-lightcoral.dropdown-toggle {   color: #fff;   background-color: #eb5252;   border-color: #e94747;   box-shadow: 0 0 0 0.2rem rgba(240, 128, 128, 0.5); }
 .btn-outline-lightcoral {   color: #f08080;   background-color: transparent;   background-image: none;   border-color: #f08080; }
 .btn-outline-lightcoral:hover {   color: #fff;   background-color: #f08080;   border-color: #f08080; }
-.btn-outline-lightcoral:focus, .btn-outline-lightcoral.focus {   box-shadow: 0 0 0 3px rgba(240, 128, 128, 0.5); }
+.btn-outline-lightcoral:focus, .btn-outline-lightcoral.focus {   box-shadow: 0 0 0 0.2rem rgba(240, 128, 128, 0.5); }
 .btn-outline-lightcoral.disabled, .btn-outline-lightcoral:disabled {   color: #f08080;   background-color: transparent; }
-.btn-outline-lightcoral:active, .btn-outline-lightcoral.active, .show > .btn-outline-lightcoral.dropdown-toggle {   color: #fff;   background-color: #f08080;   border-color: #f08080; }
+.btn-outline-lightcoral:not([disabled]):not(.disabled):active, .btn-outline-lightcoral:not([disabled]):not(.disabled).active, .show > .btn-outline-lightcoral.dropdown-toggle {   color: #fff;   background-color: #f08080;   border-color: #f08080;   box-shadow: 0 0 0 0.2rem rgba(240, 128, 128, 0.5); }
 .badge-lightcoral {   color: #111;   background-color: #f08080; }
 .badge-lightcoral[href]:focus, .badge-lightcoral[href]:hover {   color: #111;   text-decoration: none;   background-color: #eb5252; }
 .alert-lightcoral {   color: #7d4343;   background-color: #fce6e6;   border-color: #fbdbdb; }

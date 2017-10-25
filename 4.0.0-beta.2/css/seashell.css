@@ -3,14 +3,14 @@
 .table-hover .table-seashell:hover > td, .table-hover .table-seashell:hover > th {   background-color: #ffede1; }
 .btn-seashell {   color: #111;   background-color: #fff5ee;   border-color: #fff5ee; }
 .btn-seashell:hover {   color: #111;   background-color: #ffdfc8;   border-color: #ffd7bb; }
-.btn-seashell:focus, .btn-seashell.focus {   box-shadow: 0 0 0 3px rgba(255, 245, 238, 0.5); }
+.btn-seashell:focus, .btn-seashell.focus {   box-shadow: 0 0 0 0.2rem rgba(255, 245, 238, 0.5); }
 .btn-seashell.disabled, .btn-seashell:disabled {   background-color: #fff5ee;   border-color: #fff5ee; }
-.btn-seashell:active, .btn-seashell.active, .show > .btn-seashell.dropdown-toggle {   background-color: #ffdfc8;   background-image: none;   border-color: #ffd7bb; }
+.btn-seashell:not([disabled]):not(.disabled):active, .btn-seashell:not([disabled]):not(.disabled).active, .show > .btn-seashell.dropdown-toggle {   color: #111;   background-color: #ffd7bb;   border-color: #ffd0ae;   box-shadow: 0 0 0 0.2rem rgba(255, 245, 238, 0.5); }
 .btn-outline-seashell {   color: #fff5ee;   background-color: transparent;   background-image: none;   border-color: #fff5ee; }
 .btn-outline-seashell:hover {   color: #fff;   background-color: #fff5ee;   border-color: #fff5ee; }
-.btn-outline-seashell:focus, .btn-outline-seashell.focus {   box-shadow: 0 0 0 3px rgba(255, 245, 238, 0.5); }
+.btn-outline-seashell:focus, .btn-outline-seashell.focus {   box-shadow: 0 0 0 0.2rem rgba(255, 245, 238, 0.5); }
 .btn-outline-seashell.disabled, .btn-outline-seashell:disabled {   color: #fff5ee;   background-color: transparent; }
-.btn-outline-seashell:active, .btn-outline-seashell.active, .show > .btn-outline-seashell.dropdown-toggle {   color: #fff;   background-color: #fff5ee;   border-color: #fff5ee; }
+.btn-outline-seashell:not([disabled]):not(.disabled):active, .btn-outline-seashell:not([disabled]):not(.disabled).active, .show > .btn-outline-seashell.dropdown-toggle {   color: #fff;   background-color: #fff5ee;   border-color: #fff5ee;   box-shadow: 0 0 0 0.2rem rgba(255, 245, 238, 0.5); }
 .badge-seashell {   color: #111;   background-color: #fff5ee; }
 .badge-seashell[href]:focus, .badge-seashell[href]:hover {   color: #111;   text-decoration: none;   background-color: #ffd7bb; }
 .alert-seashell {   color: #857f7c;   background-color: #fffdfc;   border-color: #fffcfa; }

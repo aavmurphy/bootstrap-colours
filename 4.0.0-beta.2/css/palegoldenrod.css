@@ -3,14 +3,14 @@
 .table-hover .table-palegoldenrod:hover > td, .table-hover .table-palegoldenrod:hover > th {   background-color: #f6f4d2; }
 .btn-palegoldenrod {   color: #111;   background-color: #eee8aa;   border-color: #eee8aa; }
 .btn-palegoldenrod:hover {   color: #111;   background-color: #e8df8a;   border-color: #e6dd80; }
-.btn-palegoldenrod:focus, .btn-palegoldenrod.focus {   box-shadow: 0 0 0 3px rgba(238, 232, 170, 0.5); }
+.btn-palegoldenrod:focus, .btn-palegoldenrod.focus {   box-shadow: 0 0 0 0.2rem rgba(238, 232, 170, 0.5); }
 .btn-palegoldenrod.disabled, .btn-palegoldenrod:disabled {   background-color: #eee8aa;   border-color: #eee8aa; }
-.btn-palegoldenrod:active, .btn-palegoldenrod.active, .show > .btn-palegoldenrod.dropdown-toggle {   background-color: #e8df8a;   background-image: none;   border-color: #e6dd80; }
+.btn-palegoldenrod:not([disabled]):not(.disabled):active, .btn-palegoldenrod:not([disabled]):not(.disabled).active, .show > .btn-palegoldenrod.dropdown-toggle {   color: #111;   background-color: #e6dd80;   border-color: #e3da75;   box-shadow: 0 0 0 0.2rem rgba(238, 232, 170, 0.5); }
 .btn-outline-palegoldenrod {   color: #eee8aa;   background-color: transparent;   background-image: none;   border-color: #eee8aa; }
 .btn-outline-palegoldenrod:hover {   color: #fff;   background-color: #eee8aa;   border-color: #eee8aa; }
-.btn-outline-palegoldenrod:focus, .btn-outline-palegoldenrod.focus {   box-shadow: 0 0 0 3px rgba(238, 232, 170, 0.5); }
+.btn-outline-palegoldenrod:focus, .btn-outline-palegoldenrod.focus {   box-shadow: 0 0 0 0.2rem rgba(238, 232, 170, 0.5); }
 .btn-outline-palegoldenrod.disabled, .btn-outline-palegoldenrod:disabled {   color: #eee8aa;   background-color: transparent; }
-.btn-outline-palegoldenrod:active, .btn-outline-palegoldenrod.active, .show > .btn-outline-palegoldenrod.dropdown-toggle {   color: #fff;   background-color: #eee8aa;   border-color: #eee8aa; }
+.btn-outline-palegoldenrod:not([disabled]):not(.disabled):active, .btn-outline-palegoldenrod:not([disabled]):not(.disabled).active, .show > .btn-outline-palegoldenrod.dropdown-toggle {   color: #fff;   background-color: #eee8aa;   border-color: #eee8aa;   box-shadow: 0 0 0 0.2rem rgba(238, 232, 170, 0.5); }
 .badge-palegoldenrod {   color: #111;   background-color: #eee8aa; }
 .badge-palegoldenrod[href]:focus, .badge-palegoldenrod[href]:hover {   color: #111;   text-decoration: none;   background-color: #e6dd80; }
 .alert-palegoldenrod {   color: #7c7958;   background-color: #fcfaee;   border-color: #faf9e7; }

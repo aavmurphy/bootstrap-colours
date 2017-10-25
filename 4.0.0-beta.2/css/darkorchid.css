@@ -3,14 +3,14 @@
 .table-hover .table-darkorchid:hover > td, .table-hover .table-darkorchid:hover > th {   background-color: #d8b2ec; }
 .btn-darkorchid {   color: #fff;   background-color: #9932cc;   border-color: #9932cc; }
 .btn-darkorchid:hover {   color: #fff;   background-color: #822aad;   border-color: #7a28a3; }
-.btn-darkorchid:focus, .btn-darkorchid.focus {   box-shadow: 0 0 0 3px rgba(153, 50, 204, 0.5); }
+.btn-darkorchid:focus, .btn-darkorchid.focus {   box-shadow: 0 0 0 0.2rem rgba(153, 50, 204, 0.5); }
 .btn-darkorchid.disabled, .btn-darkorchid:disabled {   background-color: #9932cc;   border-color: #9932cc; }
-.btn-darkorchid:active, .btn-darkorchid.active, .show > .btn-darkorchid.dropdown-toggle {   background-color: #822aad;   background-image: none;   border-color: #7a28a3; }
+.btn-darkorchid:not([disabled]):not(.disabled):active, .btn-darkorchid:not([disabled]):not(.disabled).active, .show > .btn-darkorchid.dropdown-toggle {   color: #fff;   background-color: #7a28a3;   border-color: #732599;   box-shadow: 0 0 0 0.2rem rgba(153, 50, 204, 0.5); }
 .btn-outline-darkorchid {   color: #9932cc;   background-color: transparent;   background-image: none;   border-color: #9932cc; }
 .btn-outline-darkorchid:hover {   color: #fff;   background-color: #9932cc;   border-color: #9932cc; }
-.btn-outline-darkorchid:focus, .btn-outline-darkorchid.focus {   box-shadow: 0 0 0 3px rgba(153, 50, 204, 0.5); }
+.btn-outline-darkorchid:focus, .btn-outline-darkorchid.focus {   box-shadow: 0 0 0 0.2rem rgba(153, 50, 204, 0.5); }
 .btn-outline-darkorchid.disabled, .btn-outline-darkorchid:disabled {   color: #9932cc;   background-color: transparent; }
-.btn-outline-darkorchid:active, .btn-outline-darkorchid.active, .show > .btn-outline-darkorchid.dropdown-toggle {   color: #fff;   background-color: #9932cc;   border-color: #9932cc; }
+.btn-outline-darkorchid:not([disabled]):not(.disabled):active, .btn-outline-darkorchid:not([disabled]):not(.disabled).active, .show > .btn-outline-darkorchid.dropdown-toggle {   color: #fff;   background-color: #9932cc;   border-color: #9932cc;   box-shadow: 0 0 0 0.2rem rgba(153, 50, 204, 0.5); }
 .badge-darkorchid {   color: #fff;   background-color: #9932cc; }
 .badge-darkorchid[href]:focus, .badge-darkorchid[href]:hover {   color: #fff;   text-decoration: none;   background-color: #7a28a3; }
 .alert-darkorchid {   color: #501a6a;   background-color: #ebd6f5;   border-color: #e2c6f1; }

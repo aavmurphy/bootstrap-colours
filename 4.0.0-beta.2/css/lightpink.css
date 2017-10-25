@@ -3,14 +3,14 @@
 .table-hover .table-lightpink:hover > td, .table-hover .table-lightpink:hover > th {   background-color: #ffd2d8; }
 .btn-lightpink {   color: #111;   background-color: #ffb6c1;   border-color: #ffb6c1; }
 .btn-lightpink:hover {   color: #111;   background-color: #ff90a1;   border-color: #ff8396; }
-.btn-lightpink:focus, .btn-lightpink.focus {   box-shadow: 0 0 0 3px rgba(255, 182, 193, 0.5); }
+.btn-lightpink:focus, .btn-lightpink.focus {   box-shadow: 0 0 0 0.2rem rgba(255, 182, 193, 0.5); }
 .btn-lightpink.disabled, .btn-lightpink:disabled {   background-color: #ffb6c1;   border-color: #ffb6c1; }
-.btn-lightpink:active, .btn-lightpink.active, .show > .btn-lightpink.dropdown-toggle {   background-color: #ff90a1;   background-image: none;   border-color: #ff8396; }
+.btn-lightpink:not([disabled]):not(.disabled):active, .btn-lightpink:not([disabled]):not(.disabled).active, .show > .btn-lightpink.dropdown-toggle {   color: #111;   background-color: #ff8396;   border-color: #ff768b;   box-shadow: 0 0 0 0.2rem rgba(255, 182, 193, 0.5); }
 .btn-outline-lightpink {   color: #ffb6c1;   background-color: transparent;   background-image: none;   border-color: #ffb6c1; }
 .btn-outline-lightpink:hover {   color: #fff;   background-color: #ffb6c1;   border-color: #ffb6c1; }
-.btn-outline-lightpink:focus, .btn-outline-lightpink.focus {   box-shadow: 0 0 0 3px rgba(255, 182, 193, 0.5); }
+.btn-outline-lightpink:focus, .btn-outline-lightpink.focus {   box-shadow: 0 0 0 0.2rem rgba(255, 182, 193, 0.5); }
 .btn-outline-lightpink.disabled, .btn-outline-lightpink:disabled {   color: #ffb6c1;   background-color: transparent; }
-.btn-outline-lightpink:active, .btn-outline-lightpink.active, .show > .btn-outline-lightpink.dropdown-toggle {   color: #fff;   background-color: #ffb6c1;   border-color: #ffb6c1; }
+.btn-outline-lightpink:not([disabled]):not(.disabled):active, .btn-outline-lightpink:not([disabled]):not(.disabled).active, .show > .btn-outline-lightpink.dropdown-toggle {   color: #fff;   background-color: #ffb6c1;   border-color: #ffb6c1;   box-shadow: 0 0 0 0.2rem rgba(255, 182, 193, 0.5); }
 .badge-lightpink {   color: #111;   background-color: #ffb6c1; }
 .badge-lightpink[href]:focus, .badge-lightpink[href]:hover {   color: #111;   text-decoration: none;   background-color: #ff8396; }
 .alert-lightpink {   color: #855f64;   background-color: #fff0f3;   border-color: #ffebee; }

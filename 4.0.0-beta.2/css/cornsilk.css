@@ -3,14 +3,14 @@
 .table-hover .table-cornsilk:hover > td, .table-hover .table-cornsilk:hover > th {   background-color: cornsilk; }
 .btn-cornsilk {   color: #111;   background-color: #fff8dc;   border-color: #fff8dc; }
 .btn-cornsilk:hover {   color: #111;   background-color: #fff0b6;   border-color: #ffeea9; }
-.btn-cornsilk:focus, .btn-cornsilk.focus {   box-shadow: 0 0 0 3px rgba(255, 248, 220, 0.5); }
+.btn-cornsilk:focus, .btn-cornsilk.focus {   box-shadow: 0 0 0 0.2rem rgba(255, 248, 220, 0.5); }
 .btn-cornsilk.disabled, .btn-cornsilk:disabled {   background-color: #fff8dc;   border-color: #fff8dc; }
-.btn-cornsilk:active, .btn-cornsilk.active, .show > .btn-cornsilk.dropdown-toggle {   background-color: #fff0b6;   background-image: none;   border-color: #ffeea9; }
+.btn-cornsilk:not([disabled]):not(.disabled):active, .btn-cornsilk:not([disabled]):not(.disabled).active, .show > .btn-cornsilk.dropdown-toggle {   color: #111;   background-color: #ffeea9;   border-color: #ffeb9c;   box-shadow: 0 0 0 0.2rem rgba(255, 248, 220, 0.5); }
 .btn-outline-cornsilk {   color: #fff8dc;   background-color: transparent;   background-image: none;   border-color: #fff8dc; }
 .btn-outline-cornsilk:hover {   color: #fff;   background-color: #fff8dc;   border-color: #fff8dc; }
-.btn-outline-cornsilk:focus, .btn-outline-cornsilk.focus {   box-shadow: 0 0 0 3px rgba(255, 248, 220, 0.5); }
+.btn-outline-cornsilk:focus, .btn-outline-cornsilk.focus {   box-shadow: 0 0 0 0.2rem rgba(255, 248, 220, 0.5); }
 .btn-outline-cornsilk.disabled, .btn-outline-cornsilk:disabled {   color: #fff8dc;   background-color: transparent; }
-.btn-outline-cornsilk:active, .btn-outline-cornsilk.active, .show > .btn-outline-cornsilk.dropdown-toggle {   color: #fff;   background-color: #fff8dc;   border-color: #fff8dc; }
+.btn-outline-cornsilk:not([disabled]):not(.disabled):active, .btn-outline-cornsilk:not([disabled]):not(.disabled).active, .show > .btn-outline-cornsilk.dropdown-toggle {   color: #fff;   background-color: #fff8dc;   border-color: #fff8dc;   box-shadow: 0 0 0 0.2rem rgba(255, 248, 220, 0.5); }
 .badge-cornsilk {   color: #111;   background-color: #fff8dc; }
 .badge-cornsilk[href]:focus, .badge-cornsilk[href]:hover {   color: #111;   text-decoration: none;   background-color: #ffeea9; }
 .alert-cornsilk {   color: #858172;   background-color: #fffef8;   border-color: #fffdf5; }

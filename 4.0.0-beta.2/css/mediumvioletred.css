@@ -3,14 +3,14 @@
 .table-hover .table-mediumvioletred:hover > td, .table-hover .table-mediumvioletred:hover > th {   background-color: #eaa8d2; }
 .btn-mediumvioletred {   color: #fff;   background-color: #c71585;   border-color: #c71585; }
 .btn-mediumvioletred:hover {   color: #fff;   background-color: #a4116e;   border-color: #991066; }
-.btn-mediumvioletred:focus, .btn-mediumvioletred.focus {   box-shadow: 0 0 0 3px rgba(199, 21, 133, 0.5); }
+.btn-mediumvioletred:focus, .btn-mediumvioletred.focus {   box-shadow: 0 0 0 0.2rem rgba(199, 21, 133, 0.5); }
 .btn-mediumvioletred.disabled, .btn-mediumvioletred:disabled {   background-color: #c71585;   border-color: #c71585; }
-.btn-mediumvioletred:active, .btn-mediumvioletred.active, .show > .btn-mediumvioletred.dropdown-toggle {   background-color: #a4116e;   background-image: none;   border-color: #991066; }
+.btn-mediumvioletred:not([disabled]):not(.disabled):active, .btn-mediumvioletred:not([disabled]):not(.disabled).active, .show > .btn-mediumvioletred.dropdown-toggle {   color: #fff;   background-color: #991066;   border-color: #8d0f5e;   box-shadow: 0 0 0 0.2rem rgba(199, 21, 133, 0.5); }
 .btn-outline-mediumvioletred {   color: #c71585;   background-color: transparent;   background-image: none;   border-color: #c71585; }
 .btn-outline-mediumvioletred:hover {   color: #fff;   background-color: #c71585;   border-color: #c71585; }
-.btn-outline-mediumvioletred:focus, .btn-outline-mediumvioletred.focus {   box-shadow: 0 0 0 3px rgba(199, 21, 133, 0.5); }
+.btn-outline-mediumvioletred:focus, .btn-outline-mediumvioletred.focus {   box-shadow: 0 0 0 0.2rem rgba(199, 21, 133, 0.5); }
 .btn-outline-mediumvioletred.disabled, .btn-outline-mediumvioletred:disabled {   color: #c71585;   background-color: transparent; }
-.btn-outline-mediumvioletred:active, .btn-outline-mediumvioletred.active, .show > .btn-outline-mediumvioletred.dropdown-toggle {   color: #fff;   background-color: #c71585;   border-color: #c71585; }
+.btn-outline-mediumvioletred:not([disabled]):not(.disabled):active, .btn-outline-mediumvioletred:not([disabled]):not(.disabled).active, .show > .btn-outline-mediumvioletred.dropdown-toggle {   color: #fff;   background-color: #c71585;   border-color: #c71585;   box-shadow: 0 0 0 0.2rem rgba(199, 21, 133, 0.5); }
 .badge-mediumvioletred {   color: #fff;   background-color: #c71585; }
 .badge-mediumvioletred[href]:focus, .badge-mediumvioletred[href]:hover {   color: #fff;   text-decoration: none;   background-color: #991066; }
 .alert-mediumvioletred {   color: #670b45;   background-color: #f4d0e7;   border-color: #efbddd; }

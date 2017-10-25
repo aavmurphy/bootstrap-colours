@@ -3,14 +3,14 @@
 .table-hover .table-burlywood:hover > td, .table-hover .table-burlywood:hover > th {   background-color: #f1dfc9; }
 .btn-burlywood {   color: #111;   background-color: #deb887;   border-color: #deb887; }
 .btn-burlywood:hover {   color: #111;   background-color: #d6a669;   border-color: #d3a05f; }
-.btn-burlywood:focus, .btn-burlywood.focus {   box-shadow: 0 0 0 3px rgba(222, 184, 135, 0.5); }
+.btn-burlywood:focus, .btn-burlywood.focus {   box-shadow: 0 0 0 0.2rem rgba(222, 184, 135, 0.5); }
 .btn-burlywood.disabled, .btn-burlywood:disabled {   background-color: #deb887;   border-color: #deb887; }
-.btn-burlywood:active, .btn-burlywood.active, .show > .btn-burlywood.dropdown-toggle {   background-color: #d6a669;   background-image: none;   border-color: #d3a05f; }
+.btn-burlywood:not([disabled]):not(.disabled):active, .btn-burlywood:not([disabled]):not(.disabled).active, .show > .btn-burlywood.dropdown-toggle {   color: #111;   background-color: #d3a05f;   border-color: #d09a55;   box-shadow: 0 0 0 0.2rem rgba(222, 184, 135, 0.5); }
 .btn-outline-burlywood {   color: #deb887;   background-color: transparent;   background-image: none;   border-color: #deb887; }
 .btn-outline-burlywood:hover {   color: #fff;   background-color: #deb887;   border-color: #deb887; }
-.btn-outline-burlywood:focus, .btn-outline-burlywood.focus {   box-shadow: 0 0 0 3px rgba(222, 184, 135, 0.5); }
+.btn-outline-burlywood:focus, .btn-outline-burlywood.focus {   box-shadow: 0 0 0 0.2rem rgba(222, 184, 135, 0.5); }
 .btn-outline-burlywood.disabled, .btn-outline-burlywood:disabled {   color: #deb887;   background-color: transparent; }
-.btn-outline-burlywood:active, .btn-outline-burlywood.active, .show > .btn-outline-burlywood.dropdown-toggle {   color: #fff;   background-color: #deb887;   border-color: #deb887; }
+.btn-outline-burlywood:not([disabled]):not(.disabled):active, .btn-outline-burlywood:not([disabled]):not(.disabled).active, .show > .btn-outline-burlywood.dropdown-toggle {   color: #fff;   background-color: #deb887;   border-color: #deb887;   box-shadow: 0 0 0 0.2rem rgba(222, 184, 135, 0.5); }
 .badge-burlywood {   color: #111;   background-color: #deb887; }
 .badge-burlywood[href]:focus, .badge-burlywood[href]:hover {   color: #111;   text-decoration: none;   background-color: #d3a05f; }
 .alert-burlywood {   color: #736046;   background-color: #f8f1e7;   border-color: #f6ebdd; }

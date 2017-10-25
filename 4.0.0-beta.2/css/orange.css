@@ -2,15 +2,15 @@
 .table-hover .table-orange:hover {   background-color: #ffdd9f; }
 .table-hover .table-orange:hover > td, .table-hover .table-orange:hover > th {   background-color: #ffdd9f; }
 .btn-orange {   color: #111;   background-color: #ffa500;   border-color: #ffa500; }
-.btn-orange:hover {   color: #111;   background-color: #d98c00;   border-color: #cc8400; }
-.btn-orange:focus, .btn-orange.focus {   box-shadow: 0 0 0 3px rgba(255, 165, 0, 0.5); }
+.btn-orange:hover {   color: #fff;   background-color: #d98c00;   border-color: #cc8400; }
+.btn-orange:focus, .btn-orange.focus {   box-shadow: 0 0 0 0.2rem rgba(255, 165, 0, 0.5); }
 .btn-orange.disabled, .btn-orange:disabled {   background-color: #ffa500;   border-color: #ffa500; }
-.btn-orange:active, .btn-orange.active, .show > .btn-orange.dropdown-toggle {   background-color: #d98c00;   background-image: none;   border-color: #cc8400; }
+.btn-orange:not([disabled]):not(.disabled):active, .btn-orange:not([disabled]):not(.disabled).active, .show > .btn-orange.dropdown-toggle {   color: #fff;   background-color: #cc8400;   border-color: #bf7c00;   box-shadow: 0 0 0 0.2rem rgba(255, 165, 0, 0.5); }
 .btn-outline-orange {   color: #ffa500;   background-color: transparent;   background-image: none;   border-color: #ffa500; }
 .btn-outline-orange:hover {   color: #fff;   background-color: #ffa500;   border-color: #ffa500; }
-.btn-outline-orange:focus, .btn-outline-orange.focus {   box-shadow: 0 0 0 3px rgba(255, 165, 0, 0.5); }
+.btn-outline-orange:focus, .btn-outline-orange.focus {   box-shadow: 0 0 0 0.2rem rgba(255, 165, 0, 0.5); }
 .btn-outline-orange.disabled, .btn-outline-orange:disabled {   color: #ffa500;   background-color: transparent; }
-.btn-outline-orange:active, .btn-outline-orange.active, .show > .btn-outline-orange.dropdown-toggle {   color: #fff;   background-color: #ffa500;   border-color: #ffa500; }
+.btn-outline-orange:not([disabled]):not(.disabled):active, .btn-outline-orange:not([disabled]):not(.disabled).active, .show > .btn-outline-orange.dropdown-toggle {   color: #fff;   background-color: #ffa500;   border-color: #ffa500;   box-shadow: 0 0 0 0.2rem rgba(255, 165, 0, 0.5); }
 .badge-orange {   color: #111;   background-color: #ffa500; }
 .badge-orange[href]:focus, .badge-orange[href]:hover {   color: #111;   text-decoration: none;   background-color: #cc8400; }
 .alert-orange {   color: #855600;   background-color: #ffedcc;   border-color: #ffe6b8; }

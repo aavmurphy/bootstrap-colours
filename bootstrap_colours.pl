@@ -5,7 +5,7 @@ my $VERSION			= "4.0.0-beta.2";
 
 my @CORE_COLOURS	= qw(primary secondary success info warning danger light dark);
 
-my $NPM				= "/saturdaywalkers/colours";
+my $NPM				= "/usr/local/lib";
 
 use strict;
 use warnings;
@@ -65,9 +65,9 @@ my $colour_list_scss = join ",\n", @colour_list_scss;
 
 my $scss = << "END";
 
-\@import "$NPM/node_modules/bootstrap/scss/_functions";
-\@import "$NPM/node_modules/bootstrap/scss/_variables";
-\@import "$NPM/node_modules/bootstrap/scss/_mixins";
+// \@import "$NPM/node_modules/bootstrap/scss/_functions";
+// \@import "$NPM/node_modules/bootstrap/scss/_variables";
+// \@import "$NPM/node_modules/bootstrap/scss/_mixins";
 
 \$theme-colors: (
 $colour_list_scss
@@ -127,6 +127,8 @@ foreach my $colour ( sort keys %colours )
 	next if grep /^$colour$/, @CORE_COLOURS;
 
 	my @this_colour_css = grep /-$colour\W/, @colour_css;
+
+	@this_colour_css	= grep ! /charset/, @this_colour_css;
 
 	die "empty $colour\n" if ! @this_colour_css;
 

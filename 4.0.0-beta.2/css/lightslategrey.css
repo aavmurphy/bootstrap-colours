@@ -3,14 +3,14 @@
 .table-hover .table-lightslategrey:hover > td, .table-hover .table-lightslategrey:hover > th {   background-color: #cbd1d7; }
 .btn-lightslategrey {   color: #fff;   background-color: #778899;   border-color: #778899; }
 .btn-lightslategrey:hover {   color: #fff;   background-color: #647586;   border-color: #5f6f7e; }
-.btn-lightslategrey:focus, .btn-lightslategrey.focus {   box-shadow: 0 0 0 3px rgba(119, 136, 153, 0.5); }
+.btn-lightslategrey:focus, .btn-lightslategrey.focus {   box-shadow: 0 0 0 0.2rem rgba(119, 136, 153, 0.5); }
 .btn-lightslategrey.disabled, .btn-lightslategrey:disabled {   background-color: #778899;   border-color: #778899; }
-.btn-lightslategrey:active, .btn-lightslategrey.active, .show > .btn-lightslategrey.dropdown-toggle {   background-color: #647586;   background-image: none;   border-color: #5f6f7e; }
+.btn-lightslategrey:not([disabled]):not(.disabled):active, .btn-lightslategrey:not([disabled]):not(.disabled).active, .show > .btn-lightslategrey.dropdown-toggle {   color: #fff;   background-color: #5f6f7e;   border-color: #596877;   box-shadow: 0 0 0 0.2rem rgba(119, 136, 153, 0.5); }
 .btn-outline-lightslategrey {   color: #778899;   background-color: transparent;   background-image: none;   border-color: #778899; }
 .btn-outline-lightslategrey:hover {   color: #fff;   background-color: #778899;   border-color: #778899; }
-.btn-outline-lightslategrey:focus, .btn-outline-lightslategrey.focus {   box-shadow: 0 0 0 3px rgba(119, 136, 153, 0.5); }
+.btn-outline-lightslategrey:focus, .btn-outline-lightslategrey.focus {   box-shadow: 0 0 0 0.2rem rgba(119, 136, 153, 0.5); }
 .btn-outline-lightslategrey.disabled, .btn-outline-lightslategrey:disabled {   color: #778899;   background-color: transparent; }
-.btn-outline-lightslategrey:active, .btn-outline-lightslategrey.active, .show > .btn-outline-lightslategrey.dropdown-toggle {   color: #fff;   background-color: #778899;   border-color: #778899; }
+.btn-outline-lightslategrey:not([disabled]):not(.disabled):active, .btn-outline-lightslategrey:not([disabled]):not(.disabled).active, .show > .btn-outline-lightslategrey.dropdown-toggle {   color: #fff;   background-color: #778899;   border-color: #778899;   box-shadow: 0 0 0 0.2rem rgba(119, 136, 153, 0.5); }
 .badge-lightslategrey {   color: #fff;   background-color: #778899; }
 .badge-lightslategrey[href]:focus, .badge-lightslategrey[href]:hover {   color: #fff;   text-decoration: none;   background-color: #5f6f7e; }
 .alert-lightslategrey {   color: #3e4750;   background-color: #e4e7eb;   border-color: #d9dee2; }

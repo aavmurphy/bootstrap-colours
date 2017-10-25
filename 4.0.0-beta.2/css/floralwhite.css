@@ -3,14 +3,14 @@
 .table-hover .table-floralwhite:hover > td, .table-hover .table-floralwhite:hover > th {   background-color: #fff8e2; }
 .btn-floralwhite {   color: #111;   background-color: #fffaf0;   border-color: #fffaf0; }
 .btn-floralwhite:hover {   color: #111;   background-color: #ffedca;   border-color: #ffe9bd; }
-.btn-floralwhite:focus, .btn-floralwhite.focus {   box-shadow: 0 0 0 3px rgba(255, 250, 240, 0.5); }
+.btn-floralwhite:focus, .btn-floralwhite.focus {   box-shadow: 0 0 0 0.2rem rgba(255, 250, 240, 0.5); }
 .btn-floralwhite.disabled, .btn-floralwhite:disabled {   background-color: #fffaf0;   border-color: #fffaf0; }
-.btn-floralwhite:active, .btn-floralwhite.active, .show > .btn-floralwhite.dropdown-toggle {   background-color: #ffedca;   background-image: none;   border-color: #ffe9bd; }
+.btn-floralwhite:not([disabled]):not(.disabled):active, .btn-floralwhite:not([disabled]):not(.disabled).active, .show > .btn-floralwhite.dropdown-toggle {   color: #111;   background-color: #ffe9bd;   border-color: #ffe5b0;   box-shadow: 0 0 0 0.2rem rgba(255, 250, 240, 0.5); }
 .btn-outline-floralwhite {   color: #fffaf0;   background-color: transparent;   background-image: none;   border-color: #fffaf0; }
 .btn-outline-floralwhite:hover {   color: #fff;   background-color: #fffaf0;   border-color: #fffaf0; }
-.btn-outline-floralwhite:focus, .btn-outline-floralwhite.focus {   box-shadow: 0 0 0 3px rgba(255, 250, 240, 0.5); }
+.btn-outline-floralwhite:focus, .btn-outline-floralwhite.focus {   box-shadow: 0 0 0 0.2rem rgba(255, 250, 240, 0.5); }
 .btn-outline-floralwhite.disabled, .btn-outline-floralwhite:disabled {   color: #fffaf0;   background-color: transparent; }
-.btn-outline-floralwhite:active, .btn-outline-floralwhite.active, .show > .btn-outline-floralwhite.dropdown-toggle {   color: #fff;   background-color: #fffaf0;   border-color: #fffaf0; }
+.btn-outline-floralwhite:not([disabled]):not(.disabled):active, .btn-outline-floralwhite:not([disabled]):not(.disabled).active, .show > .btn-outline-floralwhite.dropdown-toggle {   color: #fff;   background-color: #fffaf0;   border-color: #fffaf0;   box-shadow: 0 0 0 0.2rem rgba(255, 250, 240, 0.5); }
 .badge-floralwhite {   color: #111;   background-color: #fffaf0; }
 .badge-floralwhite[href]:focus, .badge-floralwhite[href]:hover {   color: #111;   text-decoration: none;   background-color: #ffe9bd; }
 .alert-floralwhite {   color: #85827d;   background-color: #fffefc;   border-color: #fffefb; }

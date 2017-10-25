@@ -3,14 +3,14 @@
 .table-hover .table-peachpuff:hover > td, .table-hover .table-peachpuff:hover > th {   background-color: #ffe8d2; }
 .btn-peachpuff {   color: #111;   background-color: #ffdab9;   border-color: #ffdab9; }
 .btn-peachpuff:hover {   color: #111;   background-color: #ffc693;   border-color: #ffbf86; }
-.btn-peachpuff:focus, .btn-peachpuff.focus {   box-shadow: 0 0 0 3px rgba(255, 218, 185, 0.5); }
+.btn-peachpuff:focus, .btn-peachpuff.focus {   box-shadow: 0 0 0 0.2rem rgba(255, 218, 185, 0.5); }
 .btn-peachpuff.disabled, .btn-peachpuff:disabled {   background-color: #ffdab9;   border-color: #ffdab9; }
-.btn-peachpuff:active, .btn-peachpuff.active, .show > .btn-peachpuff.dropdown-toggle {   background-color: #ffc693;   background-image: none;   border-color: #ffbf86; }
+.btn-peachpuff:not([disabled]):not(.disabled):active, .btn-peachpuff:not([disabled]):not(.disabled).active, .show > .btn-peachpuff.dropdown-toggle {   color: #111;   background-color: #ffbf86;   border-color: #ffb879;   box-shadow: 0 0 0 0.2rem rgba(255, 218, 185, 0.5); }
 .btn-outline-peachpuff {   color: #ffdab9;   background-color: transparent;   background-image: none;   border-color: #ffdab9; }
 .btn-outline-peachpuff:hover {   color: #fff;   background-color: #ffdab9;   border-color: #ffdab9; }
-.btn-outline-peachpuff:focus, .btn-outline-peachpuff.focus {   box-shadow: 0 0 0 3px rgba(255, 218, 185, 0.5); }
+.btn-outline-peachpuff:focus, .btn-outline-peachpuff.focus {   box-shadow: 0 0 0 0.2rem rgba(255, 218, 185, 0.5); }
 .btn-outline-peachpuff.disabled, .btn-outline-peachpuff:disabled {   color: #ffdab9;   background-color: transparent; }
-.btn-outline-peachpuff:active, .btn-outline-peachpuff.active, .show > .btn-outline-peachpuff.dropdown-toggle {   color: #fff;   background-color: #ffdab9;   border-color: #ffdab9; }
+.btn-outline-peachpuff:not([disabled]):not(.disabled):active, .btn-outline-peachpuff:not([disabled]):not(.disabled).active, .show > .btn-outline-peachpuff.dropdown-toggle {   color: #fff;   background-color: #ffdab9;   border-color: #ffdab9;   box-shadow: 0 0 0 0.2rem rgba(255, 218, 185, 0.5); }
 .badge-peachpuff {   color: #111;   background-color: #ffdab9; }
 .badge-peachpuff[href]:focus, .badge-peachpuff[href]:hover {   color: #111;   text-decoration: none;   background-color: #ffbf86; }
 .alert-peachpuff {   color: #857160;   background-color: #fff8f1;   border-color: #fff5eb; }

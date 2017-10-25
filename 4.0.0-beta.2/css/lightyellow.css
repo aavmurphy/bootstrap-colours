@@ -3,14 +3,14 @@
 .table-hover .table-lightyellow:hover > td, .table-hover .table-lightyellow:hover > th {   background-color: #ffffdd; }
 .btn-lightyellow {   color: #111;   background-color: #ffffe0;   border-color: #ffffe0; }
 .btn-lightyellow:hover {   color: #111;   background-color: #ffffba;   border-color: #ffffad; }
-.btn-lightyellow:focus, .btn-lightyellow.focus {   box-shadow: 0 0 0 3px rgba(255, 255, 224, 0.5); }
+.btn-lightyellow:focus, .btn-lightyellow.focus {   box-shadow: 0 0 0 0.2rem rgba(255, 255, 224, 0.5); }
 .btn-lightyellow.disabled, .btn-lightyellow:disabled {   background-color: #ffffe0;   border-color: #ffffe0; }
-.btn-lightyellow:active, .btn-lightyellow.active, .show > .btn-lightyellow.dropdown-toggle {   background-color: #ffffba;   background-image: none;   border-color: #ffffad; }
+.btn-lightyellow:not([disabled]):not(.disabled):active, .btn-lightyellow:not([disabled]):not(.disabled).active, .show > .btn-lightyellow.dropdown-toggle {   color: #111;   background-color: #ffffad;   border-color: #ffffa0;   box-shadow: 0 0 0 0.2rem rgba(255, 255, 224, 0.5); }
 .btn-outline-lightyellow {   color: #ffffe0;   background-color: transparent;   background-image: none;   border-color: #ffffe0; }
 .btn-outline-lightyellow:hover {   color: #fff;   background-color: #ffffe0;   border-color: #ffffe0; }
-.btn-outline-lightyellow:focus, .btn-outline-lightyellow.focus {   box-shadow: 0 0 0 3px rgba(255, 255, 224, 0.5); }
+.btn-outline-lightyellow:focus, .btn-outline-lightyellow.focus {   box-shadow: 0 0 0 0.2rem rgba(255, 255, 224, 0.5); }
 .btn-outline-lightyellow.disabled, .btn-outline-lightyellow:disabled {   color: #ffffe0;   background-color: transparent; }
-.btn-outline-lightyellow:active, .btn-outline-lightyellow.active, .show > .btn-outline-lightyellow.dropdown-toggle {   color: #fff;   background-color: #ffffe0;   border-color: #ffffe0; }
+.btn-outline-lightyellow:not([disabled]):not(.disabled):active, .btn-outline-lightyellow:not([disabled]):not(.disabled).active, .show > .btn-outline-lightyellow.dropdown-toggle {   color: #fff;   background-color: #ffffe0;   border-color: #ffffe0;   box-shadow: 0 0 0 0.2rem rgba(255, 255, 224, 0.5); }
 .badge-lightyellow {   color: #111;   background-color: #ffffe0; }
 .badge-lightyellow[href]:focus, .badge-lightyellow[href]:hover {   color: #111;   text-decoration: none;   background-color: #ffffad; }
 .alert-lightyellow {   color: #858574;   background-color: #fffff9;   border-color: #fffff6; }

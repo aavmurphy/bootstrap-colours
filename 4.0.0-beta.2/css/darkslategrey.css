@@ -3,14 +3,14 @@
 .table-hover .table-darkslategrey:hover > td, .table-hover .table-darkslategrey:hover > th {   background-color: #b7c2c2; }
 .btn-darkslategrey {   color: #fff;   background-color: #2f4f4f;   border-color: #2f4f4f; }
 .btn-darkslategrey:hover {   color: #fff;   background-color: #213737;   border-color: #1c2f2f; }
-.btn-darkslategrey:focus, .btn-darkslategrey.focus {   box-shadow: 0 0 0 3px rgba(47, 79, 79, 0.5); }
+.btn-darkslategrey:focus, .btn-darkslategrey.focus {   box-shadow: 0 0 0 0.2rem rgba(47, 79, 79, 0.5); }
 .btn-darkslategrey.disabled, .btn-darkslategrey:disabled {   background-color: #2f4f4f;   border-color: #2f4f4f; }
-.btn-darkslategrey:active, .btn-darkslategrey.active, .show > .btn-darkslategrey.dropdown-toggle {   background-color: #213737;   background-image: none;   border-color: #1c2f2f; }
+.btn-darkslategrey:not([disabled]):not(.disabled):active, .btn-darkslategrey:not([disabled]):not(.disabled).active, .show > .btn-darkslategrey.dropdown-toggle {   color: #fff;   background-color: #1c2f2f;   border-color: #172727;   box-shadow: 0 0 0 0.2rem rgba(47, 79, 79, 0.5); }
 .btn-outline-darkslategrey {   color: #2f4f4f;   background-color: transparent;   background-image: none;   border-color: #2f4f4f; }
 .btn-outline-darkslategrey:hover {   color: #fff;   background-color: #2f4f4f;   border-color: #2f4f4f; }
-.btn-outline-darkslategrey:focus, .btn-outline-darkslategrey.focus {   box-shadow: 0 0 0 3px rgba(47, 79, 79, 0.5); }
+.btn-outline-darkslategrey:focus, .btn-outline-darkslategrey.focus {   box-shadow: 0 0 0 0.2rem rgba(47, 79, 79, 0.5); }
 .btn-outline-darkslategrey.disabled, .btn-outline-darkslategrey:disabled {   color: #2f4f4f;   background-color: transparent; }
-.btn-outline-darkslategrey:active, .btn-outline-darkslategrey.active, .show > .btn-outline-darkslategrey.dropdown-toggle {   color: #fff;   background-color: #2f4f4f;   border-color: #2f4f4f; }
+.btn-outline-darkslategrey:not([disabled]):not(.disabled):active, .btn-outline-darkslategrey:not([disabled]):not(.disabled).active, .show > .btn-outline-darkslategrey.dropdown-toggle {   color: #fff;   background-color: #2f4f4f;   border-color: #2f4f4f;   box-shadow: 0 0 0 0.2rem rgba(47, 79, 79, 0.5); }
 .badge-darkslategrey {   color: #fff;   background-color: #2f4f4f; }
 .badge-darkslategrey[href]:focus, .badge-darkslategrey[href]:hover {   color: #fff;   text-decoration: none;   background-color: #1c2f2f; }
 .alert-darkslategrey {   color: #182929;   background-color: #d5dcdc;   border-color: #c5cece; }

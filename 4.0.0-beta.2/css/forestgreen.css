@@ -3,14 +3,14 @@
 .table-hover .table-forestgreen:hover > td, .table-hover .table-forestgreen:hover > th {   background-color: #b0d6b0; }
 .btn-forestgreen {   color: #fff;   background-color: #228b22;   border-color: #228b22; }
 .btn-forestgreen:hover {   color: #fff;   background-color: #1a6c1a;   border-color: #186218; }
-.btn-forestgreen:focus, .btn-forestgreen.focus {   box-shadow: 0 0 0 3px rgba(34, 139, 34, 0.5); }
+.btn-forestgreen:focus, .btn-forestgreen.focus {   box-shadow: 0 0 0 0.2rem rgba(34, 139, 34, 0.5); }
 .btn-forestgreen.disabled, .btn-forestgreen:disabled {   background-color: #228b22;   border-color: #228b22; }
-.btn-forestgreen:active, .btn-forestgreen.active, .show > .btn-forestgreen.dropdown-toggle {   background-color: #1a6c1a;   background-image: none;   border-color: #186218; }
+.btn-forestgreen:not([disabled]):not(.disabled):active, .btn-forestgreen:not([disabled]):not(.disabled).active, .show > .btn-forestgreen.dropdown-toggle {   color: #fff;   background-color: #186218;   border-color: #155815;   box-shadow: 0 0 0 0.2rem rgba(34, 139, 34, 0.5); }
 .btn-outline-forestgreen {   color: #228b22;   background-color: transparent;   background-image: none;   border-color: #228b22; }
 .btn-outline-forestgreen:hover {   color: #fff;   background-color: #228b22;   border-color: #228b22; }
-.btn-outline-forestgreen:focus, .btn-outline-forestgreen.focus {   box-shadow: 0 0 0 3px rgba(34, 139, 34, 0.5); }
+.btn-outline-forestgreen:focus, .btn-outline-forestgreen.focus {   box-shadow: 0 0 0 0.2rem rgba(34, 139, 34, 0.5); }
 .btn-outline-forestgreen.disabled, .btn-outline-forestgreen:disabled {   color: #228b22;   background-color: transparent; }
-.btn-outline-forestgreen:active, .btn-outline-forestgreen.active, .show > .btn-outline-forestgreen.dropdown-toggle {   color: #fff;   background-color: #228b22;   border-color: #228b22; }
+.btn-outline-forestgreen:not([disabled]):not(.disabled):active, .btn-outline-forestgreen:not([disabled]):not(.disabled).active, .show > .btn-outline-forestgreen.dropdown-toggle {   color: #fff;   background-color: #228b22;   border-color: #228b22;   box-shadow: 0 0 0 0.2rem rgba(34, 139, 34, 0.5); }
 .badge-forestgreen {   color: #fff;   background-color: #228b22; }
 .badge-forestgreen[href]:focus, .badge-forestgreen[href]:hover {   color: #fff;   text-decoration: none;   background-color: #186218; }
 .alert-forestgreen {   color: #124812;   background-color: #d3e8d3;   border-color: #c1dfc1; }

@@ -3,14 +3,14 @@
 .table-hover .table-lemonchiffon:hover > td, .table-hover .table-lemonchiffon:hover > th {   background-color: #fffcd8; }
 .btn-lemonchiffon {   color: #111;   background-color: #fffacd;   border-color: #fffacd; }
 .btn-lemonchiffon:hover {   color: #111;   background-color: #fff6a7;   border-color: #fff59a; }
-.btn-lemonchiffon:focus, .btn-lemonchiffon.focus {   box-shadow: 0 0 0 3px rgba(255, 250, 205, 0.5); }
+.btn-lemonchiffon:focus, .btn-lemonchiffon.focus {   box-shadow: 0 0 0 0.2rem rgba(255, 250, 205, 0.5); }
 .btn-lemonchiffon.disabled, .btn-lemonchiffon:disabled {   background-color: #fffacd;   border-color: #fffacd; }
-.btn-lemonchiffon:active, .btn-lemonchiffon.active, .show > .btn-lemonchiffon.dropdown-toggle {   background-color: #fff6a7;   background-image: none;   border-color: #fff59a; }
+.btn-lemonchiffon:not([disabled]):not(.disabled):active, .btn-lemonchiffon:not([disabled]):not(.disabled).active, .show > .btn-lemonchiffon.dropdown-toggle {   color: #111;   background-color: #fff59a;   border-color: #fff48d;   box-shadow: 0 0 0 0.2rem rgba(255, 250, 205, 0.5); }
 .btn-outline-lemonchiffon {   color: #fffacd;   background-color: transparent;   background-image: none;   border-color: #fffacd; }
 .btn-outline-lemonchiffon:hover {   color: #fff;   background-color: #fffacd;   border-color: #fffacd; }
-.btn-outline-lemonchiffon:focus, .btn-outline-lemonchiffon.focus {   box-shadow: 0 0 0 3px rgba(255, 250, 205, 0.5); }
+.btn-outline-lemonchiffon:focus, .btn-outline-lemonchiffon.focus {   box-shadow: 0 0 0 0.2rem rgba(255, 250, 205, 0.5); }
 .btn-outline-lemonchiffon.disabled, .btn-outline-lemonchiffon:disabled {   color: #fffacd;   background-color: transparent; }
-.btn-outline-lemonchiffon:active, .btn-outline-lemonchiffon.active, .show > .btn-outline-lemonchiffon.dropdown-toggle {   color: #fff;   background-color: #fffacd;   border-color: #fffacd; }
+.btn-outline-lemonchiffon:not([disabled]):not(.disabled):active, .btn-outline-lemonchiffon:not([disabled]):not(.disabled).active, .show > .btn-outline-lemonchiffon.dropdown-toggle {   color: #fff;   background-color: #fffacd;   border-color: #fffacd;   box-shadow: 0 0 0 0.2rem rgba(255, 250, 205, 0.5); }
 .badge-lemonchiffon {   color: #111;   background-color: #fffacd; }
 .badge-lemonchiffon[href]:focus, .badge-lemonchiffon[href]:hover {   color: #111;   text-decoration: none;   background-color: #fff59a; }
 .alert-lemonchiffon {   color: #85826b;   background-color: #fffef5;   border-color: #fffef1; }

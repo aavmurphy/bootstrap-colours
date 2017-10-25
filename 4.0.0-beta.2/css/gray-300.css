@@ -3,14 +3,14 @@
 .table-hover .table-gray-300:hover > td, .table-hover .table-gray-300:hover > th {   background-color: #e8eaed; }
 .btn-gray-300 {   color: #111;   background-color: #dee2e6;   border-color: #dee2e6; }
 .btn-gray-300:hover {   color: #111;   background-color: #c8cfd6;   border-color: #c1c9d0; }
-.btn-gray-300:focus, .btn-gray-300.focus {   box-shadow: 0 0 0 3px rgba(222, 226, 230, 0.5); }
+.btn-gray-300:focus, .btn-gray-300.focus {   box-shadow: 0 0 0 0.2rem rgba(222, 226, 230, 0.5); }
 .btn-gray-300.disabled, .btn-gray-300:disabled {   background-color: #dee2e6;   border-color: #dee2e6; }
-.btn-gray-300:active, .btn-gray-300.active, .show > .btn-gray-300.dropdown-toggle {   background-color: #c8cfd6;   background-image: none;   border-color: #c1c9d0; }
+.btn-gray-300:not([disabled]):not(.disabled):active, .btn-gray-300:not([disabled]):not(.disabled).active, .show > .btn-gray-300.dropdown-toggle {   color: #111;   background-color: #c1c9d0;   border-color: #bac2cb;   box-shadow: 0 0 0 0.2rem rgba(222, 226, 230, 0.5); }
 .btn-outline-gray-300 {   color: #dee2e6;   background-color: transparent;   background-image: none;   border-color: #dee2e6; }
 .btn-outline-gray-300:hover {   color: #fff;   background-color: #dee2e6;   border-color: #dee2e6; }
-.btn-outline-gray-300:focus, .btn-outline-gray-300.focus {   box-shadow: 0 0 0 3px rgba(222, 226, 230, 0.5); }
+.btn-outline-gray-300:focus, .btn-outline-gray-300.focus {   box-shadow: 0 0 0 0.2rem rgba(222, 226, 230, 0.5); }
 .btn-outline-gray-300.disabled, .btn-outline-gray-300:disabled {   color: #dee2e6;   background-color: transparent; }
-.btn-outline-gray-300:active, .btn-outline-gray-300.active, .show > .btn-outline-gray-300.dropdown-toggle {   color: #fff;   background-color: #dee2e6;   border-color: #dee2e6; }
+.btn-outline-gray-300:not([disabled]):not(.disabled):active, .btn-outline-gray-300:not([disabled]):not(.disabled).active, .show > .btn-outline-gray-300.dropdown-toggle {   color: #fff;   background-color: #dee2e6;   border-color: #dee2e6;   box-shadow: 0 0 0 0.2rem rgba(222, 226, 230, 0.5); }
 .badge-gray-300 {   color: #111;   background-color: #dee2e6; }
 .badge-gray-300[href]:focus, .badge-gray-300[href]:hover {   color: #111;   text-decoration: none;   background-color: #c1c9d0; }
 .alert-gray-300 {   color: #737678;   background-color: #f8f9fa;   border-color: #f6f7f8; }

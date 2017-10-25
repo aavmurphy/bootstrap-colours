@@ -3,14 +3,14 @@
 .table-hover .table-snow:hover > td, .table-hover .table-snow:hover > th {   background-color: #ffe5e5; }
 .btn-snow {   color: #111;   background-color: #fffafa;   border-color: #fffafa; }
 .btn-snow:hover {   color: #111;   background-color: #ffd4d4;   border-color: #ffc7c7; }
-.btn-snow:focus, .btn-snow.focus {   box-shadow: 0 0 0 3px rgba(255, 250, 250, 0.5); }
+.btn-snow:focus, .btn-snow.focus {   box-shadow: 0 0 0 0.2rem rgba(255, 250, 250, 0.5); }
 .btn-snow.disabled, .btn-snow:disabled {   background-color: #fffafa;   border-color: #fffafa; }
-.btn-snow:active, .btn-snow.active, .show > .btn-snow.dropdown-toggle {   background-color: #ffd4d4;   background-image: none;   border-color: #ffc7c7; }
+.btn-snow:not([disabled]):not(.disabled):active, .btn-snow:not([disabled]):not(.disabled).active, .show > .btn-snow.dropdown-toggle {   color: #111;   background-color: #ffc7c7;   border-color: #ffbaba;   box-shadow: 0 0 0 0.2rem rgba(255, 250, 250, 0.5); }
 .btn-outline-snow {   color: #fffafa;   background-color: transparent;   background-image: none;   border-color: #fffafa; }
 .btn-outline-snow:hover {   color: #fff;   background-color: #fffafa;   border-color: #fffafa; }
-.btn-outline-snow:focus, .btn-outline-snow.focus {   box-shadow: 0 0 0 3px rgba(255, 250, 250, 0.5); }
+.btn-outline-snow:focus, .btn-outline-snow.focus {   box-shadow: 0 0 0 0.2rem rgba(255, 250, 250, 0.5); }
 .btn-outline-snow.disabled, .btn-outline-snow:disabled {   color: #fffafa;   background-color: transparent; }
-.btn-outline-snow:active, .btn-outline-snow.active, .show > .btn-outline-snow.dropdown-toggle {   color: #fff;   background-color: #fffafa;   border-color: #fffafa; }
+.btn-outline-snow:not([disabled]):not(.disabled):active, .btn-outline-snow:not([disabled]):not(.disabled).active, .show > .btn-outline-snow.dropdown-toggle {   color: #fff;   background-color: #fffafa;   border-color: #fffafa;   box-shadow: 0 0 0 0.2rem rgba(255, 250, 250, 0.5); }
 .badge-snow {   color: #111;   background-color: #fffafa; }
 .badge-snow[href]:focus, .badge-snow[href]:hover {   color: #111;   text-decoration: none;   background-color: #ffc7c7; }
 .alert-snow {   color: #858282;   background-color: #fffefe;   border-color: #fffefe; }

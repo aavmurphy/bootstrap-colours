@@ -3,14 +3,14 @@
 .table-hover .table-gold:hover > td, .table-hover .table-gold:hover > th {   background-color: #fff09f; }
 .btn-gold {   color: #111;   background-color: #ffd700;   border-color: #ffd700; }
 .btn-gold:hover {   color: #111;   background-color: #d9b700;   border-color: #ccac00; }
-.btn-gold:focus, .btn-gold.focus {   box-shadow: 0 0 0 3px rgba(255, 215, 0, 0.5); }
+.btn-gold:focus, .btn-gold.focus {   box-shadow: 0 0 0 0.2rem rgba(255, 215, 0, 0.5); }
 .btn-gold.disabled, .btn-gold:disabled {   background-color: #ffd700;   border-color: #ffd700; }
-.btn-gold:active, .btn-gold.active, .show > .btn-gold.dropdown-toggle {   background-color: #d9b700;   background-image: none;   border-color: #ccac00; }
+.btn-gold:not([disabled]):not(.disabled):active, .btn-gold:not([disabled]):not(.disabled).active, .show > .btn-gold.dropdown-toggle {   color: #111;   background-color: #ccac00;   border-color: #bfa100;   box-shadow: 0 0 0 0.2rem rgba(255, 215, 0, 0.5); }
 .btn-outline-gold {   color: #ffd700;   background-color: transparent;   background-image: none;   border-color: #ffd700; }
 .btn-outline-gold:hover {   color: #fff;   background-color: #ffd700;   border-color: #ffd700; }
-.btn-outline-gold:focus, .btn-outline-gold.focus {   box-shadow: 0 0 0 3px rgba(255, 215, 0, 0.5); }
+.btn-outline-gold:focus, .btn-outline-gold.focus {   box-shadow: 0 0 0 0.2rem rgba(255, 215, 0, 0.5); }
 .btn-outline-gold.disabled, .btn-outline-gold:disabled {   color: #ffd700;   background-color: transparent; }
-.btn-outline-gold:active, .btn-outline-gold.active, .show > .btn-outline-gold.dropdown-toggle {   color: #fff;   background-color: #ffd700;   border-color: #ffd700; }
+.btn-outline-gold:not([disabled]):not(.disabled):active, .btn-outline-gold:not([disabled]):not(.disabled).active, .show > .btn-outline-gold.dropdown-toggle {   color: #fff;   background-color: #ffd700;   border-color: #ffd700;   box-shadow: 0 0 0 0.2rem rgba(255, 215, 0, 0.5); }
 .badge-gold {   color: #111;   background-color: #ffd700; }
 .badge-gold[href]:focus, .badge-gold[href]:hover {   color: #111;   text-decoration: none;   background-color: #ccac00; }
 .alert-gold {   color: #857000;   background-color: #fff7cc;   border-color: #fff4b8; }

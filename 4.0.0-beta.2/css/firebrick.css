@@ -3,14 +3,14 @@
 .table-hover .table-firebrick:hover > td, .table-hover .table-firebrick:hover > th {   background-color: #e2aeae; }
 .btn-firebrick {   color: #fff;   background-color: #b22222;   border-color: #b22222; }
 .btn-firebrick:hover {   color: #fff;   background-color: #921c1c;   border-color: #871a1a; }
-.btn-firebrick:focus, .btn-firebrick.focus {   box-shadow: 0 0 0 3px rgba(178, 34, 34, 0.5); }
+.btn-firebrick:focus, .btn-firebrick.focus {   box-shadow: 0 0 0 0.2rem rgba(178, 34, 34, 0.5); }
 .btn-firebrick.disabled, .btn-firebrick:disabled {   background-color: #b22222;   border-color: #b22222; }
-.btn-firebrick:active, .btn-firebrick.active, .show > .btn-firebrick.dropdown-toggle {   background-color: #921c1c;   background-image: none;   border-color: #871a1a; }
+.btn-firebrick:not([disabled]):not(.disabled):active, .btn-firebrick:not([disabled]):not(.disabled).active, .show > .btn-firebrick.dropdown-toggle {   color: #fff;   background-color: #871a1a;   border-color: #7c1818;   box-shadow: 0 0 0 0.2rem rgba(178, 34, 34, 0.5); }
 .btn-outline-firebrick {   color: #b22222;   background-color: transparent;   background-image: none;   border-color: #b22222; }
 .btn-outline-firebrick:hover {   color: #fff;   background-color: #b22222;   border-color: #b22222; }
-.btn-outline-firebrick:focus, .btn-outline-firebrick.focus {   box-shadow: 0 0 0 3px rgba(178, 34, 34, 0.5); }
+.btn-outline-firebrick:focus, .btn-outline-firebrick.focus {   box-shadow: 0 0 0 0.2rem rgba(178, 34, 34, 0.5); }
 .btn-outline-firebrick.disabled, .btn-outline-firebrick:disabled {   color: #b22222;   background-color: transparent; }
-.btn-outline-firebrick:active, .btn-outline-firebrick.active, .show > .btn-outline-firebrick.dropdown-toggle {   color: #fff;   background-color: #b22222;   border-color: #b22222; }
+.btn-outline-firebrick:not([disabled]):not(.disabled):active, .btn-outline-firebrick:not([disabled]):not(.disabled).active, .show > .btn-outline-firebrick.dropdown-toggle {   color: #fff;   background-color: #b22222;   border-color: #b22222;   box-shadow: 0 0 0 0.2rem rgba(178, 34, 34, 0.5); }
 .badge-firebrick {   color: #fff;   background-color: #b22222; }
 .badge-firebrick[href]:focus, .badge-firebrick[href]:hover {   color: #fff;   text-decoration: none;   background-color: #871a1a; }
 .alert-firebrick {   color: #5d1212;   background-color: #f0d3d3;   border-color: #e9c1c1; }

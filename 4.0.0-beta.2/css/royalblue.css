@@ -3,14 +3,14 @@
 .table-hover .table-royalblue:hover > td, .table-hover .table-royalblue:hover > th {   background-color: #b4c3f4; }
 .btn-royalblue {   color: #fff;   background-color: #4169e1;   border-color: #4169e1; }
 .btn-royalblue:hover {   color: #fff;   background-color: #2250d9;   border-color: #214cce; }
-.btn-royalblue:focus, .btn-royalblue.focus {   box-shadow: 0 0 0 3px rgba(65, 105, 225, 0.5); }
+.btn-royalblue:focus, .btn-royalblue.focus {   box-shadow: 0 0 0 0.2rem rgba(65, 105, 225, 0.5); }
 .btn-royalblue.disabled, .btn-royalblue:disabled {   background-color: #4169e1;   border-color: #4169e1; }
-.btn-royalblue:active, .btn-royalblue.active, .show > .btn-royalblue.dropdown-toggle {   background-color: #2250d9;   background-image: none;   border-color: #214cce; }
+.btn-royalblue:not([disabled]):not(.disabled):active, .btn-royalblue:not([disabled]):not(.disabled).active, .show > .btn-royalblue.dropdown-toggle {   color: #fff;   background-color: #214cce;   border-color: #1f48c3;   box-shadow: 0 0 0 0.2rem rgba(65, 105, 225, 0.5); }
 .btn-outline-royalblue {   color: #4169e1;   background-color: transparent;   background-image: none;   border-color: #4169e1; }
 .btn-outline-royalblue:hover {   color: #fff;   background-color: #4169e1;   border-color: #4169e1; }
-.btn-outline-royalblue:focus, .btn-outline-royalblue.focus {   box-shadow: 0 0 0 3px rgba(65, 105, 225, 0.5); }
+.btn-outline-royalblue:focus, .btn-outline-royalblue.focus {   box-shadow: 0 0 0 0.2rem rgba(65, 105, 225, 0.5); }
 .btn-outline-royalblue.disabled, .btn-outline-royalblue:disabled {   color: #4169e1;   background-color: transparent; }
-.btn-outline-royalblue:active, .btn-outline-royalblue.active, .show > .btn-outline-royalblue.dropdown-toggle {   color: #fff;   background-color: #4169e1;   border-color: #4169e1; }
+.btn-outline-royalblue:not([disabled]):not(.disabled):active, .btn-outline-royalblue:not([disabled]):not(.disabled).active, .show > .btn-outline-royalblue.dropdown-toggle {   color: #fff;   background-color: #4169e1;   border-color: #4169e1;   box-shadow: 0 0 0 0.2rem rgba(65, 105, 225, 0.5); }
 .badge-royalblue {   color: #fff;   background-color: #4169e1; }
 .badge-royalblue[href]:focus, .badge-royalblue[href]:hover {   color: #fff;   text-decoration: none;   background-color: #214cce; }
 .alert-royalblue {   color: #223775;   background-color: #d9e1f9;   border-color: #cad5f7; }

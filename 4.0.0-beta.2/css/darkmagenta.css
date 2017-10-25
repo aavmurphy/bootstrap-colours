@@ -3,14 +3,14 @@
 .table-hover .table-darkmagenta:hover > td, .table-hover .table-darkmagenta:hover > th {   background-color: #d7a6d7; }
 .btn-darkmagenta {   color: #fff;   background-color: #8b008b;   border-color: #8b008b; }
 .btn-darkmagenta:hover {   color: #fff;   background-color: #650065;   border-color: #580058; }
-.btn-darkmagenta:focus, .btn-darkmagenta.focus {   box-shadow: 0 0 0 3px rgba(139, 0, 139, 0.5); }
+.btn-darkmagenta:focus, .btn-darkmagenta.focus {   box-shadow: 0 0 0 0.2rem rgba(139, 0, 139, 0.5); }
 .btn-darkmagenta.disabled, .btn-darkmagenta:disabled {   background-color: #8b008b;   border-color: #8b008b; }
-.btn-darkmagenta:active, .btn-darkmagenta.active, .show > .btn-darkmagenta.dropdown-toggle {   background-color: #650065;   background-image: none;   border-color: #580058; }
+.btn-darkmagenta:not([disabled]):not(.disabled):active, .btn-darkmagenta:not([disabled]):not(.disabled).active, .show > .btn-darkmagenta.dropdown-toggle {   color: #fff;   background-color: #580058;   border-color: #4b004b;   box-shadow: 0 0 0 0.2rem rgba(139, 0, 139, 0.5); }
 .btn-outline-darkmagenta {   color: #8b008b;   background-color: transparent;   background-image: none;   border-color: #8b008b; }
 .btn-outline-darkmagenta:hover {   color: #fff;   background-color: #8b008b;   border-color: #8b008b; }
-.btn-outline-darkmagenta:focus, .btn-outline-darkmagenta.focus {   box-shadow: 0 0 0 3px rgba(139, 0, 139, 0.5); }
+.btn-outline-darkmagenta:focus, .btn-outline-darkmagenta.focus {   box-shadow: 0 0 0 0.2rem rgba(139, 0, 139, 0.5); }
 .btn-outline-darkmagenta.disabled, .btn-outline-darkmagenta:disabled {   color: #8b008b;   background-color: transparent; }
-.btn-outline-darkmagenta:active, .btn-outline-darkmagenta.active, .show > .btn-outline-darkmagenta.dropdown-toggle {   color: #fff;   background-color: #8b008b;   border-color: #8b008b; }
+.btn-outline-darkmagenta:not([disabled]):not(.disabled):active, .btn-outline-darkmagenta:not([disabled]):not(.disabled).active, .show > .btn-outline-darkmagenta.dropdown-toggle {   color: #fff;   background-color: #8b008b;   border-color: #8b008b;   box-shadow: 0 0 0 0.2rem rgba(139, 0, 139, 0.5); }
 .badge-darkmagenta {   color: #fff;   background-color: #8b008b; }
 .badge-darkmagenta[href]:focus, .badge-darkmagenta[href]:hover {   color: #fff;   text-decoration: none;   background-color: #580058; }
 .alert-darkmagenta {   color: #480048;   background-color: #e8cce8;   border-color: #dfb8df; }

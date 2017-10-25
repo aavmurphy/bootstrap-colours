@@ -3,14 +3,14 @@
 .table-hover .table-navy:hover > td, .table-hover .table-navy:hover > th {   background-color: #a7a7d2; }
 .btn-navy {   color: #fff;   background-color: #000080;   border-color: #000080; }
 .btn-navy:hover {   color: #fff;   background-color: #00005a;   border-color: #00004d; }
-.btn-navy:focus, .btn-navy.focus {   box-shadow: 0 0 0 3px rgba(0, 0, 128, 0.5); }
+.btn-navy:focus, .btn-navy.focus {   box-shadow: 0 0 0 0.2rem rgba(0, 0, 128, 0.5); }
 .btn-navy.disabled, .btn-navy:disabled {   background-color: #000080;   border-color: #000080; }
-.btn-navy:active, .btn-navy.active, .show > .btn-navy.dropdown-toggle {   background-color: #00005a;   background-image: none;   border-color: #00004d; }
+.btn-navy:not([disabled]):not(.disabled):active, .btn-navy:not([disabled]):not(.disabled).active, .show > .btn-navy.dropdown-toggle {   color: #fff;   background-color: #00004d;   border-color: #000040;   box-shadow: 0 0 0 0.2rem rgba(0, 0, 128, 0.5); }
 .btn-outline-navy {   color: #000080;   background-color: transparent;   background-image: none;   border-color: #000080; }
 .btn-outline-navy:hover {   color: #fff;   background-color: #000080;   border-color: #000080; }
-.btn-outline-navy:focus, .btn-outline-navy.focus {   box-shadow: 0 0 0 3px rgba(0, 0, 128, 0.5); }
+.btn-outline-navy:focus, .btn-outline-navy.focus {   box-shadow: 0 0 0 0.2rem rgba(0, 0, 128, 0.5); }
 .btn-outline-navy.disabled, .btn-outline-navy:disabled {   color: #000080;   background-color: transparent; }
-.btn-outline-navy:active, .btn-outline-navy.active, .show > .btn-outline-navy.dropdown-toggle {   color: #fff;   background-color: #000080;   border-color: #000080; }
+.btn-outline-navy:not([disabled]):not(.disabled):active, .btn-outline-navy:not([disabled]):not(.disabled).active, .show > .btn-outline-navy.dropdown-toggle {   color: #fff;   background-color: #000080;   border-color: #000080;   box-shadow: 0 0 0 0.2rem rgba(0, 0, 128, 0.5); }
 .badge-navy {   color: #fff;   background-color: #000080; }
 .badge-navy[href]:focus, .badge-navy[href]:hover {   color: #fff;   text-decoration: none;   background-color: #00004d; }
 .alert-navy {   color: #000043;   background-color: #cccce6;   border-color: #b8b8db; }

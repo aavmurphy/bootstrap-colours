@@ -3,14 +3,14 @@
 .table-hover .table-lime:hover > td, .table-hover .table-lime:hover > th {   background-color: #9fff9f; }
 .btn-lime {   color: #fff;   background-color: #00ff00;   border-color: #00ff00; }
 .btn-lime:hover {   color: #fff;   background-color: #00d900;   border-color: #00cc00; }
-.btn-lime:focus, .btn-lime.focus {   box-shadow: 0 0 0 3px rgba(0, 255, 0, 0.5); }
+.btn-lime:focus, .btn-lime.focus {   box-shadow: 0 0 0 0.2rem rgba(0, 255, 0, 0.5); }
 .btn-lime.disabled, .btn-lime:disabled {   background-color: #00ff00;   border-color: #00ff00; }
-.btn-lime:active, .btn-lime.active, .show > .btn-lime.dropdown-toggle {   background-color: #00d900;   background-image: none;   border-color: #00cc00; }
+.btn-lime:not([disabled]):not(.disabled):active, .btn-lime:not([disabled]):not(.disabled).active, .show > .btn-lime.dropdown-toggle {   color: #fff;   background-color: #00cc00;   border-color: #00bf00;   box-shadow: 0 0 0 0.2rem rgba(0, 255, 0, 0.5); }
 .btn-outline-lime {   color: #00ff00;   background-color: transparent;   background-image: none;   border-color: #00ff00; }
 .btn-outline-lime:hover {   color: #fff;   background-color: #00ff00;   border-color: #00ff00; }
-.btn-outline-lime:focus, .btn-outline-lime.focus {   box-shadow: 0 0 0 3px rgba(0, 255, 0, 0.5); }
+.btn-outline-lime:focus, .btn-outline-lime.focus {   box-shadow: 0 0 0 0.2rem rgba(0, 255, 0, 0.5); }
 .btn-outline-lime.disabled, .btn-outline-lime:disabled {   color: #00ff00;   background-color: transparent; }
-.btn-outline-lime:active, .btn-outline-lime.active, .show > .btn-outline-lime.dropdown-toggle {   color: #fff;   background-color: #00ff00;   border-color: #00ff00; }
+.btn-outline-lime:not([disabled]):not(.disabled):active, .btn-outline-lime:not([disabled]):not(.disabled).active, .show > .btn-outline-lime.dropdown-toggle {   color: #fff;   background-color: #00ff00;   border-color: #00ff00;   box-shadow: 0 0 0 0.2rem rgba(0, 255, 0, 0.5); }
 .badge-lime {   color: #fff;   background-color: #00ff00; }
 .badge-lime[href]:focus, .badge-lime[href]:hover {   color: #fff;   text-decoration: none;   background-color: #00cc00; }
 .alert-lime {   color: #008500;   background-color: #ccffcc;   border-color: #b8ffb8; }

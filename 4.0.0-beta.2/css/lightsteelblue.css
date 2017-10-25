@@ -3,14 +3,14 @@
 .table-hover .table-lightsteelblue:hover > td, .table-hover .table-lightsteelblue:hover > th {   background-color: #d7e0ef; }
 .btn-lightsteelblue {   color: #111;   background-color: #b0c4de;   border-color: #b0c4de; }
 .btn-lightsteelblue:hover {   color: #111;   background-color: #95b0d3;   border-color: #8ca9cf; }
-.btn-lightsteelblue:focus, .btn-lightsteelblue.focus {   box-shadow: 0 0 0 3px rgba(176, 196, 222, 0.5); }
+.btn-lightsteelblue:focus, .btn-lightsteelblue.focus {   box-shadow: 0 0 0 0.2rem rgba(176, 196, 222, 0.5); }
 .btn-lightsteelblue.disabled, .btn-lightsteelblue:disabled {   background-color: #b0c4de;   border-color: #b0c4de; }
-.btn-lightsteelblue:active, .btn-lightsteelblue.active, .show > .btn-lightsteelblue.dropdown-toggle {   background-color: #95b0d3;   background-image: none;   border-color: #8ca9cf; }
+.btn-lightsteelblue:not([disabled]):not(.disabled):active, .btn-lightsteelblue:not([disabled]):not(.disabled).active, .show > .btn-lightsteelblue.dropdown-toggle {   color: #111;   background-color: #8ca9cf;   border-color: #83a2cb;   box-shadow: 0 0 0 0.2rem rgba(176, 196, 222, 0.5); }
 .btn-outline-lightsteelblue {   color: #b0c4de;   background-color: transparent;   background-image: none;   border-color: #b0c4de; }
 .btn-outline-lightsteelblue:hover {   color: #fff;   background-color: #b0c4de;   border-color: #b0c4de; }
-.btn-outline-lightsteelblue:focus, .btn-outline-lightsteelblue.focus {   box-shadow: 0 0 0 3px rgba(176, 196, 222, 0.5); }
+.btn-outline-lightsteelblue:focus, .btn-outline-lightsteelblue.focus {   box-shadow: 0 0 0 0.2rem rgba(176, 196, 222, 0.5); }
 .btn-outline-lightsteelblue.disabled, .btn-outline-lightsteelblue:disabled {   color: #b0c4de;   background-color: transparent; }
-.btn-outline-lightsteelblue:active, .btn-outline-lightsteelblue.active, .show > .btn-outline-lightsteelblue.dropdown-toggle {   color: #fff;   background-color: #b0c4de;   border-color: #b0c4de; }
+.btn-outline-lightsteelblue:not([disabled]):not(.disabled):active, .btn-outline-lightsteelblue:not([disabled]):not(.disabled).active, .show > .btn-outline-lightsteelblue.dropdown-toggle {   color: #fff;   background-color: #b0c4de;   border-color: #b0c4de;   box-shadow: 0 0 0 0.2rem rgba(176, 196, 222, 0.5); }
 .badge-lightsteelblue {   color: #111;   background-color: #b0c4de; }
 .badge-lightsteelblue[href]:focus, .badge-lightsteelblue[href]:hover {   color: #111;   text-decoration: none;   background-color: #8ca9cf; }
 .alert-lightsteelblue {   color: #5c6673;   background-color: #eff3f8;   border-color: #e9eef6; }

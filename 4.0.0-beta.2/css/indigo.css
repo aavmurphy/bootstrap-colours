@@ -3,14 +3,14 @@
 .table-hover .table-indigo:hover > td, .table-hover .table-indigo:hover > th {   background-color: #c1a7d4; }
 .btn-indigo {   color: #fff;   background-color: #4b0082;   border-color: #4b0082; }
 .btn-indigo:hover {   color: #fff;   background-color: #35005c;   border-color: #2e004f; }
-.btn-indigo:focus, .btn-indigo.focus {   box-shadow: 0 0 0 3px rgba(75, 0, 130, 0.5); }
+.btn-indigo:focus, .btn-indigo.focus {   box-shadow: 0 0 0 0.2rem rgba(75, 0, 130, 0.5); }
 .btn-indigo.disabled, .btn-indigo:disabled {   background-color: #4b0082;   border-color: #4b0082; }
-.btn-indigo:active, .btn-indigo.active, .show > .btn-indigo.dropdown-toggle {   background-color: #35005c;   background-image: none;   border-color: #2e004f; }
+.btn-indigo:not([disabled]):not(.disabled):active, .btn-indigo:not([disabled]):not(.disabled).active, .show > .btn-indigo.dropdown-toggle {   color: #fff;   background-color: #2e004f;   border-color: #260042;   box-shadow: 0 0 0 0.2rem rgba(75, 0, 130, 0.5); }
 .btn-outline-indigo {   color: #4b0082;   background-color: transparent;   background-image: none;   border-color: #4b0082; }
 .btn-outline-indigo:hover {   color: #fff;   background-color: #4b0082;   border-color: #4b0082; }
-.btn-outline-indigo:focus, .btn-outline-indigo.focus {   box-shadow: 0 0 0 3px rgba(75, 0, 130, 0.5); }
+.btn-outline-indigo:focus, .btn-outline-indigo.focus {   box-shadow: 0 0 0 0.2rem rgba(75, 0, 130, 0.5); }
 .btn-outline-indigo.disabled, .btn-outline-indigo:disabled {   color: #4b0082;   background-color: transparent; }
-.btn-outline-indigo:active, .btn-outline-indigo.active, .show > .btn-outline-indigo.dropdown-toggle {   color: #fff;   background-color: #4b0082;   border-color: #4b0082; }
+.btn-outline-indigo:not([disabled]):not(.disabled):active, .btn-outline-indigo:not([disabled]):not(.disabled).active, .show > .btn-outline-indigo.dropdown-toggle {   color: #fff;   background-color: #4b0082;   border-color: #4b0082;   box-shadow: 0 0 0 0.2rem rgba(75, 0, 130, 0.5); }
 .badge-indigo {   color: #fff;   background-color: #4b0082; }
 .badge-indigo[href]:focus, .badge-indigo[href]:hover {   color: #fff;   text-decoration: none;   background-color: #2e004f; }
 .alert-indigo {   color: #270044;   background-color: #dbcce6;   border-color: #cdb8dc; }

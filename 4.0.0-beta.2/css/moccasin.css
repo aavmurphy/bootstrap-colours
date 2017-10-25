@@ -3,14 +3,14 @@
 .table-hover .table-moccasin:hover > td, .table-hover .table-moccasin:hover > th {   background-color: #ffedd1; }
 .btn-moccasin {   color: #111;   background-color: #ffe4b5;   border-color: #ffe4b5; }
 .btn-moccasin:hover {   color: #111;   background-color: #ffd68f;   border-color: #ffd182; }
-.btn-moccasin:focus, .btn-moccasin.focus {   box-shadow: 0 0 0 3px rgba(255, 228, 181, 0.5); }
+.btn-moccasin:focus, .btn-moccasin.focus {   box-shadow: 0 0 0 0.2rem rgba(255, 228, 181, 0.5); }
 .btn-moccasin.disabled, .btn-moccasin:disabled {   background-color: #ffe4b5;   border-color: #ffe4b5; }
-.btn-moccasin:active, .btn-moccasin.active, .show > .btn-moccasin.dropdown-toggle {   background-color: #ffd68f;   background-image: none;   border-color: #ffd182; }
+.btn-moccasin:not([disabled]):not(.disabled):active, .btn-moccasin:not([disabled]):not(.disabled).active, .show > .btn-moccasin.dropdown-toggle {   color: #111;   background-color: #ffd182;   border-color: #ffcd75;   box-shadow: 0 0 0 0.2rem rgba(255, 228, 181, 0.5); }
 .btn-outline-moccasin {   color: #ffe4b5;   background-color: transparent;   background-image: none;   border-color: #ffe4b5; }
 .btn-outline-moccasin:hover {   color: #fff;   background-color: #ffe4b5;   border-color: #ffe4b5; }
-.btn-outline-moccasin:focus, .btn-outline-moccasin.focus {   box-shadow: 0 0 0 3px rgba(255, 228, 181, 0.5); }
+.btn-outline-moccasin:focus, .btn-outline-moccasin.focus {   box-shadow: 0 0 0 0.2rem rgba(255, 228, 181, 0.5); }
 .btn-outline-moccasin.disabled, .btn-outline-moccasin:disabled {   color: #ffe4b5;   background-color: transparent; }
-.btn-outline-moccasin:active, .btn-outline-moccasin.active, .show > .btn-outline-moccasin.dropdown-toggle {   color: #fff;   background-color: #ffe4b5;   border-color: #ffe4b5; }
+.btn-outline-moccasin:not([disabled]):not(.disabled):active, .btn-outline-moccasin:not([disabled]):not(.disabled).active, .show > .btn-outline-moccasin.dropdown-toggle {   color: #fff;   background-color: #ffe4b5;   border-color: #ffe4b5;   box-shadow: 0 0 0 0.2rem rgba(255, 228, 181, 0.5); }
 .badge-moccasin {   color: #111;   background-color: #ffe4b5; }
 .badge-moccasin[href]:focus, .badge-moccasin[href]:hover {   color: #111;   text-decoration: none;   background-color: #ffd182; }
 .alert-moccasin {   color: #85775e;   background-color: floralwhite;   border-color: #fff7ea; }

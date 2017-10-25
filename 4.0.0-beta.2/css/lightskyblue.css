@@ -3,14 +3,14 @@
 .table-hover .table-lightskyblue:hover > td, .table-hover .table-lightskyblue:hover > th {   background-color: #c4e7fd; }
 .btn-lightskyblue {   color: #111;   background-color: #87cefa;   border-color: #87cefa; }
 .btn-lightskyblue:hover {   color: #111;   background-color: #62bff8;   border-color: #56baf8; }
-.btn-lightskyblue:focus, .btn-lightskyblue.focus {   box-shadow: 0 0 0 3px rgba(135, 206, 250, 0.5); }
+.btn-lightskyblue:focus, .btn-lightskyblue.focus {   box-shadow: 0 0 0 0.2rem rgba(135, 206, 250, 0.5); }
 .btn-lightskyblue.disabled, .btn-lightskyblue:disabled {   background-color: #87cefa;   border-color: #87cefa; }
-.btn-lightskyblue:active, .btn-lightskyblue.active, .show > .btn-lightskyblue.dropdown-toggle {   background-color: #62bff8;   background-image: none;   border-color: #56baf8; }
+.btn-lightskyblue:not([disabled]):not(.disabled):active, .btn-lightskyblue:not([disabled]):not(.disabled).active, .show > .btn-lightskyblue.dropdown-toggle {   color: #111;   background-color: #56baf8;   border-color: #4ab5f7;   box-shadow: 0 0 0 0.2rem rgba(135, 206, 250, 0.5); }
 .btn-outline-lightskyblue {   color: #87cefa;   background-color: transparent;   background-image: none;   border-color: #87cefa; }
 .btn-outline-lightskyblue:hover {   color: #fff;   background-color: #87cefa;   border-color: #87cefa; }
-.btn-outline-lightskyblue:focus, .btn-outline-lightskyblue.focus {   box-shadow: 0 0 0 3px rgba(135, 206, 250, 0.5); }
+.btn-outline-lightskyblue:focus, .btn-outline-lightskyblue.focus {   box-shadow: 0 0 0 0.2rem rgba(135, 206, 250, 0.5); }
 .btn-outline-lightskyblue.disabled, .btn-outline-lightskyblue:disabled {   color: #87cefa;   background-color: transparent; }
-.btn-outline-lightskyblue:active, .btn-outline-lightskyblue.active, .show > .btn-outline-lightskyblue.dropdown-toggle {   color: #fff;   background-color: #87cefa;   border-color: #87cefa; }
+.btn-outline-lightskyblue:not([disabled]):not(.disabled):active, .btn-outline-lightskyblue:not([disabled]):not(.disabled).active, .show > .btn-outline-lightskyblue.dropdown-toggle {   color: #fff;   background-color: #87cefa;   border-color: #87cefa;   box-shadow: 0 0 0 0.2rem rgba(135, 206, 250, 0.5); }
 .badge-lightskyblue {   color: #111;   background-color: #87cefa; }
 .badge-lightskyblue[href]:focus, .badge-lightskyblue[href]:hover {   color: #111;   text-decoration: none;   background-color: #56baf8; }
 .alert-lightskyblue {   color: #466b82;   background-color: #e7f5fe;   border-color: #ddf1fe; }

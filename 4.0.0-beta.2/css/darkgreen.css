@@ -3,14 +3,14 @@
 .table-hover .table-darkgreen:hover > td, .table-hover .table-darkgreen:hover > th {   background-color: #a8caa8; }
 .btn-darkgreen {   color: #fff;   background-color: #006400;   border-color: #006400; }
 .btn-darkgreen:hover {   color: #fff;   background-color: #003e00;   border-color: #003100; }
-.btn-darkgreen:focus, .btn-darkgreen.focus {   box-shadow: 0 0 0 3px rgba(0, 100, 0, 0.5); }
+.btn-darkgreen:focus, .btn-darkgreen.focus {   box-shadow: 0 0 0 0.2rem rgba(0, 100, 0, 0.5); }
 .btn-darkgreen.disabled, .btn-darkgreen:disabled {   background-color: #006400;   border-color: #006400; }
-.btn-darkgreen:active, .btn-darkgreen.active, .show > .btn-darkgreen.dropdown-toggle {   background-color: #003e00;   background-image: none;   border-color: #003100; }
+.btn-darkgreen:not([disabled]):not(.disabled):active, .btn-darkgreen:not([disabled]):not(.disabled).active, .show > .btn-darkgreen.dropdown-toggle {   color: #fff;   background-color: #003100;   border-color: #002400;   box-shadow: 0 0 0 0.2rem rgba(0, 100, 0, 0.5); }
 .btn-outline-darkgreen {   color: #006400;   background-color: transparent;   background-image: none;   border-color: #006400; }
 .btn-outline-darkgreen:hover {   color: #fff;   background-color: #006400;   border-color: #006400; }
-.btn-outline-darkgreen:focus, .btn-outline-darkgreen.focus {   box-shadow: 0 0 0 3px rgba(0, 100, 0, 0.5); }
+.btn-outline-darkgreen:focus, .btn-outline-darkgreen.focus {   box-shadow: 0 0 0 0.2rem rgba(0, 100, 0, 0.5); }
 .btn-outline-darkgreen.disabled, .btn-outline-darkgreen:disabled {   color: #006400;   background-color: transparent; }
-.btn-outline-darkgreen:active, .btn-outline-darkgreen.active, .show > .btn-outline-darkgreen.dropdown-toggle {   color: #fff;   background-color: #006400;   border-color: #006400; }
+.btn-outline-darkgreen:not([disabled]):not(.disabled):active, .btn-outline-darkgreen:not([disabled]):not(.disabled).active, .show > .btn-outline-darkgreen.dropdown-toggle {   color: #fff;   background-color: #006400;   border-color: #006400;   box-shadow: 0 0 0 0.2rem rgba(0, 100, 0, 0.5); }
 .badge-darkgreen {   color: #fff;   background-color: #006400; }
 .badge-darkgreen[href]:focus, .badge-darkgreen[href]:hover {   color: #fff;   text-decoration: none;   background-color: #003100; }
 .alert-darkgreen {   color: #003400;   background-color: #cce0cc;   border-color: #b8d4b8; }

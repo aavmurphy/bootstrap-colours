@@ -3,14 +3,14 @@
 .table-hover .table-midnightblue:hover > td, .table-hover .table-midnightblue:hover > th {   background-color: #afafcd; }
 .btn-midnightblue {   color: #fff;   background-color: #191970;   border-color: #191970; }
 .btn-midnightblue:hover {   color: #fff;   background-color: #121251;   border-color: #101046; }
-.btn-midnightblue:focus, .btn-midnightblue.focus {   box-shadow: 0 0 0 3px rgba(25, 25, 112, 0.5); }
+.btn-midnightblue:focus, .btn-midnightblue.focus {   box-shadow: 0 0 0 0.2rem rgba(25, 25, 112, 0.5); }
 .btn-midnightblue.disabled, .btn-midnightblue:disabled {   background-color: #191970;   border-color: #191970; }
-.btn-midnightblue:active, .btn-midnightblue.active, .show > .btn-midnightblue.dropdown-toggle {   background-color: #121251;   background-image: none;   border-color: #101046; }
+.btn-midnightblue:not([disabled]):not(.disabled):active, .btn-midnightblue:not([disabled]):not(.disabled).active, .show > .btn-midnightblue.dropdown-toggle {   color: #fff;   background-color: #101046;   border-color: #0d0d3c;   box-shadow: 0 0 0 0.2rem rgba(25, 25, 112, 0.5); }
 .btn-outline-midnightblue {   color: #191970;   background-color: transparent;   background-image: none;   border-color: #191970; }
 .btn-outline-midnightblue:hover {   color: #fff;   background-color: #191970;   border-color: #191970; }
-.btn-outline-midnightblue:focus, .btn-outline-midnightblue.focus {   box-shadow: 0 0 0 3px rgba(25, 25, 112, 0.5); }
+.btn-outline-midnightblue:focus, .btn-outline-midnightblue.focus {   box-shadow: 0 0 0 0.2rem rgba(25, 25, 112, 0.5); }
 .btn-outline-midnightblue.disabled, .btn-outline-midnightblue:disabled {   color: #191970;   background-color: transparent; }
-.btn-outline-midnightblue:active, .btn-outline-midnightblue.active, .show > .btn-outline-midnightblue.dropdown-toggle {   color: #fff;   background-color: #191970;   border-color: #191970; }
+.btn-outline-midnightblue:not([disabled]):not(.disabled):active, .btn-outline-midnightblue:not([disabled]):not(.disabled).active, .show > .btn-outline-midnightblue.dropdown-toggle {   color: #fff;   background-color: #191970;   border-color: #191970;   box-shadow: 0 0 0 0.2rem rgba(25, 25, 112, 0.5); }
 .badge-midnightblue {   color: #fff;   background-color: #191970; }
 .badge-midnightblue[href]:focus, .badge-midnightblue[href]:hover {   color: #fff;   text-decoration: none;   background-color: #101046; }
 .alert-midnightblue {   color: #0d0d3a;   background-color: #d1d1e2;   border-color: #bfbfd7; }

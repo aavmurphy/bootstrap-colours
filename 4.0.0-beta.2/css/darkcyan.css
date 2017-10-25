@@ -3,14 +3,14 @@
 .table-hover .table-darkcyan:hover > td, .table-hover .table-darkcyan:hover > th {   background-color: #a6d7d7; }
 .btn-darkcyan {   color: #fff;   background-color: #008b8b;   border-color: #008b8b; }
 .btn-darkcyan:hover {   color: #fff;   background-color: #006565;   border-color: #005858; }
-.btn-darkcyan:focus, .btn-darkcyan.focus {   box-shadow: 0 0 0 3px rgba(0, 139, 139, 0.5); }
+.btn-darkcyan:focus, .btn-darkcyan.focus {   box-shadow: 0 0 0 0.2rem rgba(0, 139, 139, 0.5); }
 .btn-darkcyan.disabled, .btn-darkcyan:disabled {   background-color: #008b8b;   border-color: #008b8b; }
-.btn-darkcyan:active, .btn-darkcyan.active, .show > .btn-darkcyan.dropdown-toggle {   background-color: #006565;   background-image: none;   border-color: #005858; }
+.btn-darkcyan:not([disabled]):not(.disabled):active, .btn-darkcyan:not([disabled]):not(.disabled).active, .show > .btn-darkcyan.dropdown-toggle {   color: #fff;   background-color: #005858;   border-color: #004b4b;   box-shadow: 0 0 0 0.2rem rgba(0, 139, 139, 0.5); }
 .btn-outline-darkcyan {   color: #008b8b;   background-color: transparent;   background-image: none;   border-color: #008b8b; }
 .btn-outline-darkcyan:hover {   color: #fff;   background-color: #008b8b;   border-color: #008b8b; }
-.btn-outline-darkcyan:focus, .btn-outline-darkcyan.focus {   box-shadow: 0 0 0 3px rgba(0, 139, 139, 0.5); }
+.btn-outline-darkcyan:focus, .btn-outline-darkcyan.focus {   box-shadow: 0 0 0 0.2rem rgba(0, 139, 139, 0.5); }
 .btn-outline-darkcyan.disabled, .btn-outline-darkcyan:disabled {   color: #008b8b;   background-color: transparent; }
-.btn-outline-darkcyan:active, .btn-outline-darkcyan.active, .show > .btn-outline-darkcyan.dropdown-toggle {   color: #fff;   background-color: #008b8b;   border-color: #008b8b; }
+.btn-outline-darkcyan:not([disabled]):not(.disabled):active, .btn-outline-darkcyan:not([disabled]):not(.disabled).active, .show > .btn-outline-darkcyan.dropdown-toggle {   color: #fff;   background-color: #008b8b;   border-color: #008b8b;   box-shadow: 0 0 0 0.2rem rgba(0, 139, 139, 0.5); }
 .badge-darkcyan {   color: #fff;   background-color: #008b8b; }
 .badge-darkcyan[href]:focus, .badge-darkcyan[href]:hover {   color: #fff;   text-decoration: none;   background-color: #005858; }
 .alert-darkcyan {   color: #004848;   background-color: #cce8e8;   border-color: #b8dfdf; }

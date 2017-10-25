@@ -6,24 +6,24 @@
 .table-hover .table-pink:hover > td, .table-hover .table-pink:hover > th {   background-color: #ffd4db; }
 .btn-flickr-pink {   color: #fff;   background-color: #ff0084;   border-color: #ff0084; }
 .btn-flickr-pink:hover {   color: #fff;   background-color: #d90070;   border-color: #cc006a; }
-.btn-flickr-pink:focus, .btn-flickr-pink.focus {   box-shadow: 0 0 0 3px rgba(255, 0, 132, 0.5); }
+.btn-flickr-pink:focus, .btn-flickr-pink.focus {   box-shadow: 0 0 0 0.2rem rgba(255, 0, 132, 0.5); }
 .btn-flickr-pink.disabled, .btn-flickr-pink:disabled {   background-color: #ff0084;   border-color: #ff0084; }
-.btn-flickr-pink:active, .btn-flickr-pink.active, .show > .btn-flickr-pink.dropdown-toggle {   background-color: #d90070;   background-image: none;   border-color: #cc006a; }
+.btn-flickr-pink:not([disabled]):not(.disabled):active, .btn-flickr-pink:not([disabled]):not(.disabled).active, .show > .btn-flickr-pink.dropdown-toggle {   color: #fff;   background-color: #cc006a;   border-color: #bf0063;   box-shadow: 0 0 0 0.2rem rgba(255, 0, 132, 0.5); }
 .btn-pink {   color: #111;   background-color: #ffc0cb;   border-color: #ffc0cb; }
 .btn-pink:hover {   color: #111;   background-color: #ff9aab;   border-color: #ff8da1; }
-.btn-pink:focus, .btn-pink.focus {   box-shadow: 0 0 0 3px rgba(255, 192, 203, 0.5); }
+.btn-pink:focus, .btn-pink.focus {   box-shadow: 0 0 0 0.2rem rgba(255, 192, 203, 0.5); }
 .btn-pink.disabled, .btn-pink:disabled {   background-color: #ffc0cb;   border-color: #ffc0cb; }
-.btn-pink:active, .btn-pink.active, .show > .btn-pink.dropdown-toggle {   background-color: #ff9aab;   background-image: none;   border-color: #ff8da1; }
+.btn-pink:not([disabled]):not(.disabled):active, .btn-pink:not([disabled]):not(.disabled).active, .show > .btn-pink.dropdown-toggle {   color: #111;   background-color: #ff8da1;   border-color: #ff8096;   box-shadow: 0 0 0 0.2rem rgba(255, 192, 203, 0.5); }
 .btn-outline-flickr-pink {   color: #ff0084;   background-color: transparent;   background-image: none;   border-color: #ff0084; }
 .btn-outline-flickr-pink:hover {   color: #fff;   background-color: #ff0084;   border-color: #ff0084; }
-.btn-outline-flickr-pink:focus, .btn-outline-flickr-pink.focus {   box-shadow: 0 0 0 3px rgba(255, 0, 132, 0.5); }
+.btn-outline-flickr-pink:focus, .btn-outline-flickr-pink.focus {   box-shadow: 0 0 0 0.2rem rgba(255, 0, 132, 0.5); }
 .btn-outline-flickr-pink.disabled, .btn-outline-flickr-pink:disabled {   color: #ff0084;   background-color: transparent; }
-.btn-outline-flickr-pink:active, .btn-outline-flickr-pink.active, .show > .btn-outline-flickr-pink.dropdown-toggle {   color: #fff;   background-color: #ff0084;   border-color: #ff0084; }
+.btn-outline-flickr-pink:not([disabled]):not(.disabled):active, .btn-outline-flickr-pink:not([disabled]):not(.disabled).active, .show > .btn-outline-flickr-pink.dropdown-toggle {   color: #fff;   background-color: #ff0084;   border-color: #ff0084;   box-shadow: 0 0 0 0.2rem rgba(255, 0, 132, 0.5); }
 .btn-outline-pink {   color: #ffc0cb;   background-color: transparent;   background-image: none;   border-color: #ffc0cb; }
 .btn-outline-pink:hover {   color: #fff;   background-color: #ffc0cb;   border-color: #ffc0cb; }
-.btn-outline-pink:focus, .btn-outline-pink.focus {   box-shadow: 0 0 0 3px rgba(255, 192, 203, 0.5); }
+.btn-outline-pink:focus, .btn-outline-pink.focus {   box-shadow: 0 0 0 0.2rem rgba(255, 192, 203, 0.5); }
 .btn-outline-pink.disabled, .btn-outline-pink:disabled {   color: #ffc0cb;   background-color: transparent; }
-.btn-outline-pink:active, .btn-outline-pink.active, .show > .btn-outline-pink.dropdown-toggle {   color: #fff;   background-color: #ffc0cb;   border-color: #ffc0cb; }
+.btn-outline-pink:not([disabled]):not(.disabled):active, .btn-outline-pink:not([disabled]):not(.disabled).active, .show > .btn-outline-pink.dropdown-toggle {   color: #fff;   background-color: #ffc0cb;   border-color: #ffc0cb;   box-shadow: 0 0 0 0.2rem rgba(255, 192, 203, 0.5); }
 .badge-flickr-pink {   color: #fff;   background-color: #ff0084; }
 .badge-flickr-pink[href]:focus, .badge-flickr-pink[href]:hover {   color: #fff;   text-decoration: none;   background-color: #cc006a; }
 .badge-pink {   color: #111;   background-color: #ffc0cb; }

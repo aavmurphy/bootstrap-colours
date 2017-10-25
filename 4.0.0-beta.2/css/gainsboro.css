@@ -3,14 +3,14 @@
 .table-hover .table-gainsboro:hover > td, .table-hover .table-gainsboro:hover > th {   background-color: #e8e8e8; }
 .btn-gainsboro {   color: #111;   background-color: #dcdcdc;   border-color: #dcdcdc; }
 .btn-gainsboro:hover {   color: #111;   background-color: #c9c9c9;   border-color: #c3c3c3; }
-.btn-gainsboro:focus, .btn-gainsboro.focus {   box-shadow: 0 0 0 3px rgba(220, 220, 220, 0.5); }
+.btn-gainsboro:focus, .btn-gainsboro.focus {   box-shadow: 0 0 0 0.2rem rgba(220, 220, 220, 0.5); }
 .btn-gainsboro.disabled, .btn-gainsboro:disabled {   background-color: #dcdcdc;   border-color: #dcdcdc; }
-.btn-gainsboro:active, .btn-gainsboro.active, .show > .btn-gainsboro.dropdown-toggle {   background-color: #c9c9c9;   background-image: none;   border-color: #c3c3c3; }
+.btn-gainsboro:not([disabled]):not(.disabled):active, .btn-gainsboro:not([disabled]):not(.disabled).active, .show > .btn-gainsboro.dropdown-toggle {   color: #111;   background-color: #c3c3c3;   border-color: #bcbcbc;   box-shadow: 0 0 0 0.2rem rgba(220, 220, 220, 0.5); }
 .btn-outline-gainsboro {   color: #dcdcdc;   background-color: transparent;   background-image: none;   border-color: #dcdcdc; }
 .btn-outline-gainsboro:hover {   color: #fff;   background-color: #dcdcdc;   border-color: #dcdcdc; }
-.btn-outline-gainsboro:focus, .btn-outline-gainsboro.focus {   box-shadow: 0 0 0 3px rgba(220, 220, 220, 0.5); }
+.btn-outline-gainsboro:focus, .btn-outline-gainsboro.focus {   box-shadow: 0 0 0 0.2rem rgba(220, 220, 220, 0.5); }
 .btn-outline-gainsboro.disabled, .btn-outline-gainsboro:disabled {   color: #dcdcdc;   background-color: transparent; }
-.btn-outline-gainsboro:active, .btn-outline-gainsboro.active, .show > .btn-outline-gainsboro.dropdown-toggle {   color: #fff;   background-color: #dcdcdc;   border-color: #dcdcdc; }
+.btn-outline-gainsboro:not([disabled]):not(.disabled):active, .btn-outline-gainsboro:not([disabled]):not(.disabled).active, .show > .btn-outline-gainsboro.dropdown-toggle {   color: #fff;   background-color: #dcdcdc;   border-color: #dcdcdc;   box-shadow: 0 0 0 0.2rem rgba(220, 220, 220, 0.5); }
 .badge-gainsboro {   color: #111;   background-color: #dcdcdc; }
 .badge-gainsboro[href]:focus, .badge-gainsboro[href]:hover {   color: #111;   text-decoration: none;   background-color: #c3c3c3; }
 .alert-gainsboro {   color: #727272;   background-color: #f8f8f8;   border-color: whitesmoke; }

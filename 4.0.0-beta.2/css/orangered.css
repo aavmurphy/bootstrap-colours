@@ -3,14 +3,14 @@
 .table-hover .table-orangered:hover > td, .table-hover .table-orangered:hover > th {   background-color: #ffb89f; }
 .btn-orangered {   color: #fff;   background-color: #ff4500;   border-color: #ff4500; }
 .btn-orangered:hover {   color: #fff;   background-color: #d93b00;   border-color: #cc3700; }
-.btn-orangered:focus, .btn-orangered.focus {   box-shadow: 0 0 0 3px rgba(255, 69, 0, 0.5); }
+.btn-orangered:focus, .btn-orangered.focus {   box-shadow: 0 0 0 0.2rem rgba(255, 69, 0, 0.5); }
 .btn-orangered.disabled, .btn-orangered:disabled {   background-color: #ff4500;   border-color: #ff4500; }
-.btn-orangered:active, .btn-orangered.active, .show > .btn-orangered.dropdown-toggle {   background-color: #d93b00;   background-image: none;   border-color: #cc3700; }
+.btn-orangered:not([disabled]):not(.disabled):active, .btn-orangered:not([disabled]):not(.disabled).active, .show > .btn-orangered.dropdown-toggle {   color: #fff;   background-color: #cc3700;   border-color: #bf3400;   box-shadow: 0 0 0 0.2rem rgba(255, 69, 0, 0.5); }
 .btn-outline-orangered {   color: #ff4500;   background-color: transparent;   background-image: none;   border-color: #ff4500; }
 .btn-outline-orangered:hover {   color: #fff;   background-color: #ff4500;   border-color: #ff4500; }
-.btn-outline-orangered:focus, .btn-outline-orangered.focus {   box-shadow: 0 0 0 3px rgba(255, 69, 0, 0.5); }
+.btn-outline-orangered:focus, .btn-outline-orangered.focus {   box-shadow: 0 0 0 0.2rem rgba(255, 69, 0, 0.5); }
 .btn-outline-orangered.disabled, .btn-outline-orangered:disabled {   color: #ff4500;   background-color: transparent; }
-.btn-outline-orangered:active, .btn-outline-orangered.active, .show > .btn-outline-orangered.dropdown-toggle {   color: #fff;   background-color: #ff4500;   border-color: #ff4500; }
+.btn-outline-orangered:not([disabled]):not(.disabled):active, .btn-outline-orangered:not([disabled]):not(.disabled).active, .show > .btn-outline-orangered.dropdown-toggle {   color: #fff;   background-color: #ff4500;   border-color: #ff4500;   box-shadow: 0 0 0 0.2rem rgba(255, 69, 0, 0.5); }
 .badge-orangered {   color: #fff;   background-color: #ff4500; }
 .badge-orangered[href]:focus, .badge-orangered[href]:hover {   color: #fff;   text-decoration: none;   background-color: #cc3700; }
 .alert-orangered {   color: #852400;   background-color: #ffdacc;   border-color: #ffcbb8; }

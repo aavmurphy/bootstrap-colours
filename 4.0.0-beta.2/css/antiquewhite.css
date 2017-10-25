@@ -3,14 +3,14 @@
 .table-hover .table-antiquewhite:hover > td, .table-hover .table-antiquewhite:hover > th {   background-color: #fcecdd; }
 .btn-antiquewhite {   color: #111;   background-color: #faebd7;   border-color: #faebd7; }
 .btn-antiquewhite:hover {   color: #111;   background-color: #f6dab5;   border-color: #f4d4aa; }
-.btn-antiquewhite:focus, .btn-antiquewhite.focus {   box-shadow: 0 0 0 3px rgba(250, 235, 215, 0.5); }
+.btn-antiquewhite:focus, .btn-antiquewhite.focus {   box-shadow: 0 0 0 0.2rem rgba(250, 235, 215, 0.5); }
 .btn-antiquewhite.disabled, .btn-antiquewhite:disabled {   background-color: #faebd7;   border-color: #faebd7; }
-.btn-antiquewhite:active, .btn-antiquewhite.active, .show > .btn-antiquewhite.dropdown-toggle {   background-color: #f6dab5;   background-image: none;   border-color: #f4d4aa; }
+.btn-antiquewhite:not([disabled]):not(.disabled):active, .btn-antiquewhite:not([disabled]):not(.disabled).active, .show > .btn-antiquewhite.dropdown-toggle {   color: #111;   background-color: #f4d4aa;   border-color: #f3cf9e;   box-shadow: 0 0 0 0.2rem rgba(250, 235, 215, 0.5); }
 .btn-outline-antiquewhite {   color: #faebd7;   background-color: transparent;   background-image: none;   border-color: #faebd7; }
 .btn-outline-antiquewhite:hover {   color: #fff;   background-color: #faebd7;   border-color: #faebd7; }
-.btn-outline-antiquewhite:focus, .btn-outline-antiquewhite.focus {   box-shadow: 0 0 0 3px rgba(250, 235, 215, 0.5); }
+.btn-outline-antiquewhite:focus, .btn-outline-antiquewhite.focus {   box-shadow: 0 0 0 0.2rem rgba(250, 235, 215, 0.5); }
 .btn-outline-antiquewhite.disabled, .btn-outline-antiquewhite:disabled {   color: #faebd7;   background-color: transparent; }
-.btn-outline-antiquewhite:active, .btn-outline-antiquewhite.active, .show > .btn-outline-antiquewhite.dropdown-toggle {   color: #fff;   background-color: #faebd7;   border-color: #faebd7; }
+.btn-outline-antiquewhite:not([disabled]):not(.disabled):active, .btn-outline-antiquewhite:not([disabled]):not(.disabled).active, .show > .btn-outline-antiquewhite.dropdown-toggle {   color: #fff;   background-color: #faebd7;   border-color: #faebd7;   box-shadow: 0 0 0 0.2rem rgba(250, 235, 215, 0.5); }
 .badge-antiquewhite {   color: #111;   background-color: #faebd7; }
 .badge-antiquewhite[href]:focus, .badge-antiquewhite[href]:hover {   color: #111;   text-decoration: none;   background-color: #f4d4aa; }
 .alert-antiquewhite {   color: #827a70;   background-color: #fefbf7;   border-color: #fef9f4; }

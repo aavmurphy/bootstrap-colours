@@ -3,14 +3,14 @@
 .table-hover .table-mintcream:hover > td, .table-hover .table-mintcream:hover > th {   background-color: #e3fff6; }
 .btn-mintcream {   color: #111;   background-color: #f5fffa;   border-color: #f5fffa; }
 .btn-mintcream:hover {   color: #111;   background-color: #cfffe7;   border-color: #c2ffe1; }
-.btn-mintcream:focus, .btn-mintcream.focus {   box-shadow: 0 0 0 3px rgba(245, 255, 250, 0.5); }
+.btn-mintcream:focus, .btn-mintcream.focus {   box-shadow: 0 0 0 0.2rem rgba(245, 255, 250, 0.5); }
 .btn-mintcream.disabled, .btn-mintcream:disabled {   background-color: #f5fffa;   border-color: #f5fffa; }
-.btn-mintcream:active, .btn-mintcream.active, .show > .btn-mintcream.dropdown-toggle {   background-color: #cfffe7;   background-image: none;   border-color: #c2ffe1; }
+.btn-mintcream:not([disabled]):not(.disabled):active, .btn-mintcream:not([disabled]):not(.disabled).active, .show > .btn-mintcream.dropdown-toggle {   color: #111;   background-color: #c2ffe1;   border-color: #b5ffda;   box-shadow: 0 0 0 0.2rem rgba(245, 255, 250, 0.5); }
 .btn-outline-mintcream {   color: #f5fffa;   background-color: transparent;   background-image: none;   border-color: #f5fffa; }
 .btn-outline-mintcream:hover {   color: #fff;   background-color: #f5fffa;   border-color: #f5fffa; }
-.btn-outline-mintcream:focus, .btn-outline-mintcream.focus {   box-shadow: 0 0 0 3px rgba(245, 255, 250, 0.5); }
+.btn-outline-mintcream:focus, .btn-outline-mintcream.focus {   box-shadow: 0 0 0 0.2rem rgba(245, 255, 250, 0.5); }
 .btn-outline-mintcream.disabled, .btn-outline-mintcream:disabled {   color: #f5fffa;   background-color: transparent; }
-.btn-outline-mintcream:active, .btn-outline-mintcream.active, .show > .btn-outline-mintcream.dropdown-toggle {   color: #fff;   background-color: #f5fffa;   border-color: #f5fffa; }
+.btn-outline-mintcream:not([disabled]):not(.disabled):active, .btn-outline-mintcream:not([disabled]):not(.disabled).active, .show > .btn-outline-mintcream.dropdown-toggle {   color: #fff;   background-color: #f5fffa;   border-color: #f5fffa;   box-shadow: 0 0 0 0.2rem rgba(245, 255, 250, 0.5); }
 .badge-mintcream {   color: #111;   background-color: #f5fffa; }
 .badge-mintcream[href]:focus, .badge-mintcream[href]:hover {   color: #111;   text-decoration: none;   background-color: #c2ffe1; }
 .alert-mintcream {   color: #7f8582;   background-color: #fdfffe;   border-color: #fcfffe; }

@@ -3,14 +3,14 @@
 .table-hover .table-greenyellow:hover > td, .table-hover .table-greenyellow:hover > th {   background-color: #deffac; }
 .btn-greenyellow {   color: #111;   background-color: #adff2f;   border-color: #adff2f; }
 .btn-greenyellow:hover {   color: #111;   background-color: #9eff09;   border-color: #98fb00; }
-.btn-greenyellow:focus, .btn-greenyellow.focus {   box-shadow: 0 0 0 3px rgba(173, 255, 47, 0.5); }
+.btn-greenyellow:focus, .btn-greenyellow.focus {   box-shadow: 0 0 0 0.2rem rgba(173, 255, 47, 0.5); }
 .btn-greenyellow.disabled, .btn-greenyellow:disabled {   background-color: #adff2f;   border-color: #adff2f; }
-.btn-greenyellow:active, .btn-greenyellow.active, .show > .btn-greenyellow.dropdown-toggle {   background-color: #9eff09;   background-image: none;   border-color: #98fb00; }
+.btn-greenyellow:not([disabled]):not(.disabled):active, .btn-greenyellow:not([disabled]):not(.disabled).active, .show > .btn-greenyellow.dropdown-toggle {   color: #111;   background-color: #98fb00;   border-color: #90ee00;   box-shadow: 0 0 0 0.2rem rgba(173, 255, 47, 0.5); }
 .btn-outline-greenyellow {   color: #adff2f;   background-color: transparent;   background-image: none;   border-color: #adff2f; }
 .btn-outline-greenyellow:hover {   color: #fff;   background-color: #adff2f;   border-color: #adff2f; }
-.btn-outline-greenyellow:focus, .btn-outline-greenyellow.focus {   box-shadow: 0 0 0 3px rgba(173, 255, 47, 0.5); }
+.btn-outline-greenyellow:focus, .btn-outline-greenyellow.focus {   box-shadow: 0 0 0 0.2rem rgba(173, 255, 47, 0.5); }
 .btn-outline-greenyellow.disabled, .btn-outline-greenyellow:disabled {   color: #adff2f;   background-color: transparent; }
-.btn-outline-greenyellow:active, .btn-outline-greenyellow.active, .show > .btn-outline-greenyellow.dropdown-toggle {   color: #fff;   background-color: #adff2f;   border-color: #adff2f; }
+.btn-outline-greenyellow:not([disabled]):not(.disabled):active, .btn-outline-greenyellow:not([disabled]):not(.disabled).active, .show > .btn-outline-greenyellow.dropdown-toggle {   color: #fff;   background-color: #adff2f;   border-color: #adff2f;   box-shadow: 0 0 0 0.2rem rgba(173, 255, 47, 0.5); }
 .badge-greenyellow {   color: #111;   background-color: #adff2f; }
 .badge-greenyellow[href]:focus, .badge-greenyellow[href]:hover {   color: #111;   text-decoration: none;   background-color: #98fb00; }
 .alert-greenyellow {   color: #5a8518;   background-color: #efffd5;   border-color: #e8ffc5; }

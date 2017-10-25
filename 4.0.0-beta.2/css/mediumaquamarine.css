@@ -3,14 +3,14 @@
 .table-hover .table-mediumaquamarine:hover > td, .table-hover .table-mediumaquamarine:hover > th {   background-color: #c1ebdc; }
 .btn-mediumaquamarine {   color: #111;   background-color: #66cdaa;   border-color: #66cdaa; }
 .btn-mediumaquamarine:hover {   color: #111;   background-color: #49c49a;   border-color: #40c095; }
-.btn-mediumaquamarine:focus, .btn-mediumaquamarine.focus {   box-shadow: 0 0 0 3px rgba(102, 205, 170, 0.5); }
+.btn-mediumaquamarine:focus, .btn-mediumaquamarine.focus {   box-shadow: 0 0 0 0.2rem rgba(102, 205, 170, 0.5); }
 .btn-mediumaquamarine.disabled, .btn-mediumaquamarine:disabled {   background-color: #66cdaa;   border-color: #66cdaa; }
-.btn-mediumaquamarine:active, .btn-mediumaquamarine.active, .show > .btn-mediumaquamarine.dropdown-toggle {   background-color: #49c49a;   background-image: none;   border-color: #40c095; }
+.btn-mediumaquamarine:not([disabled]):not(.disabled):active, .btn-mediumaquamarine:not([disabled]):not(.disabled).active, .show > .btn-mediumaquamarine.dropdown-toggle {   color: #fff;   background-color: #40c095;   border-color: #3cb78d;   box-shadow: 0 0 0 0.2rem rgba(102, 205, 170, 0.5); }
 .btn-outline-mediumaquamarine {   color: #66cdaa;   background-color: transparent;   background-image: none;   border-color: #66cdaa; }
 .btn-outline-mediumaquamarine:hover {   color: #fff;   background-color: #66cdaa;   border-color: #66cdaa; }
-.btn-outline-mediumaquamarine:focus, .btn-outline-mediumaquamarine.focus {   box-shadow: 0 0 0 3px rgba(102, 205, 170, 0.5); }
+.btn-outline-mediumaquamarine:focus, .btn-outline-mediumaquamarine.focus {   box-shadow: 0 0 0 0.2rem rgba(102, 205, 170, 0.5); }
 .btn-outline-mediumaquamarine.disabled, .btn-outline-mediumaquamarine:disabled {   color: #66cdaa;   background-color: transparent; }
-.btn-outline-mediumaquamarine:active, .btn-outline-mediumaquamarine.active, .show > .btn-outline-mediumaquamarine.dropdown-toggle {   color: #fff;   background-color: #66cdaa;   border-color: #66cdaa; }
+.btn-outline-mediumaquamarine:not([disabled]):not(.disabled):active, .btn-outline-mediumaquamarine:not([disabled]):not(.disabled).active, .show > .btn-outline-mediumaquamarine.dropdown-toggle {   color: #fff;   background-color: #66cdaa;   border-color: #66cdaa;   box-shadow: 0 0 0 0.2rem rgba(102, 205, 170, 0.5); }
 .badge-mediumaquamarine {   color: #111;   background-color: #66cdaa; }
 .badge-mediumaquamarine[href]:focus, .badge-mediumaquamarine[href]:hover {   color: #111;   text-decoration: none;   background-color: #40c095; }
 .alert-mediumaquamarine {   color: #356b58;   background-color: #e0f5ee;   border-color: #d4f1e7; }

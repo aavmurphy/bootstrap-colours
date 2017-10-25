@@ -3,14 +3,14 @@
 .table-hover .table-gray-600:hover > td, .table-hover .table-gray-600:hover > th {   background-color: #cfd2d6; }
 .btn-gray-600 {   color: #fff;   background-color: #868e96;   border-color: #868e96; }
 .btn-gray-600:hover {   color: #fff;   background-color: #727b84;   border-color: #6c757d; }
-.btn-gray-600:focus, .btn-gray-600.focus {   box-shadow: 0 0 0 3px rgba(134, 142, 150, 0.5); }
+.btn-gray-600:focus, .btn-gray-600.focus {   box-shadow: 0 0 0 0.2rem rgba(134, 142, 150, 0.5); }
 .btn-gray-600.disabled, .btn-gray-600:disabled {   background-color: #868e96;   border-color: #868e96; }
-.btn-gray-600:active, .btn-gray-600.active, .show > .btn-gray-600.dropdown-toggle {   background-color: #727b84;   background-image: none;   border-color: #6c757d; }
+.btn-gray-600:not([disabled]):not(.disabled):active, .btn-gray-600:not([disabled]):not(.disabled).active, .show > .btn-gray-600.dropdown-toggle {   color: #fff;   background-color: #6c757d;   border-color: #666e76;   box-shadow: 0 0 0 0.2rem rgba(134, 142, 150, 0.5); }
 .btn-outline-gray-600 {   color: #868e96;   background-color: transparent;   background-image: none;   border-color: #868e96; }
 .btn-outline-gray-600:hover {   color: #fff;   background-color: #868e96;   border-color: #868e96; }
-.btn-outline-gray-600:focus, .btn-outline-gray-600.focus {   box-shadow: 0 0 0 3px rgba(134, 142, 150, 0.5); }
+.btn-outline-gray-600:focus, .btn-outline-gray-600.focus {   box-shadow: 0 0 0 0.2rem rgba(134, 142, 150, 0.5); }
 .btn-outline-gray-600.disabled, .btn-outline-gray-600:disabled {   color: #868e96;   background-color: transparent; }
-.btn-outline-gray-600:active, .btn-outline-gray-600.active, .show > .btn-outline-gray-600.dropdown-toggle {   color: #fff;   background-color: #868e96;   border-color: #868e96; }
+.btn-outline-gray-600:not([disabled]):not(.disabled):active, .btn-outline-gray-600:not([disabled]):not(.disabled).active, .show > .btn-outline-gray-600.dropdown-toggle {   color: #fff;   background-color: #868e96;   border-color: #868e96;   box-shadow: 0 0 0 0.2rem rgba(134, 142, 150, 0.5); }
 .badge-gray-600 {   color: #fff;   background-color: #868e96; }
 .badge-gray-600[href]:focus, .badge-gray-600[href]:hover {   color: #fff;   text-decoration: none;   background-color: #6c757d; }
 .alert-gray-600 {   color: #464a4e;   background-color: #e7e8ea;   border-color: #dddfe2; }

@@ -3,14 +3,14 @@
 .table-hover .table-black:hover > td, .table-hover .table-black:hover > th {   background-color: #ababab; }
 .btn-black {   color: #fff;   background-color: #000000;   border-color: #000000; }
 .btn-black:hover {   color: #fff;   background-color: black;   border-color: black; }
-.btn-black:focus, .btn-black.focus {   box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.5); }
+.btn-black:focus, .btn-black.focus {   box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.5); }
 .btn-black.disabled, .btn-black:disabled {   background-color: #000000;   border-color: #000000; }
-.btn-black:active, .btn-black.active, .show > .btn-black.dropdown-toggle {   background-color: black;   background-image: none;   border-color: black; }
+.btn-black:not([disabled]):not(.disabled):active, .btn-black:not([disabled]):not(.disabled).active, .show > .btn-black.dropdown-toggle {   color: #fff;   background-color: black;   border-color: black;   box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.5); }
 .btn-outline-black {   color: #000000;   background-color: transparent;   background-image: none;   border-color: #000000; }
 .btn-outline-black:hover {   color: #fff;   background-color: #000000;   border-color: #000000; }
-.btn-outline-black:focus, .btn-outline-black.focus {   box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.5); }
+.btn-outline-black:focus, .btn-outline-black.focus {   box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.5); }
 .btn-outline-black.disabled, .btn-outline-black:disabled {   color: #000000;   background-color: transparent; }
-.btn-outline-black:active, .btn-outline-black.active, .show > .btn-outline-black.dropdown-toggle {   color: #fff;   background-color: #000000;   border-color: #000000; }
+.btn-outline-black:not([disabled]):not(.disabled):active, .btn-outline-black:not([disabled]):not(.disabled).active, .show > .btn-outline-black.dropdown-toggle {   color: #fff;   background-color: #000000;   border-color: #000000;   box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.5); }
 .badge-black {   color: #fff;   background-color: #000000; }
 .badge-black[href]:focus, .badge-black[href]:hover {   color: #fff;   text-decoration: none;   background-color: black; }
 .alert-black {   color: black;   background-color: #cccccc;   border-color: #b8b8b8; }

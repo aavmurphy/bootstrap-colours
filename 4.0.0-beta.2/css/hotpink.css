@@ -2,15 +2,15 @@
 .table-hover .table-hotpink:hover {   background-color: #ffbcdd; }
 .table-hover .table-hotpink:hover > td, .table-hover .table-hotpink:hover > th {   background-color: #ffbcdd; }
 .btn-hotpink {   color: #111;   background-color: #ff69b4;   border-color: #ff69b4; }
-.btn-hotpink:hover {   color: #111;   background-color: #ff43a1;   border-color: #ff369b; }
-.btn-hotpink:focus, .btn-hotpink.focus {   box-shadow: 0 0 0 3px rgba(255, 105, 180, 0.5); }
+.btn-hotpink:hover {   color: #fff;   background-color: #ff43a1;   border-color: #ff369b; }
+.btn-hotpink:focus, .btn-hotpink.focus {   box-shadow: 0 0 0 0.2rem rgba(255, 105, 180, 0.5); }
 .btn-hotpink.disabled, .btn-hotpink:disabled {   background-color: #ff69b4;   border-color: #ff69b4; }
-.btn-hotpink:active, .btn-hotpink.active, .show > .btn-hotpink.dropdown-toggle {   background-color: #ff43a1;   background-image: none;   border-color: #ff369b; }
+.btn-hotpink:not([disabled]):not(.disabled):active, .btn-hotpink:not([disabled]):not(.disabled).active, .show > .btn-hotpink.dropdown-toggle {   color: #fff;   background-color: #ff369b;   border-color: #ff2994;   box-shadow: 0 0 0 0.2rem rgba(255, 105, 180, 0.5); }
 .btn-outline-hotpink {   color: #ff69b4;   background-color: transparent;   background-image: none;   border-color: #ff69b4; }
 .btn-outline-hotpink:hover {   color: #fff;   background-color: #ff69b4;   border-color: #ff69b4; }
-.btn-outline-hotpink:focus, .btn-outline-hotpink.focus {   box-shadow: 0 0 0 3px rgba(255, 105, 180, 0.5); }
+.btn-outline-hotpink:focus, .btn-outline-hotpink.focus {   box-shadow: 0 0 0 0.2rem rgba(255, 105, 180, 0.5); }
 .btn-outline-hotpink.disabled, .btn-outline-hotpink:disabled {   color: #ff69b4;   background-color: transparent; }
-.btn-outline-hotpink:active, .btn-outline-hotpink.active, .show > .btn-outline-hotpink.dropdown-toggle {   color: #fff;   background-color: #ff69b4;   border-color: #ff69b4; }
+.btn-outline-hotpink:not([disabled]):not(.disabled):active, .btn-outline-hotpink:not([disabled]):not(.disabled).active, .show > .btn-outline-hotpink.dropdown-toggle {   color: #fff;   background-color: #ff69b4;   border-color: #ff69b4;   box-shadow: 0 0 0 0.2rem rgba(255, 105, 180, 0.5); }
 .badge-hotpink {   color: #111;   background-color: #ff69b4; }
 .badge-hotpink[href]:focus, .badge-hotpink[href]:hover {   color: #111;   text-decoration: none;   background-color: #ff369b; }
 .alert-hotpink {   color: #85375e;   background-color: #ffe1f0;   border-color: #ffd5ea; }

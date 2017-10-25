@@ -3,14 +3,14 @@
 .table-hover .table-powderblue:hover > td, .table-hover .table-powderblue:hover > th {   background-color: #d6eef2; }
 .btn-powderblue {   color: #111;   background-color: #b0e0e6;   border-color: #b0e0e6; }
 .btn-powderblue:hover {   color: #111;   background-color: #93d5dd;   border-color: #89d1da; }
-.btn-powderblue:focus, .btn-powderblue.focus {   box-shadow: 0 0 0 3px rgba(176, 224, 230, 0.5); }
+.btn-powderblue:focus, .btn-powderblue.focus {   box-shadow: 0 0 0 0.2rem rgba(176, 224, 230, 0.5); }
 .btn-powderblue.disabled, .btn-powderblue:disabled {   background-color: #b0e0e6;   border-color: #b0e0e6; }
-.btn-powderblue:active, .btn-powderblue.active, .show > .btn-powderblue.dropdown-toggle {   background-color: #93d5dd;   background-image: none;   border-color: #89d1da; }
+.btn-powderblue:not([disabled]):not(.disabled):active, .btn-powderblue:not([disabled]):not(.disabled).active, .show > .btn-powderblue.dropdown-toggle {   color: #111;   background-color: #89d1da;   border-color: #80cdd7;   box-shadow: 0 0 0 0.2rem rgba(176, 224, 230, 0.5); }
 .btn-outline-powderblue {   color: #b0e0e6;   background-color: transparent;   background-image: none;   border-color: #b0e0e6; }
 .btn-outline-powderblue:hover {   color: #fff;   background-color: #b0e0e6;   border-color: #b0e0e6; }
-.btn-outline-powderblue:focus, .btn-outline-powderblue.focus {   box-shadow: 0 0 0 3px rgba(176, 224, 230, 0.5); }
+.btn-outline-powderblue:focus, .btn-outline-powderblue.focus {   box-shadow: 0 0 0 0.2rem rgba(176, 224, 230, 0.5); }
 .btn-outline-powderblue.disabled, .btn-outline-powderblue:disabled {   color: #b0e0e6;   background-color: transparent; }
-.btn-outline-powderblue:active, .btn-outline-powderblue.active, .show > .btn-outline-powderblue.dropdown-toggle {   color: #fff;   background-color: #b0e0e6;   border-color: #b0e0e6; }
+.btn-outline-powderblue:not([disabled]):not(.disabled):active, .btn-outline-powderblue:not([disabled]):not(.disabled).active, .show > .btn-outline-powderblue.dropdown-toggle {   color: #fff;   background-color: #b0e0e6;   border-color: #b0e0e6;   box-shadow: 0 0 0 0.2rem rgba(176, 224, 230, 0.5); }
 .badge-powderblue {   color: #111;   background-color: #b0e0e6; }
 .badge-powderblue[href]:focus, .badge-powderblue[href]:hover {   color: #111;   text-decoration: none;   background-color: #89d1da; }
 .alert-powderblue {   color: #5c7478;   background-color: #eff9fa;   border-color: #e9f6f8; }

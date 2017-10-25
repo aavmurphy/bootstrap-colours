@@ -3,14 +3,14 @@
 .table-hover .table-whitesmoke:hover > td, .table-hover .table-whitesmoke:hover > th {   background-color: #efefef; }
 .btn-whitesmoke {   color: #111;   background-color: #f5f5f5;   border-color: #f5f5f5; }
 .btn-whitesmoke:hover {   color: #111;   background-color: #e2e2e2;   border-color: gainsboro; }
-.btn-whitesmoke:focus, .btn-whitesmoke.focus {   box-shadow: 0 0 0 3px rgba(245, 245, 245, 0.5); }
+.btn-whitesmoke:focus, .btn-whitesmoke.focus {   box-shadow: 0 0 0 0.2rem rgba(245, 245, 245, 0.5); }
 .btn-whitesmoke.disabled, .btn-whitesmoke:disabled {   background-color: #f5f5f5;   border-color: #f5f5f5; }
-.btn-whitesmoke:active, .btn-whitesmoke.active, .show > .btn-whitesmoke.dropdown-toggle {   background-color: #e2e2e2;   background-image: none;   border-color: gainsboro; }
+.btn-whitesmoke:not([disabled]):not(.disabled):active, .btn-whitesmoke:not([disabled]):not(.disabled).active, .show > .btn-whitesmoke.dropdown-toggle {   color: #111;   background-color: gainsboro;   border-color: #d5d5d5;   box-shadow: 0 0 0 0.2rem rgba(245, 245, 245, 0.5); }
 .btn-outline-whitesmoke {   color: #f5f5f5;   background-color: transparent;   background-image: none;   border-color: #f5f5f5; }
 .btn-outline-whitesmoke:hover {   color: #fff;   background-color: #f5f5f5;   border-color: #f5f5f5; }
-.btn-outline-whitesmoke:focus, .btn-outline-whitesmoke.focus {   box-shadow: 0 0 0 3px rgba(245, 245, 245, 0.5); }
+.btn-outline-whitesmoke:focus, .btn-outline-whitesmoke.focus {   box-shadow: 0 0 0 0.2rem rgba(245, 245, 245, 0.5); }
 .btn-outline-whitesmoke.disabled, .btn-outline-whitesmoke:disabled {   color: #f5f5f5;   background-color: transparent; }
-.btn-outline-whitesmoke:active, .btn-outline-whitesmoke.active, .show > .btn-outline-whitesmoke.dropdown-toggle {   color: #fff;   background-color: #f5f5f5;   border-color: #f5f5f5; }
+.btn-outline-whitesmoke:not([disabled]):not(.disabled):active, .btn-outline-whitesmoke:not([disabled]):not(.disabled).active, .show > .btn-outline-whitesmoke.dropdown-toggle {   color: #fff;   background-color: #f5f5f5;   border-color: #f5f5f5;   box-shadow: 0 0 0 0.2rem rgba(245, 245, 245, 0.5); }
 .badge-whitesmoke {   color: #111;   background-color: #f5f5f5; }
 .badge-whitesmoke[href]:focus, .badge-whitesmoke[href]:hover {   color: #111;   text-decoration: none;   background-color: gainsboro; }
 .alert-whitesmoke {   color: #7f7f7f;   background-color: #fdfdfd;   border-color: #fcfcfc; }

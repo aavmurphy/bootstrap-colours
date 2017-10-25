@@ -3,14 +3,14 @@
 .table-hover .table-olivedrab:hover > td, .table-hover .table-olivedrab:hover > th {   background-color: #cbd6b0; }
 .btn-olivedrab {   color: #fff;   background-color: #6b8e23;   border-color: #6b8e23; }
 .btn-olivedrab:hover {   color: #fff;   background-color: #546f1b;   border-color: #4c6519; }
-.btn-olivedrab:focus, .btn-olivedrab.focus {   box-shadow: 0 0 0 3px rgba(107, 142, 35, 0.5); }
+.btn-olivedrab:focus, .btn-olivedrab.focus {   box-shadow: 0 0 0 0.2rem rgba(107, 142, 35, 0.5); }
 .btn-olivedrab.disabled, .btn-olivedrab:disabled {   background-color: #6b8e23;   border-color: #6b8e23; }
-.btn-olivedrab:active, .btn-olivedrab.active, .show > .btn-olivedrab.dropdown-toggle {   background-color: #546f1b;   background-image: none;   border-color: #4c6519; }
+.btn-olivedrab:not([disabled]):not(.disabled):active, .btn-olivedrab:not([disabled]):not(.disabled).active, .show > .btn-olivedrab.dropdown-toggle {   color: #fff;   background-color: #4c6519;   border-color: #445b16;   box-shadow: 0 0 0 0.2rem rgba(107, 142, 35, 0.5); }
 .btn-outline-olivedrab {   color: #6b8e23;   background-color: transparent;   background-image: none;   border-color: #6b8e23; }
 .btn-outline-olivedrab:hover {   color: #fff;   background-color: #6b8e23;   border-color: #6b8e23; }
-.btn-outline-olivedrab:focus, .btn-outline-olivedrab.focus {   box-shadow: 0 0 0 3px rgba(107, 142, 35, 0.5); }
+.btn-outline-olivedrab:focus, .btn-outline-olivedrab.focus {   box-shadow: 0 0 0 0.2rem rgba(107, 142, 35, 0.5); }
 .btn-outline-olivedrab.disabled, .btn-outline-olivedrab:disabled {   color: #6b8e23;   background-color: transparent; }
-.btn-outline-olivedrab:active, .btn-outline-olivedrab.active, .show > .btn-outline-olivedrab.dropdown-toggle {   color: #fff;   background-color: #6b8e23;   border-color: #6b8e23; }
+.btn-outline-olivedrab:not([disabled]):not(.disabled):active, .btn-outline-olivedrab:not([disabled]):not(.disabled).active, .show > .btn-outline-olivedrab.dropdown-toggle {   color: #fff;   background-color: #6b8e23;   border-color: #6b8e23;   box-shadow: 0 0 0 0.2rem rgba(107, 142, 35, 0.5); }
 .badge-olivedrab {   color: #fff;   background-color: #6b8e23; }
 .badge-olivedrab[href]:focus, .badge-olivedrab[href]:hover {   color: #fff;   text-decoration: none;   background-color: #4c6519; }
 .alert-olivedrab {   color: #384a12;   background-color: #e1e8d3;   border-color: #d6dfc1; }

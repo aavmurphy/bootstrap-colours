@@ -14,10 +14,6 @@ amazon : '#ff9900'
 #
 # 2. Bootstrap colours
 #
-#	These are needed as
-#		we clobber the original list
-#		the use of some of them is hardcoded so they are needed
-#
 
 gray-100: '#f8f9fa' 
 gray-200: '#e9ecef' 
@@ -29,14 +25,15 @@ gray-700: '#495057'
 gray-800: '#343a40' 
 gray-900: '#212529' 
 
-primary: '$blue'
-secondary: '$gray-600'
-success: '$green'
-info: '$cyan'
-warning: '$yellow'
-danger: '$red'
-light: '$gray-100'
-dark: '$gray-800'
+# the default values get used unless these are un-commented
+#primary: '$blue'
+#secondary: '$gray-600'
+#success: '$green'
+#info: '$cyan'
+#warning: '$yellow'
+#danger: '$red'
+#light: '$gray-100'
+#dark: '$gray-800'
 
 #
 # 3. W3C web colours

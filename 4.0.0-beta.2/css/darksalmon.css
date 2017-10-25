@@ -3,14 +3,14 @@
 .table-hover .table-darksalmon:hover > td, .table-hover .table-darksalmon:hover > th {   background-color: #f5d1c4; }
 .btn-darksalmon {   color: #111;   background-color: #e9967a;   border-color: #e9967a; }
 .btn-darksalmon:hover {   color: #111;   background-color: #e47c59;   border-color: #e2734e; }
-.btn-darksalmon:focus, .btn-darksalmon.focus {   box-shadow: 0 0 0 3px rgba(233, 150, 122, 0.5); }
+.btn-darksalmon:focus, .btn-darksalmon.focus {   box-shadow: 0 0 0 0.2rem rgba(233, 150, 122, 0.5); }
 .btn-darksalmon.disabled, .btn-darksalmon:disabled {   background-color: #e9967a;   border-color: #e9967a; }
-.btn-darksalmon:active, .btn-darksalmon.active, .show > .btn-darksalmon.dropdown-toggle {   background-color: #e47c59;   background-image: none;   border-color: #e2734e; }
+.btn-darksalmon:not([disabled]):not(.disabled):active, .btn-darksalmon:not([disabled]):not(.disabled).active, .show > .btn-darksalmon.dropdown-toggle {   color: #fff;   background-color: #e2734e;   border-color: #e06b43;   box-shadow: 0 0 0 0.2rem rgba(233, 150, 122, 0.5); }
 .btn-outline-darksalmon {   color: #e9967a;   background-color: transparent;   background-image: none;   border-color: #e9967a; }
 .btn-outline-darksalmon:hover {   color: #fff;   background-color: #e9967a;   border-color: #e9967a; }
-.btn-outline-darksalmon:focus, .btn-outline-darksalmon.focus {   box-shadow: 0 0 0 3px rgba(233, 150, 122, 0.5); }
+.btn-outline-darksalmon:focus, .btn-outline-darksalmon.focus {   box-shadow: 0 0 0 0.2rem rgba(233, 150, 122, 0.5); }
 .btn-outline-darksalmon.disabled, .btn-outline-darksalmon:disabled {   color: #e9967a;   background-color: transparent; }
-.btn-outline-darksalmon:active, .btn-outline-darksalmon.active, .show > .btn-outline-darksalmon.dropdown-toggle {   color: #fff;   background-color: #e9967a;   border-color: #e9967a; }
+.btn-outline-darksalmon:not([disabled]):not(.disabled):active, .btn-outline-darksalmon:not([disabled]):not(.disabled).active, .show > .btn-outline-darksalmon.dropdown-toggle {   color: #fff;   background-color: #e9967a;   border-color: #e9967a;   box-shadow: 0 0 0 0.2rem rgba(233, 150, 122, 0.5); }
 .badge-darksalmon {   color: #111;   background-color: #e9967a; }
 .badge-darksalmon[href]:focus, .badge-darksalmon[href]:hover {   color: #111;   text-decoration: none;   background-color: #e2734e; }
 .alert-darksalmon {   color: #794e3f;   background-color: #fbeae4;   border-color: #f9e2da; }

@@ -3,14 +3,14 @@
 .table-hover .table-seagreen:hover > td, .table-hover .table-seagreen:hover > th {   background-color: #b3d6c3; }
 .btn-seagreen {   color: #fff;   background-color: #2e8b57;   border-color: #2e8b57; }
 .btn-seagreen:hover {   color: #fff;   background-color: #246e45;   border-color: #21653f; }
-.btn-seagreen:focus, .btn-seagreen.focus {   box-shadow: 0 0 0 3px rgba(46, 139, 87, 0.5); }
+.btn-seagreen:focus, .btn-seagreen.focus {   box-shadow: 0 0 0 0.2rem rgba(46, 139, 87, 0.5); }
 .btn-seagreen.disabled, .btn-seagreen:disabled {   background-color: #2e8b57;   border-color: #2e8b57; }
-.btn-seagreen:active, .btn-seagreen.active, .show > .btn-seagreen.dropdown-toggle {   background-color: #246e45;   background-image: none;   border-color: #21653f; }
+.btn-seagreen:not([disabled]):not(.disabled):active, .btn-seagreen:not([disabled]):not(.disabled).active, .show > .btn-seagreen.dropdown-toggle {   color: #fff;   background-color: #21653f;   border-color: #1e5b39;   box-shadow: 0 0 0 0.2rem rgba(46, 139, 87, 0.5); }
 .btn-outline-seagreen {   color: #2e8b57;   background-color: transparent;   background-image: none;   border-color: #2e8b57; }
 .btn-outline-seagreen:hover {   color: #fff;   background-color: #2e8b57;   border-color: #2e8b57; }
-.btn-outline-seagreen:focus, .btn-outline-seagreen.focus {   box-shadow: 0 0 0 3px rgba(46, 139, 87, 0.5); }
+.btn-outline-seagreen:focus, .btn-outline-seagreen.focus {   box-shadow: 0 0 0 0.2rem rgba(46, 139, 87, 0.5); }
 .btn-outline-seagreen.disabled, .btn-outline-seagreen:disabled {   color: #2e8b57;   background-color: transparent; }
-.btn-outline-seagreen:active, .btn-outline-seagreen.active, .show > .btn-outline-seagreen.dropdown-toggle {   color: #fff;   background-color: #2e8b57;   border-color: #2e8b57; }
+.btn-outline-seagreen:not([disabled]):not(.disabled):active, .btn-outline-seagreen:not([disabled]):not(.disabled).active, .show > .btn-outline-seagreen.dropdown-toggle {   color: #fff;   background-color: #2e8b57;   border-color: #2e8b57;   box-shadow: 0 0 0 0.2rem rgba(46, 139, 87, 0.5); }
 .badge-seagreen {   color: #fff;   background-color: #2e8b57; }
 .badge-seagreen[href]:focus, .badge-seagreen[href]:hover {   color: #fff;   text-decoration: none;   background-color: #21653f; }
 .alert-seagreen {   color: #18482d;   background-color: #d5e8dd;   border-color: #c4dfd0; }

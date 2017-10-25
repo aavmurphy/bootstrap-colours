@@ -3,14 +3,14 @@
 .table-hover .table-mistyrose:hover > td, .table-hover .table-mistyrose:hover > th {   background-color: #ffdede; }
 .btn-mistyrose {   color: #111;   background-color: #ffe4e1;   border-color: #ffe4e1; }
 .btn-mistyrose:hover {   color: #111;   background-color: #ffc2bb;   border-color: #ffb6ae; }
-.btn-mistyrose:focus, .btn-mistyrose.focus {   box-shadow: 0 0 0 3px rgba(255, 228, 225, 0.5); }
+.btn-mistyrose:focus, .btn-mistyrose.focus {   box-shadow: 0 0 0 0.2rem rgba(255, 228, 225, 0.5); }
 .btn-mistyrose.disabled, .btn-mistyrose:disabled {   background-color: #ffe4e1;   border-color: #ffe4e1; }
-.btn-mistyrose:active, .btn-mistyrose.active, .show > .btn-mistyrose.dropdown-toggle {   background-color: #ffc2bb;   background-image: none;   border-color: #ffb6ae; }
+.btn-mistyrose:not([disabled]):not(.disabled):active, .btn-mistyrose:not([disabled]):not(.disabled).active, .show > .btn-mistyrose.dropdown-toggle {   color: #111;   background-color: #ffb6ae;   border-color: #ffaba1;   box-shadow: 0 0 0 0.2rem rgba(255, 228, 225, 0.5); }
 .btn-outline-mistyrose {   color: #ffe4e1;   background-color: transparent;   background-image: none;   border-color: #ffe4e1; }
 .btn-outline-mistyrose:hover {   color: #fff;   background-color: #ffe4e1;   border-color: #ffe4e1; }
-.btn-outline-mistyrose:focus, .btn-outline-mistyrose.focus {   box-shadow: 0 0 0 3px rgba(255, 228, 225, 0.5); }
+.btn-outline-mistyrose:focus, .btn-outline-mistyrose.focus {   box-shadow: 0 0 0 0.2rem rgba(255, 228, 225, 0.5); }
 .btn-outline-mistyrose.disabled, .btn-outline-mistyrose:disabled {   color: #ffe4e1;   background-color: transparent; }
-.btn-outline-mistyrose:active, .btn-outline-mistyrose.active, .show > .btn-outline-mistyrose.dropdown-toggle {   color: #fff;   background-color: #ffe4e1;   border-color: #ffe4e1; }
+.btn-outline-mistyrose:not([disabled]):not(.disabled):active, .btn-outline-mistyrose:not([disabled]):not(.disabled).active, .show > .btn-outline-mistyrose.dropdown-toggle {   color: #fff;   background-color: #ffe4e1;   border-color: #ffe4e1;   box-shadow: 0 0 0 0.2rem rgba(255, 228, 225, 0.5); }
 .badge-mistyrose {   color: #111;   background-color: #ffe4e1; }
 .badge-mistyrose[href]:focus, .badge-mistyrose[href]:hover {   color: #111;   text-decoration: none;   background-color: #ffb6ae; }
 .alert-mistyrose {   color: #857775;   background-color: #fffaf9;   border-color: #fff7f7; }

@@ -3,14 +3,14 @@
 .table-hover .table-papayawhip:hover > td, .table-hover .table-papayawhip:hover > th {   background-color: #fff3da; }
 .btn-papayawhip {   color: #111;   background-color: #ffefd5;   border-color: #ffefd5; }
 .btn-papayawhip:hover {   color: #111;   background-color: #ffe0af;   border-color: #ffdca2; }
-.btn-papayawhip:focus, .btn-papayawhip.focus {   box-shadow: 0 0 0 3px rgba(255, 239, 213, 0.5); }
+.btn-papayawhip:focus, .btn-papayawhip.focus {   box-shadow: 0 0 0 0.2rem rgba(255, 239, 213, 0.5); }
 .btn-papayawhip.disabled, .btn-papayawhip:disabled {   background-color: #ffefd5;   border-color: #ffefd5; }
-.btn-papayawhip:active, .btn-papayawhip.active, .show > .btn-papayawhip.dropdown-toggle {   background-color: #ffe0af;   background-image: none;   border-color: #ffdca2; }
+.btn-papayawhip:not([disabled]):not(.disabled):active, .btn-papayawhip:not([disabled]):not(.disabled).active, .show > .btn-papayawhip.dropdown-toggle {   color: #111;   background-color: #ffdca2;   border-color: #ffd795;   box-shadow: 0 0 0 0.2rem rgba(255, 239, 213, 0.5); }
 .btn-outline-papayawhip {   color: #ffefd5;   background-color: transparent;   background-image: none;   border-color: #ffefd5; }
 .btn-outline-papayawhip:hover {   color: #fff;   background-color: #ffefd5;   border-color: #ffefd5; }
-.btn-outline-papayawhip:focus, .btn-outline-papayawhip.focus {   box-shadow: 0 0 0 3px rgba(255, 239, 213, 0.5); }
+.btn-outline-papayawhip:focus, .btn-outline-papayawhip.focus {   box-shadow: 0 0 0 0.2rem rgba(255, 239, 213, 0.5); }
 .btn-outline-papayawhip.disabled, .btn-outline-papayawhip:disabled {   color: #ffefd5;   background-color: transparent; }
-.btn-outline-papayawhip:active, .btn-outline-papayawhip.active, .show > .btn-outline-papayawhip.dropdown-toggle {   color: #fff;   background-color: #ffefd5;   border-color: #ffefd5; }
+.btn-outline-papayawhip:not([disabled]):not(.disabled):active, .btn-outline-papayawhip:not([disabled]):not(.disabled).active, .show > .btn-outline-papayawhip.dropdown-toggle {   color: #fff;   background-color: #ffefd5;   border-color: #ffefd5;   box-shadow: 0 0 0 0.2rem rgba(255, 239, 213, 0.5); }
 .badge-papayawhip {   color: #111;   background-color: #ffefd5; }
 .badge-papayawhip[href]:focus, .badge-papayawhip[href]:hover {   color: #111;   text-decoration: none;   background-color: #ffdca2; }
 .alert-papayawhip {   color: #857c6f;   background-color: #fffcf7;   border-color: #fffbf3; }

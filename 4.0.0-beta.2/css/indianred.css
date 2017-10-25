@@ -3,14 +3,14 @@
 .table-hover .table-indianred:hover > td, .table-hover .table-indianred:hover > th {   background-color: #ebbdbd; }
 .btn-indianred {   color: #fff;   background-color: #cd5c5c;   border-color: #cd5c5c; }
 .btn-indianred:hover {   color: #fff;   background-color: #c43f3f;   border-color: #bc3a3a; }
-.btn-indianred:focus, .btn-indianred.focus {   box-shadow: 0 0 0 3px rgba(205, 92, 92, 0.5); }
+.btn-indianred:focus, .btn-indianred.focus {   box-shadow: 0 0 0 0.2rem rgba(205, 92, 92, 0.5); }
 .btn-indianred.disabled, .btn-indianred:disabled {   background-color: #cd5c5c;   border-color: #cd5c5c; }
-.btn-indianred:active, .btn-indianred.active, .show > .btn-indianred.dropdown-toggle {   background-color: #c43f3f;   background-image: none;   border-color: #bc3a3a; }
+.btn-indianred:not([disabled]):not(.disabled):active, .btn-indianred:not([disabled]):not(.disabled).active, .show > .btn-indianred.dropdown-toggle {   color: #fff;   background-color: #bc3a3a;   border-color: #b23737;   box-shadow: 0 0 0 0.2rem rgba(205, 92, 92, 0.5); }
 .btn-outline-indianred {   color: #cd5c5c;   background-color: transparent;   background-image: none;   border-color: #cd5c5c; }
 .btn-outline-indianred:hover {   color: #fff;   background-color: #cd5c5c;   border-color: #cd5c5c; }
-.btn-outline-indianred:focus, .btn-outline-indianred.focus {   box-shadow: 0 0 0 3px rgba(205, 92, 92, 0.5); }
+.btn-outline-indianred:focus, .btn-outline-indianred.focus {   box-shadow: 0 0 0 0.2rem rgba(205, 92, 92, 0.5); }
 .btn-outline-indianred.disabled, .btn-outline-indianred:disabled {   color: #cd5c5c;   background-color: transparent; }
-.btn-outline-indianred:active, .btn-outline-indianred.active, .show > .btn-outline-indianred.dropdown-toggle {   color: #fff;   background-color: #cd5c5c;   border-color: #cd5c5c; }
+.btn-outline-indianred:not([disabled]):not(.disabled):active, .btn-outline-indianred:not([disabled]):not(.disabled).active, .show > .btn-outline-indianred.dropdown-toggle {   color: #fff;   background-color: #cd5c5c;   border-color: #cd5c5c;   box-shadow: 0 0 0 0.2rem rgba(205, 92, 92, 0.5); }
 .badge-indianred {   color: #fff;   background-color: #cd5c5c; }
 .badge-indianred[href]:focus, .badge-indianred[href]:hover {   color: #fff;   text-decoration: none;   background-color: #bc3a3a; }
 .alert-indianred {   color: #6b3030;   background-color: #f5dede;   border-color: #f1d1d1; }

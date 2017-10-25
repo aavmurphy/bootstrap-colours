@@ -3,14 +3,14 @@
 .table-hover .table-purple:hover > td, .table-hover .table-purple:hover > th {   background-color: #d2a7d2; }
 .btn-purple {   color: #fff;   background-color: #800080;   border-color: #800080; }
 .btn-purple:hover {   color: #fff;   background-color: #5a005a;   border-color: #4d004d; }
-.btn-purple:focus, .btn-purple.focus {   box-shadow: 0 0 0 3px rgba(128, 0, 128, 0.5); }
+.btn-purple:focus, .btn-purple.focus {   box-shadow: 0 0 0 0.2rem rgba(128, 0, 128, 0.5); }
 .btn-purple.disabled, .btn-purple:disabled {   background-color: #800080;   border-color: #800080; }
-.btn-purple:active, .btn-purple.active, .show > .btn-purple.dropdown-toggle {   background-color: #5a005a;   background-image: none;   border-color: #4d004d; }
+.btn-purple:not([disabled]):not(.disabled):active, .btn-purple:not([disabled]):not(.disabled).active, .show > .btn-purple.dropdown-toggle {   color: #fff;   background-color: #4d004d;   border-color: #400040;   box-shadow: 0 0 0 0.2rem rgba(128, 0, 128, 0.5); }
 .btn-outline-purple {   color: #800080;   background-color: transparent;   background-image: none;   border-color: #800080; }
 .btn-outline-purple:hover {   color: #fff;   background-color: #800080;   border-color: #800080; }
-.btn-outline-purple:focus, .btn-outline-purple.focus {   box-shadow: 0 0 0 3px rgba(128, 0, 128, 0.5); }
+.btn-outline-purple:focus, .btn-outline-purple.focus {   box-shadow: 0 0 0 0.2rem rgba(128, 0, 128, 0.5); }
 .btn-outline-purple.disabled, .btn-outline-purple:disabled {   color: #800080;   background-color: transparent; }
-.btn-outline-purple:active, .btn-outline-purple.active, .show > .btn-outline-purple.dropdown-toggle {   color: #fff;   background-color: #800080;   border-color: #800080; }
+.btn-outline-purple:not([disabled]):not(.disabled):active, .btn-outline-purple:not([disabled]):not(.disabled).active, .show > .btn-outline-purple.dropdown-toggle {   color: #fff;   background-color: #800080;   border-color: #800080;   box-shadow: 0 0 0 0.2rem rgba(128, 0, 128, 0.5); }
 .badge-purple {   color: #fff;   background-color: #800080; }
 .badge-purple[href]:focus, .badge-purple[href]:hover {   color: #fff;   text-decoration: none;   background-color: #4d004d; }
 .alert-purple {   color: #430043;   background-color: #e6cce6;   border-color: #dbb8db; }

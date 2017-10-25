@@ -3,14 +3,14 @@
 .table-hover .table-darkkhaki:hover > td, .table-hover .table-darkkhaki:hover > th {   background-color: #e5e2c4; }
 .btn-darkkhaki {   color: #111;   background-color: #bdb76b;   border-color: #bdb76b; }
 .btn-darkkhaki:hover {   color: #111;   background-color: #b1aa51;   border-color: #a9a34c; }
-.btn-darkkhaki:focus, .btn-darkkhaki.focus {   box-shadow: 0 0 0 3px rgba(189, 183, 107, 0.5); }
+.btn-darkkhaki:focus, .btn-darkkhaki.focus {   box-shadow: 0 0 0 0.2rem rgba(189, 183, 107, 0.5); }
 .btn-darkkhaki.disabled, .btn-darkkhaki:disabled {   background-color: #bdb76b;   border-color: #bdb76b; }
-.btn-darkkhaki:active, .btn-darkkhaki.active, .show > .btn-darkkhaki.dropdown-toggle {   background-color: #b1aa51;   background-image: none;   border-color: #a9a34c; }
+.btn-darkkhaki:not([disabled]):not(.disabled):active, .btn-darkkhaki:not([disabled]):not(.disabled).active, .show > .btn-darkkhaki.dropdown-toggle {   color: #111;   background-color: #a9a34c;   border-color: #a19a48;   box-shadow: 0 0 0 0.2rem rgba(189, 183, 107, 0.5); }
 .btn-outline-darkkhaki {   color: #bdb76b;   background-color: transparent;   background-image: none;   border-color: #bdb76b; }
 .btn-outline-darkkhaki:hover {   color: #fff;   background-color: #bdb76b;   border-color: #bdb76b; }
-.btn-outline-darkkhaki:focus, .btn-outline-darkkhaki.focus {   box-shadow: 0 0 0 3px rgba(189, 183, 107, 0.5); }
+.btn-outline-darkkhaki:focus, .btn-outline-darkkhaki.focus {   box-shadow: 0 0 0 0.2rem rgba(189, 183, 107, 0.5); }
 .btn-outline-darkkhaki.disabled, .btn-outline-darkkhaki:disabled {   color: #bdb76b;   background-color: transparent; }
-.btn-outline-darkkhaki:active, .btn-outline-darkkhaki.active, .show > .btn-outline-darkkhaki.dropdown-toggle {   color: #fff;   background-color: #bdb76b;   border-color: #bdb76b; }
+.btn-outline-darkkhaki:not([disabled]):not(.disabled):active, .btn-outline-darkkhaki:not([disabled]):not(.disabled).active, .show > .btn-outline-darkkhaki.dropdown-toggle {   color: #fff;   background-color: #bdb76b;   border-color: #bdb76b;   box-shadow: 0 0 0 0.2rem rgba(189, 183, 107, 0.5); }
 .badge-darkkhaki {   color: #111;   background-color: #bdb76b; }
 .badge-darkkhaki[href]:focus, .badge-darkkhaki[href]:hover {   color: #111;   text-decoration: none;   background-color: #a9a34c; }
 .alert-darkkhaki {   color: #625f38;   background-color: #f2f1e1;   border-color: #edebd6; }

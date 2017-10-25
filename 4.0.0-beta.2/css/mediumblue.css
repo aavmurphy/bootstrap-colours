@@ -3,14 +3,14 @@
 .table-hover .table-mediumblue:hover > td, .table-hover .table-mediumblue:hover > th {   background-color: #a3a3ed; }
 .btn-mediumblue {   color: #fff;   background-color: #0000cd;   border-color: #0000cd; }
 .btn-mediumblue:hover {   color: #fff;   background-color: #0000a7;   border-color: #00009a; }
-.btn-mediumblue:focus, .btn-mediumblue.focus {   box-shadow: 0 0 0 3px rgba(0, 0, 205, 0.5); }
+.btn-mediumblue:focus, .btn-mediumblue.focus {   box-shadow: 0 0 0 0.2rem rgba(0, 0, 205, 0.5); }
 .btn-mediumblue.disabled, .btn-mediumblue:disabled {   background-color: #0000cd;   border-color: #0000cd; }
-.btn-mediumblue:active, .btn-mediumblue.active, .show > .btn-mediumblue.dropdown-toggle {   background-color: #0000a7;   background-image: none;   border-color: #00009a; }
+.btn-mediumblue:not([disabled]):not(.disabled):active, .btn-mediumblue:not([disabled]):not(.disabled).active, .show > .btn-mediumblue.dropdown-toggle {   color: #fff;   background-color: #00009a;   border-color: #00008d;   box-shadow: 0 0 0 0.2rem rgba(0, 0, 205, 0.5); }
 .btn-outline-mediumblue {   color: #0000cd;   background-color: transparent;   background-image: none;   border-color: #0000cd; }
 .btn-outline-mediumblue:hover {   color: #fff;   background-color: #0000cd;   border-color: #0000cd; }
-.btn-outline-mediumblue:focus, .btn-outline-mediumblue.focus {   box-shadow: 0 0 0 3px rgba(0, 0, 205, 0.5); }
+.btn-outline-mediumblue:focus, .btn-outline-mediumblue.focus {   box-shadow: 0 0 0 0.2rem rgba(0, 0, 205, 0.5); }
 .btn-outline-mediumblue.disabled, .btn-outline-mediumblue:disabled {   color: #0000cd;   background-color: transparent; }
-.btn-outline-mediumblue:active, .btn-outline-mediumblue.active, .show > .btn-outline-mediumblue.dropdown-toggle {   color: #fff;   background-color: #0000cd;   border-color: #0000cd; }
+.btn-outline-mediumblue:not([disabled]):not(.disabled):active, .btn-outline-mediumblue:not([disabled]):not(.disabled).active, .show > .btn-outline-mediumblue.dropdown-toggle {   color: #fff;   background-color: #0000cd;   border-color: #0000cd;   box-shadow: 0 0 0 0.2rem rgba(0, 0, 205, 0.5); }
 .badge-mediumblue {   color: #fff;   background-color: #0000cd; }
 .badge-mediumblue[href]:focus, .badge-mediumblue[href]:hover {   color: #fff;   text-decoration: none;   background-color: #00009a; }
 .alert-mediumblue {   color: #00006b;   background-color: #ccccf5;   border-color: #b8b8f1; }

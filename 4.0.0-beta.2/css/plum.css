@@ -3,14 +3,14 @@
 .table-hover .table-plum:hover > td, .table-hover .table-plum:hover > th {   background-color: #eed1ee; }
 .btn-plum {   color: #111;   background-color: #dda0dd;   border-color: #dda0dd; }
 .btn-plum:hover {   color: #111;   background-color: #d384d3;   border-color: #d07ad0; }
-.btn-plum:focus, .btn-plum.focus {   box-shadow: 0 0 0 3px rgba(221, 160, 221, 0.5); }
+.btn-plum:focus, .btn-plum.focus {   box-shadow: 0 0 0 0.2rem rgba(221, 160, 221, 0.5); }
 .btn-plum.disabled, .btn-plum:disabled {   background-color: #dda0dd;   border-color: #dda0dd; }
-.btn-plum:active, .btn-plum.active, .show > .btn-plum.dropdown-toggle {   background-color: #d384d3;   background-image: none;   border-color: #d07ad0; }
+.btn-plum:not([disabled]):not(.disabled):active, .btn-plum:not([disabled]):not(.disabled).active, .show > .btn-plum.dropdown-toggle {   color: #111;   background-color: #d07ad0;   border-color: #cc71cc;   box-shadow: 0 0 0 0.2rem rgba(221, 160, 221, 0.5); }
 .btn-outline-plum {   color: #dda0dd;   background-color: transparent;   background-image: none;   border-color: #dda0dd; }
 .btn-outline-plum:hover {   color: #fff;   background-color: #dda0dd;   border-color: #dda0dd; }
-.btn-outline-plum:focus, .btn-outline-plum.focus {   box-shadow: 0 0 0 3px rgba(221, 160, 221, 0.5); }
+.btn-outline-plum:focus, .btn-outline-plum.focus {   box-shadow: 0 0 0 0.2rem rgba(221, 160, 221, 0.5); }
 .btn-outline-plum.disabled, .btn-outline-plum:disabled {   color: #dda0dd;   background-color: transparent; }
-.btn-outline-plum:active, .btn-outline-plum.active, .show > .btn-outline-plum.dropdown-toggle {   color: #fff;   background-color: #dda0dd;   border-color: #dda0dd; }
+.btn-outline-plum:not([disabled]):not(.disabled):active, .btn-outline-plum:not([disabled]):not(.disabled).active, .show > .btn-outline-plum.dropdown-toggle {   color: #fff;   background-color: #dda0dd;   border-color: #dda0dd;   box-shadow: 0 0 0 0.2rem rgba(221, 160, 221, 0.5); }
 .badge-plum {   color: #111;   background-color: #dda0dd; }
 .badge-plum[href]:focus, .badge-plum[href]:hover {   color: #111;   text-decoration: none;   background-color: #d07ad0; }
 .alert-plum {   color: #735373;   background-color: #f8ecf8;   border-color: #f5e4f5; }

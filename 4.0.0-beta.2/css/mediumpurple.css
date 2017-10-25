@@ -3,14 +3,14 @@
 .table-hover .table-mediumpurple:hover > td, .table-hover .table-mediumpurple:hover > th {   background-color: #d2c3f0; }
 .btn-mediumpurple {   color: #fff;   background-color: #9370db;   border-color: #9370db; }
 .btn-mediumpurple:hover {   color: #fff;   background-color: #7c51d3;   border-color: #7447d1; }
-.btn-mediumpurple:focus, .btn-mediumpurple.focus {   box-shadow: 0 0 0 3px rgba(147, 112, 219, 0.5); }
+.btn-mediumpurple:focus, .btn-mediumpurple.focus {   box-shadow: 0 0 0 0.2rem rgba(147, 112, 219, 0.5); }
 .btn-mediumpurple.disabled, .btn-mediumpurple:disabled {   background-color: #9370db;   border-color: #9370db; }
-.btn-mediumpurple:active, .btn-mediumpurple.active, .show > .btn-mediumpurple.dropdown-toggle {   background-color: #7c51d3;   background-image: none;   border-color: #7447d1; }
+.btn-mediumpurple:not([disabled]):not(.disabled):active, .btn-mediumpurple:not([disabled]):not(.disabled).active, .show > .btn-mediumpurple.dropdown-toggle {   color: #fff;   background-color: #7447d1;   border-color: #6d3dce;   box-shadow: 0 0 0 0.2rem rgba(147, 112, 219, 0.5); }
 .btn-outline-mediumpurple {   color: #9370db;   background-color: transparent;   background-image: none;   border-color: #9370db; }
 .btn-outline-mediumpurple:hover {   color: #fff;   background-color: #9370db;   border-color: #9370db; }
-.btn-outline-mediumpurple:focus, .btn-outline-mediumpurple.focus {   box-shadow: 0 0 0 3px rgba(147, 112, 219, 0.5); }
+.btn-outline-mediumpurple:focus, .btn-outline-mediumpurple.focus {   box-shadow: 0 0 0 0.2rem rgba(147, 112, 219, 0.5); }
 .btn-outline-mediumpurple.disabled, .btn-outline-mediumpurple:disabled {   color: #9370db;   background-color: transparent; }
-.btn-outline-mediumpurple:active, .btn-outline-mediumpurple.active, .show > .btn-outline-mediumpurple.dropdown-toggle {   color: #fff;   background-color: #9370db;   border-color: #9370db; }
+.btn-outline-mediumpurple:not([disabled]):not(.disabled):active, .btn-outline-mediumpurple:not([disabled]):not(.disabled).active, .show > .btn-outline-mediumpurple.dropdown-toggle {   color: #fff;   background-color: #9370db;   border-color: #9370db;   box-shadow: 0 0 0 0.2rem rgba(147, 112, 219, 0.5); }
 .badge-mediumpurple {   color: #fff;   background-color: #9370db; }
 .badge-mediumpurple[href]:focus, .badge-mediumpurple[href]:hover {   color: #fff;   text-decoration: none;   background-color: #7447d1; }
 .alert-mediumpurple {   color: #4c3a72;   background-color: #e9e2f8;   border-color: #e1d7f5; }

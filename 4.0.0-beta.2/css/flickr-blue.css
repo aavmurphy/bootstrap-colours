@@ -3,14 +3,14 @@
 .table-hover .table-flickr-blue:hover > td, .table-hover .table-flickr-blue:hover > th {   background-color: #a2c5f2; }
 .btn-flickr-blue {   color: #fff;   background-color: #0063dc;   border-color: #0063dc; }
 .btn-flickr-blue:hover {   color: #fff;   background-color: #0052b6;   border-color: #004ca9; }
-.btn-flickr-blue:focus, .btn-flickr-blue.focus {   box-shadow: 0 0 0 3px rgba(0, 99, 220, 0.5); }
+.btn-flickr-blue:focus, .btn-flickr-blue.focus {   box-shadow: 0 0 0 0.2rem rgba(0, 99, 220, 0.5); }
 .btn-flickr-blue.disabled, .btn-flickr-blue:disabled {   background-color: #0063dc;   border-color: #0063dc; }
-.btn-flickr-blue:active, .btn-flickr-blue.active, .show > .btn-flickr-blue.dropdown-toggle {   background-color: #0052b6;   background-image: none;   border-color: #004ca9; }
+.btn-flickr-blue:not([disabled]):not(.disabled):active, .btn-flickr-blue:not([disabled]):not(.disabled).active, .show > .btn-flickr-blue.dropdown-toggle {   color: #fff;   background-color: #004ca9;   border-color: #00469c;   box-shadow: 0 0 0 0.2rem rgba(0, 99, 220, 0.5); }
 .btn-outline-flickr-blue {   color: #0063dc;   background-color: transparent;   background-image: none;   border-color: #0063dc; }
 .btn-outline-flickr-blue:hover {   color: #fff;   background-color: #0063dc;   border-color: #0063dc; }
-.btn-outline-flickr-blue:focus, .btn-outline-flickr-blue.focus {   box-shadow: 0 0 0 3px rgba(0, 99, 220, 0.5); }
+.btn-outline-flickr-blue:focus, .btn-outline-flickr-blue.focus {   box-shadow: 0 0 0 0.2rem rgba(0, 99, 220, 0.5); }
 .btn-outline-flickr-blue.disabled, .btn-outline-flickr-blue:disabled {   color: #0063dc;   background-color: transparent; }
-.btn-outline-flickr-blue:active, .btn-outline-flickr-blue.active, .show > .btn-outline-flickr-blue.dropdown-toggle {   color: #fff;   background-color: #0063dc;   border-color: #0063dc; }
+.btn-outline-flickr-blue:not([disabled]):not(.disabled):active, .btn-outline-flickr-blue:not([disabled]):not(.disabled).active, .show > .btn-outline-flickr-blue.dropdown-toggle {   color: #fff;   background-color: #0063dc;   border-color: #0063dc;   box-shadow: 0 0 0 0.2rem rgba(0, 99, 220, 0.5); }
 .badge-flickr-blue {   color: #fff;   background-color: #0063dc; }
 .badge-flickr-blue[href]:focus, .badge-flickr-blue[href]:hover {   color: #fff;   text-decoration: none;   background-color: #004ca9; }
 .alert-flickr-blue {   color: #003372;   background-color: #cce0f8;   border-color: #b8d3f5; }

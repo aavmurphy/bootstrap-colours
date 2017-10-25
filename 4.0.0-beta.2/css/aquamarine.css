@@ -3,14 +3,14 @@
 .table-hover .table-aquamarine:hover > td, .table-hover .table-aquamarine:hover > th {   background-color: #c2ffeb; }
 .btn-aquamarine {   color: #111;   background-color: #7fffd4;   border-color: #7fffd4; }
 .btn-aquamarine:hover {   color: #111;   background-color: #59ffc7;   border-color: #4cffc3; }
-.btn-aquamarine:focus, .btn-aquamarine.focus {   box-shadow: 0 0 0 3px rgba(127, 255, 212, 0.5); }
+.btn-aquamarine:focus, .btn-aquamarine.focus {   box-shadow: 0 0 0 0.2rem rgba(127, 255, 212, 0.5); }
 .btn-aquamarine.disabled, .btn-aquamarine:disabled {   background-color: #7fffd4;   border-color: #7fffd4; }
-.btn-aquamarine:active, .btn-aquamarine.active, .show > .btn-aquamarine.dropdown-toggle {   background-color: #59ffc7;   background-image: none;   border-color: #4cffc3; }
+.btn-aquamarine:not([disabled]):not(.disabled):active, .btn-aquamarine:not([disabled]):not(.disabled).active, .show > .btn-aquamarine.dropdown-toggle {   color: #111;   background-color: #4cffc3;   border-color: #3fffbf;   box-shadow: 0 0 0 0.2rem rgba(127, 255, 212, 0.5); }
 .btn-outline-aquamarine {   color: #7fffd4;   background-color: transparent;   background-image: none;   border-color: #7fffd4; }
 .btn-outline-aquamarine:hover {   color: #fff;   background-color: #7fffd4;   border-color: #7fffd4; }
-.btn-outline-aquamarine:focus, .btn-outline-aquamarine.focus {   box-shadow: 0 0 0 3px rgba(127, 255, 212, 0.5); }
+.btn-outline-aquamarine:focus, .btn-outline-aquamarine.focus {   box-shadow: 0 0 0 0.2rem rgba(127, 255, 212, 0.5); }
 .btn-outline-aquamarine.disabled, .btn-outline-aquamarine:disabled {   color: #7fffd4;   background-color: transparent; }
-.btn-outline-aquamarine:active, .btn-outline-aquamarine.active, .show > .btn-outline-aquamarine.dropdown-toggle {   color: #fff;   background-color: #7fffd4;   border-color: #7fffd4; }
+.btn-outline-aquamarine:not([disabled]):not(.disabled):active, .btn-outline-aquamarine:not([disabled]):not(.disabled).active, .show > .btn-outline-aquamarine.dropdown-toggle {   color: #fff;   background-color: #7fffd4;   border-color: #7fffd4;   box-shadow: 0 0 0 0.2rem rgba(127, 255, 212, 0.5); }
 .badge-aquamarine {   color: #111;   background-color: #7fffd4; }
 .badge-aquamarine[href]:focus, .badge-aquamarine[href]:hover {   color: #111;   text-decoration: none;   background-color: #4cffc3; }
 .alert-aquamarine {   color: #42856e;   background-color: #e5fff6;   border-color: #dbfff3; }

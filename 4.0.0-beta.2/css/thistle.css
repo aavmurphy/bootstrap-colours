@@ -3,14 +3,14 @@
 .table-hover .table-thistle:hover > td, .table-hover .table-thistle:hover > th {   background-color: #eaddea; }
 .btn-thistle {   color: #111;   background-color: #d8bfd8;   border-color: #d8bfd8; }
 .btn-thistle:hover {   color: #111;   background-color: #caa7ca;   border-color: #c59fc5; }
-.btn-thistle:focus, .btn-thistle.focus {   box-shadow: 0 0 0 3px rgba(216, 191, 216, 0.5); }
+.btn-thistle:focus, .btn-thistle.focus {   box-shadow: 0 0 0 0.2rem rgba(216, 191, 216, 0.5); }
 .btn-thistle.disabled, .btn-thistle:disabled {   background-color: #d8bfd8;   border-color: #d8bfd8; }
-.btn-thistle:active, .btn-thistle.active, .show > .btn-thistle.dropdown-toggle {   background-color: #caa7ca;   background-image: none;   border-color: #c59fc5; }
+.btn-thistle:not([disabled]):not(.disabled):active, .btn-thistle:not([disabled]):not(.disabled).active, .show > .btn-thistle.dropdown-toggle {   color: #111;   background-color: #c59fc5;   border-color: #c097c0;   box-shadow: 0 0 0 0.2rem rgba(216, 191, 216, 0.5); }
 .btn-outline-thistle {   color: #d8bfd8;   background-color: transparent;   background-image: none;   border-color: #d8bfd8; }
 .btn-outline-thistle:hover {   color: #fff;   background-color: #d8bfd8;   border-color: #d8bfd8; }
-.btn-outline-thistle:focus, .btn-outline-thistle.focus {   box-shadow: 0 0 0 3px rgba(216, 191, 216, 0.5); }
+.btn-outline-thistle:focus, .btn-outline-thistle.focus {   box-shadow: 0 0 0 0.2rem rgba(216, 191, 216, 0.5); }
 .btn-outline-thistle.disabled, .btn-outline-thistle:disabled {   color: #d8bfd8;   background-color: transparent; }
-.btn-outline-thistle:active, .btn-outline-thistle.active, .show > .btn-outline-thistle.dropdown-toggle {   color: #fff;   background-color: #d8bfd8;   border-color: #d8bfd8; }
+.btn-outline-thistle:not([disabled]):not(.disabled):active, .btn-outline-thistle:not([disabled]):not(.disabled).active, .show > .btn-outline-thistle.dropdown-toggle {   color: #fff;   background-color: #d8bfd8;   border-color: #d8bfd8;   box-shadow: 0 0 0 0.2rem rgba(216, 191, 216, 0.5); }
 .badge-thistle {   color: #111;   background-color: #d8bfd8; }
 .badge-thistle[href]:focus, .badge-thistle[href]:hover {   color: #111;   text-decoration: none;   background-color: #c59fc5; }
 .alert-thistle {   color: #706370;   background-color: #f7f2f7;   border-color: #f4edf4; }

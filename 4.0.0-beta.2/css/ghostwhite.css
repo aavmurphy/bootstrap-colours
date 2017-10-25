@@ -3,14 +3,14 @@
 .table-hover .table-ghostwhite:hover > td, .table-hover .table-ghostwhite:hover > th {   background-color: #e4e4ff; }
 .btn-ghostwhite {   color: #111;   background-color: #f8f8ff;   border-color: #f8f8ff; }
 .btn-ghostwhite:hover {   color: #111;   background-color: #d2d2ff;   border-color: #c5c5ff; }
-.btn-ghostwhite:focus, .btn-ghostwhite.focus {   box-shadow: 0 0 0 3px rgba(248, 248, 255, 0.5); }
+.btn-ghostwhite:focus, .btn-ghostwhite.focus {   box-shadow: 0 0 0 0.2rem rgba(248, 248, 255, 0.5); }
 .btn-ghostwhite.disabled, .btn-ghostwhite:disabled {   background-color: #f8f8ff;   border-color: #f8f8ff; }
-.btn-ghostwhite:active, .btn-ghostwhite.active, .show > .btn-ghostwhite.dropdown-toggle {   background-color: #d2d2ff;   background-image: none;   border-color: #c5c5ff; }
+.btn-ghostwhite:not([disabled]):not(.disabled):active, .btn-ghostwhite:not([disabled]):not(.disabled).active, .show > .btn-ghostwhite.dropdown-toggle {   color: #111;   background-color: #c5c5ff;   border-color: #b8b8ff;   box-shadow: 0 0 0 0.2rem rgba(248, 248, 255, 0.5); }
 .btn-outline-ghostwhite {   color: #f8f8ff;   background-color: transparent;   background-image: none;   border-color: #f8f8ff; }
 .btn-outline-ghostwhite:hover {   color: #fff;   background-color: #f8f8ff;   border-color: #f8f8ff; }
-.btn-outline-ghostwhite:focus, .btn-outline-ghostwhite.focus {   box-shadow: 0 0 0 3px rgba(248, 248, 255, 0.5); }
+.btn-outline-ghostwhite:focus, .btn-outline-ghostwhite.focus {   box-shadow: 0 0 0 0.2rem rgba(248, 248, 255, 0.5); }
 .btn-outline-ghostwhite.disabled, .btn-outline-ghostwhite:disabled {   color: #f8f8ff;   background-color: transparent; }
-.btn-outline-ghostwhite:active, .btn-outline-ghostwhite.active, .show > .btn-outline-ghostwhite.dropdown-toggle {   color: #fff;   background-color: #f8f8ff;   border-color: #f8f8ff; }
+.btn-outline-ghostwhite:not([disabled]):not(.disabled):active, .btn-outline-ghostwhite:not([disabled]):not(.disabled).active, .show > .btn-outline-ghostwhite.dropdown-toggle {   color: #fff;   background-color: #f8f8ff;   border-color: #f8f8ff;   box-shadow: 0 0 0 0.2rem rgba(248, 248, 255, 0.5); }
 .badge-ghostwhite {   color: #111;   background-color: #f8f8ff; }
 .badge-ghostwhite[href]:focus, .badge-ghostwhite[href]:hover {   color: #111;   text-decoration: none;   background-color: #c5c5ff; }
 .alert-ghostwhite {   color: #818185;   background-color: #fefeff;   border-color: #fdfdff; }

@@ -3,14 +3,14 @@
 .table-hover .table-deepskyblue:hover > td, .table-hover .table-deepskyblue:hover > th {   background-color: #9fe7ff; }
 .btn-deepskyblue {   color: #fff;   background-color: #00bfff;   border-color: #00bfff; }
 .btn-deepskyblue:hover {   color: #fff;   background-color: #00a2d9;   border-color: #0099cc; }
-.btn-deepskyblue:focus, .btn-deepskyblue.focus {   box-shadow: 0 0 0 3px rgba(0, 191, 255, 0.5); }
+.btn-deepskyblue:focus, .btn-deepskyblue.focus {   box-shadow: 0 0 0 0.2rem rgba(0, 191, 255, 0.5); }
 .btn-deepskyblue.disabled, .btn-deepskyblue:disabled {   background-color: #00bfff;   border-color: #00bfff; }
-.btn-deepskyblue:active, .btn-deepskyblue.active, .show > .btn-deepskyblue.dropdown-toggle {   background-color: #00a2d9;   background-image: none;   border-color: #0099cc; }
+.btn-deepskyblue:not([disabled]):not(.disabled):active, .btn-deepskyblue:not([disabled]):not(.disabled).active, .show > .btn-deepskyblue.dropdown-toggle {   color: #fff;   background-color: #0099cc;   border-color: #008fbf;   box-shadow: 0 0 0 0.2rem rgba(0, 191, 255, 0.5); }
 .btn-outline-deepskyblue {   color: #00bfff;   background-color: transparent;   background-image: none;   border-color: #00bfff; }
 .btn-outline-deepskyblue:hover {   color: #fff;   background-color: #00bfff;   border-color: #00bfff; }
-.btn-outline-deepskyblue:focus, .btn-outline-deepskyblue.focus {   box-shadow: 0 0 0 3px rgba(0, 191, 255, 0.5); }
+.btn-outline-deepskyblue:focus, .btn-outline-deepskyblue.focus {   box-shadow: 0 0 0 0.2rem rgba(0, 191, 255, 0.5); }
 .btn-outline-deepskyblue.disabled, .btn-outline-deepskyblue:disabled {   color: #00bfff;   background-color: transparent; }
-.btn-outline-deepskyblue:active, .btn-outline-deepskyblue.active, .show > .btn-outline-deepskyblue.dropdown-toggle {   color: #fff;   background-color: #00bfff;   border-color: #00bfff; }
+.btn-outline-deepskyblue:not([disabled]):not(.disabled):active, .btn-outline-deepskyblue:not([disabled]):not(.disabled).active, .show > .btn-outline-deepskyblue.dropdown-toggle {   color: #fff;   background-color: #00bfff;   border-color: #00bfff;   box-shadow: 0 0 0 0.2rem rgba(0, 191, 255, 0.5); }
 .badge-deepskyblue {   color: #fff;   background-color: #00bfff; }
 .badge-deepskyblue[href]:focus, .badge-deepskyblue[href]:hover {   color: #fff;   text-decoration: none;   background-color: #0099cc; }
 .alert-deepskyblue {   color: #006385;   background-color: #ccf2ff;   border-color: #b8edff; }

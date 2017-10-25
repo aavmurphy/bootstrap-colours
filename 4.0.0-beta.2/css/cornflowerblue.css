@@ -3,14 +3,14 @@
 .table-hover .table-cornflowerblue:hover > td, .table-hover .table-cornflowerblue:hover > th {   background-color: #bdd1f7; }
 .btn-cornflowerblue {   color: #fff;   background-color: #6495ed;   border-color: #6495ed; }
 .btn-cornflowerblue:hover {   color: #fff;   background-color: #427ee9;   border-color: #3676e8; }
-.btn-cornflowerblue:focus, .btn-cornflowerblue.focus {   box-shadow: 0 0 0 3px rgba(100, 149, 237, 0.5); }
+.btn-cornflowerblue:focus, .btn-cornflowerblue.focus {   box-shadow: 0 0 0 0.2rem rgba(100, 149, 237, 0.5); }
 .btn-cornflowerblue.disabled, .btn-cornflowerblue:disabled {   background-color: #6495ed;   border-color: #6495ed; }
-.btn-cornflowerblue:active, .btn-cornflowerblue.active, .show > .btn-cornflowerblue.dropdown-toggle {   background-color: #427ee9;   background-image: none;   border-color: #3676e8; }
+.btn-cornflowerblue:not([disabled]):not(.disabled):active, .btn-cornflowerblue:not([disabled]):not(.disabled).active, .show > .btn-cornflowerblue.dropdown-toggle {   color: #fff;   background-color: #3676e8;   border-color: #2b6ee6;   box-shadow: 0 0 0 0.2rem rgba(100, 149, 237, 0.5); }
 .btn-outline-cornflowerblue {   color: #6495ed;   background-color: transparent;   background-image: none;   border-color: #6495ed; }
 .btn-outline-cornflowerblue:hover {   color: #fff;   background-color: #6495ed;   border-color: #6495ed; }
-.btn-outline-cornflowerblue:focus, .btn-outline-cornflowerblue.focus {   box-shadow: 0 0 0 3px rgba(100, 149, 237, 0.5); }
+.btn-outline-cornflowerblue:focus, .btn-outline-cornflowerblue.focus {   box-shadow: 0 0 0 0.2rem rgba(100, 149, 237, 0.5); }
 .btn-outline-cornflowerblue.disabled, .btn-outline-cornflowerblue:disabled {   color: #6495ed;   background-color: transparent; }
-.btn-outline-cornflowerblue:active, .btn-outline-cornflowerblue.active, .show > .btn-outline-cornflowerblue.dropdown-toggle {   color: #fff;   background-color: #6495ed;   border-color: #6495ed; }
+.btn-outline-cornflowerblue:not([disabled]):not(.disabled):active, .btn-outline-cornflowerblue:not([disabled]):not(.disabled).active, .show > .btn-outline-cornflowerblue.dropdown-toggle {   color: #fff;   background-color: #6495ed;   border-color: #6495ed;   box-shadow: 0 0 0 0.2rem rgba(100, 149, 237, 0.5); }
 .badge-cornflowerblue {   color: #fff;   background-color: #6495ed; }
 .badge-cornflowerblue[href]:focus, .badge-cornflowerblue[href]:hover {   color: #fff;   text-decoration: none;   background-color: #3676e8; }
 .alert-cornflowerblue {   color: #344d7b;   background-color: #e0eafb;   border-color: #d4e1fa; }

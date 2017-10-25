@@ -3,14 +3,14 @@
 .table-hover .table-crimson:hover > td, .table-hover .table-crimson:hover > th {   background-color: #f2a7b6; }
 .btn-crimson {   color: #fff;   background-color: #dc143c;   border-color: #dc143c; }
 .btn-crimson:hover {   color: #fff;   background-color: #b91132;   border-color: #ad102f; }
-.btn-crimson:focus, .btn-crimson.focus {   box-shadow: 0 0 0 3px rgba(220, 20, 60, 0.5); }
+.btn-crimson:focus, .btn-crimson.focus {   box-shadow: 0 0 0 0.2rem rgba(220, 20, 60, 0.5); }
 .btn-crimson.disabled, .btn-crimson:disabled {   background-color: #dc143c;   border-color: #dc143c; }
-.btn-crimson:active, .btn-crimson.active, .show > .btn-crimson.dropdown-toggle {   background-color: #b91132;   background-image: none;   border-color: #ad102f; }
+.btn-crimson:not([disabled]):not(.disabled):active, .btn-crimson:not([disabled]):not(.disabled).active, .show > .btn-crimson.dropdown-toggle {   color: #fff;   background-color: #ad102f;   border-color: #a20f2c;   box-shadow: 0 0 0 0.2rem rgba(220, 20, 60, 0.5); }
 .btn-outline-crimson {   color: #dc143c;   background-color: transparent;   background-image: none;   border-color: #dc143c; }
 .btn-outline-crimson:hover {   color: #fff;   background-color: #dc143c;   border-color: #dc143c; }
-.btn-outline-crimson:focus, .btn-outline-crimson.focus {   box-shadow: 0 0 0 3px rgba(220, 20, 60, 0.5); }
+.btn-outline-crimson:focus, .btn-outline-crimson.focus {   box-shadow: 0 0 0 0.2rem rgba(220, 20, 60, 0.5); }
 .btn-outline-crimson.disabled, .btn-outline-crimson:disabled {   color: #dc143c;   background-color: transparent; }
-.btn-outline-crimson:active, .btn-outline-crimson.active, .show > .btn-outline-crimson.dropdown-toggle {   color: #fff;   background-color: #dc143c;   border-color: #dc143c; }
+.btn-outline-crimson:not([disabled]):not(.disabled):active, .btn-outline-crimson:not([disabled]):not(.disabled).active, .show > .btn-outline-crimson.dropdown-toggle {   color: #fff;   background-color: #dc143c;   border-color: #dc143c;   box-shadow: 0 0 0 0.2rem rgba(220, 20, 60, 0.5); }
 .badge-crimson {   color: #fff;   background-color: #dc143c; }
 .badge-crimson[href]:focus, .badge-crimson[href]:hover {   color: #fff;   text-decoration: none;   background-color: #ad102f; }
 .alert-crimson {   color: #720a1f;   background-color: #f8d0d8;   border-color: #f5bdc8; }

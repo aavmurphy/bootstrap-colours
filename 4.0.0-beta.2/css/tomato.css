@@ -3,14 +3,14 @@
 .table-hover .table-tomato:hover > td, .table-hover .table-tomato:hover > th {   background-color: #ffbdb2; }
 .btn-tomato {   color: #fff;   background-color: #ff6347;   border-color: #ff6347; }
 .btn-tomato:hover {   color: #fff;   background-color: #ff4321;   border-color: #ff3814; }
-.btn-tomato:focus, .btn-tomato.focus {   box-shadow: 0 0 0 3px rgba(255, 99, 71, 0.5); }
+.btn-tomato:focus, .btn-tomato.focus {   box-shadow: 0 0 0 0.2rem rgba(255, 99, 71, 0.5); }
 .btn-tomato.disabled, .btn-tomato:disabled {   background-color: #ff6347;   border-color: #ff6347; }
-.btn-tomato:active, .btn-tomato.active, .show > .btn-tomato.dropdown-toggle {   background-color: #ff4321;   background-image: none;   border-color: #ff3814; }
+.btn-tomato:not([disabled]):not(.disabled):active, .btn-tomato:not([disabled]):not(.disabled).active, .show > .btn-tomato.dropdown-toggle {   color: #fff;   background-color: #ff3814;   border-color: #ff2d07;   box-shadow: 0 0 0 0.2rem rgba(255, 99, 71, 0.5); }
 .btn-outline-tomato {   color: #ff6347;   background-color: transparent;   background-image: none;   border-color: #ff6347; }
 .btn-outline-tomato:hover {   color: #fff;   background-color: #ff6347;   border-color: #ff6347; }
-.btn-outline-tomato:focus, .btn-outline-tomato.focus {   box-shadow: 0 0 0 3px rgba(255, 99, 71, 0.5); }
+.btn-outline-tomato:focus, .btn-outline-tomato.focus {   box-shadow: 0 0 0 0.2rem rgba(255, 99, 71, 0.5); }
 .btn-outline-tomato.disabled, .btn-outline-tomato:disabled {   color: #ff6347;   background-color: transparent; }
-.btn-outline-tomato:active, .btn-outline-tomato.active, .show > .btn-outline-tomato.dropdown-toggle {   color: #fff;   background-color: #ff6347;   border-color: #ff6347; }
+.btn-outline-tomato:not([disabled]):not(.disabled):active, .btn-outline-tomato:not([disabled]):not(.disabled).active, .show > .btn-outline-tomato.dropdown-toggle {   color: #fff;   background-color: #ff6347;   border-color: #ff6347;   box-shadow: 0 0 0 0.2rem rgba(255, 99, 71, 0.5); }
 .badge-tomato {   color: #fff;   background-color: #ff6347; }
 .badge-tomato[href]:focus, .badge-tomato[href]:hover {   color: #fff;   text-decoration: none;   background-color: #ff3814; }
 .alert-tomato {   color: #853325;   background-color: #ffe0da;   border-color: #ffd3cb; }

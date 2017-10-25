@@ -3,14 +3,14 @@
 .table-hover .table-maroon:hover > td, .table-hover .table-maroon:hover > th {   background-color: #d2a7a7; }
 .btn-maroon {   color: #fff;   background-color: #800000;   border-color: #800000; }
 .btn-maroon:hover {   color: #fff;   background-color: #5a0000;   border-color: #4d0000; }
-.btn-maroon:focus, .btn-maroon.focus {   box-shadow: 0 0 0 3px rgba(128, 0, 0, 0.5); }
+.btn-maroon:focus, .btn-maroon.focus {   box-shadow: 0 0 0 0.2rem rgba(128, 0, 0, 0.5); }
 .btn-maroon.disabled, .btn-maroon:disabled {   background-color: #800000;   border-color: #800000; }
-.btn-maroon:active, .btn-maroon.active, .show > .btn-maroon.dropdown-toggle {   background-color: #5a0000;   background-image: none;   border-color: #4d0000; }
+.btn-maroon:not([disabled]):not(.disabled):active, .btn-maroon:not([disabled]):not(.disabled).active, .show > .btn-maroon.dropdown-toggle {   color: #fff;   background-color: #4d0000;   border-color: #400000;   box-shadow: 0 0 0 0.2rem rgba(128, 0, 0, 0.5); }
 .btn-outline-maroon {   color: #800000;   background-color: transparent;   background-image: none;   border-color: #800000; }
 .btn-outline-maroon:hover {   color: #fff;   background-color: #800000;   border-color: #800000; }
-.btn-outline-maroon:focus, .btn-outline-maroon.focus {   box-shadow: 0 0 0 3px rgba(128, 0, 0, 0.5); }
+.btn-outline-maroon:focus, .btn-outline-maroon.focus {   box-shadow: 0 0 0 0.2rem rgba(128, 0, 0, 0.5); }
 .btn-outline-maroon.disabled, .btn-outline-maroon:disabled {   color: #800000;   background-color: transparent; }
-.btn-outline-maroon:active, .btn-outline-maroon.active, .show > .btn-outline-maroon.dropdown-toggle {   color: #fff;   background-color: #800000;   border-color: #800000; }
+.btn-outline-maroon:not([disabled]):not(.disabled):active, .btn-outline-maroon:not([disabled]):not(.disabled).active, .show > .btn-outline-maroon.dropdown-toggle {   color: #fff;   background-color: #800000;   border-color: #800000;   box-shadow: 0 0 0 0.2rem rgba(128, 0, 0, 0.5); }
 .badge-maroon {   color: #fff;   background-color: #800000; }
 .badge-maroon[href]:focus, .badge-maroon[href]:hover {   color: #fff;   text-decoration: none;   background-color: #4d0000; }
 .alert-maroon {   color: #430000;   background-color: #e6cccc;   border-color: #dbb8b8; }

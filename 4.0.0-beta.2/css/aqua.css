@@ -3,14 +3,14 @@
 .table-hover .table-aqua:hover > td, .table-hover .table-aqua:hover > th {   background-color: #9fffff; }
 .btn-aqua {   color: #111;   background-color: #00ffff;   border-color: #00ffff; }
 .btn-aqua:hover {   color: #111;   background-color: #00d9d9;   border-color: #00cccc; }
-.btn-aqua:focus, .btn-aqua.focus {   box-shadow: 0 0 0 3px rgba(0, 255, 255, 0.5); }
+.btn-aqua:focus, .btn-aqua.focus {   box-shadow: 0 0 0 0.2rem rgba(0, 255, 255, 0.5); }
 .btn-aqua.disabled, .btn-aqua:disabled {   background-color: #00ffff;   border-color: #00ffff; }
-.btn-aqua:active, .btn-aqua.active, .show > .btn-aqua.dropdown-toggle {   background-color: #00d9d9;   background-image: none;   border-color: #00cccc; }
+.btn-aqua:not([disabled]):not(.disabled):active, .btn-aqua:not([disabled]):not(.disabled).active, .show > .btn-aqua.dropdown-toggle {   color: #fff;   background-color: #00cccc;   border-color: #00bfbf;   box-shadow: 0 0 0 0.2rem rgba(0, 255, 255, 0.5); }
 .btn-outline-aqua {   color: #00ffff;   background-color: transparent;   background-image: none;   border-color: #00ffff; }
 .btn-outline-aqua:hover {   color: #fff;   background-color: #00ffff;   border-color: #00ffff; }
-.btn-outline-aqua:focus, .btn-outline-aqua.focus {   box-shadow: 0 0 0 3px rgba(0, 255, 255, 0.5); }
+.btn-outline-aqua:focus, .btn-outline-aqua.focus {   box-shadow: 0 0 0 0.2rem rgba(0, 255, 255, 0.5); }
 .btn-outline-aqua.disabled, .btn-outline-aqua:disabled {   color: #00ffff;   background-color: transparent; }
-.btn-outline-aqua:active, .btn-outline-aqua.active, .show > .btn-outline-aqua.dropdown-toggle {   color: #fff;   background-color: #00ffff;   border-color: #00ffff; }
+.btn-outline-aqua:not([disabled]):not(.disabled):active, .btn-outline-aqua:not([disabled]):not(.disabled).active, .show > .btn-outline-aqua.dropdown-toggle {   color: #fff;   background-color: #00ffff;   border-color: #00ffff;   box-shadow: 0 0 0 0.2rem rgba(0, 255, 255, 0.5); }
 .badge-aqua {   color: #111;   background-color: #00ffff; }
 .badge-aqua[href]:focus, .badge-aqua[href]:hover {   color: #111;   text-decoration: none;   background-color: #00cccc; }
 .alert-aqua {   color: #008585;   background-color: #ccffff;   border-color: #b8ffff; }

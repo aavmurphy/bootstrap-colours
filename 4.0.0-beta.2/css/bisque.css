@@ -3,14 +3,14 @@
 .table-hover .table-bisque:hover > td, .table-hover .table-bisque:hover > th {   background-color: #ffebd5; }
 .btn-bisque {   color: #111;   background-color: #ffe4c4;   border-color: #ffe4c4; }
 .btn-bisque:hover {   color: #111;   background-color: #ffd29e;   border-color: #ffcd91; }
-.btn-bisque:focus, .btn-bisque.focus {   box-shadow: 0 0 0 3px rgba(255, 228, 196, 0.5); }
+.btn-bisque:focus, .btn-bisque.focus {   box-shadow: 0 0 0 0.2rem rgba(255, 228, 196, 0.5); }
 .btn-bisque.disabled, .btn-bisque:disabled {   background-color: #ffe4c4;   border-color: #ffe4c4; }
-.btn-bisque:active, .btn-bisque.active, .show > .btn-bisque.dropdown-toggle {   background-color: #ffd29e;   background-image: none;   border-color: #ffcd91; }
+.btn-bisque:not([disabled]):not(.disabled):active, .btn-bisque:not([disabled]):not(.disabled).active, .show > .btn-bisque.dropdown-toggle {   color: #111;   background-color: #ffcd91;   border-color: #ffc784;   box-shadow: 0 0 0 0.2rem rgba(255, 228, 196, 0.5); }
 .btn-outline-bisque {   color: #ffe4c4;   background-color: transparent;   background-image: none;   border-color: #ffe4c4; }
 .btn-outline-bisque:hover {   color: #fff;   background-color: #ffe4c4;   border-color: #ffe4c4; }
-.btn-outline-bisque:focus, .btn-outline-bisque.focus {   box-shadow: 0 0 0 3px rgba(255, 228, 196, 0.5); }
+.btn-outline-bisque:focus, .btn-outline-bisque.focus {   box-shadow: 0 0 0 0.2rem rgba(255, 228, 196, 0.5); }
 .btn-outline-bisque.disabled, .btn-outline-bisque:disabled {   color: #ffe4c4;   background-color: transparent; }
-.btn-outline-bisque:active, .btn-outline-bisque.active, .show > .btn-outline-bisque.dropdown-toggle {   color: #fff;   background-color: #ffe4c4;   border-color: #ffe4c4; }
+.btn-outline-bisque:not([disabled]):not(.disabled):active, .btn-outline-bisque:not([disabled]):not(.disabled).active, .show > .btn-outline-bisque.dropdown-toggle {   color: #fff;   background-color: #ffe4c4;   border-color: #ffe4c4;   box-shadow: 0 0 0 0.2rem rgba(255, 228, 196, 0.5); }
 .badge-bisque {   color: #111;   background-color: #ffe4c4; }
 .badge-bisque[href]:focus, .badge-bisque[href]:hover {   color: #111;   text-decoration: none;   background-color: #ffcd91; }
 .alert-bisque {   color: #857766;   background-color: #fffaf3;   border-color: #fff7ee; }
